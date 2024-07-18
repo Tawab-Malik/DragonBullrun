@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,15 +7,39 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --2sec-img: url('/assets/2sec/2secbg.png');
+  --3sec-img: url('/assets/3sec/3secbg.png');
+  --3sec-card: url('/assets/3sec/cartbg.png');
+  --road-bg:url('/assets/roadmap/bg1.png')
 }
-
+body {
+  font-family: var(--font-inter), sans-serif;
+}
+@font-face {
+  font-family: 'DragonSlapper';
+  src: url('/fonts/dragonslapper.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mont';
+  src: url('/fonts/Mont-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+.bg-sec2-image::before {
+  filter: brightness(10%);
+  
+}
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
-  }
-}
+  } */
+/* }
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -30,4 +55,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
