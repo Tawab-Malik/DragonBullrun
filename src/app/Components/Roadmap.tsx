@@ -70,7 +70,7 @@ export default function Roadmap() {
                         </p>
                     </div>
                     {/* Cards */}
-                    <div className=" pt-5 max-w-7xl  2xl:max-w-8xl mx-5 2xl:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4 gap-24 xl:gap-24 place-items-center 2xl:gap-5" >
+                    <div className=" pt-5 max-w-7xl  2xl:max-w-8xl mx-5 xl:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4 gap-24 xl:gap-24 place-items-center 2xl:gap-5" >
                         {/* 1st card  */}
 
                         <div className=" flex bg-nav-black  justify-end  rounded-3xl relative w-full 2xl:w-[390px] h-[250px]  ">
