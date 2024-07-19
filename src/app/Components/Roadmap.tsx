@@ -58,7 +58,7 @@ export default function Roadmap() {
             <section className="relative bg-roadmap-bg bg-center bg-cover py-24">
                 {/* Overlay with brightness filter */}
                 <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-                <div className="brightness-100 gap-20 space-y-28 md:space-y-24 xl:space-y-24">
+                <div className="brightness-100 gap-20 space-y-20 md:space-y-24 xl:space-y-24">
                     <div className="max-w-6xl mx-5 xl:mx-auto space-y-5">
                         <h2 className="text-5xl xl:text-[70px] text-text-orange font-dragonslapper text-start xl:text-center">
                             Road Map
@@ -70,7 +70,7 @@ export default function Roadmap() {
                         </p>
                     </div>
                     {/* Cards */}
-                    <div className=" pt-5 max-w-7xl  2xl:max-w-8xl mx-5 xl:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4 gap-24 xl:gap-24 place-items-center 2xl:gap-5" >
+                    <div className=" xl:pt-10 md:pt-20 max-w-7xl  2xl:max-w-8xl mx-5 xl:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4 gap-16 md:gap-24 xl:gap-24 place-items-center 2xl:gap-5" >
                         {/* 1st card  */}
 
                         <div className=" flex bg-nav-black  justify-end  rounded-3xl relative w-full 2xl:w-[390px] h-[250px]  ">

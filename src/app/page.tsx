@@ -5,6 +5,8 @@ import Levelup from "./Components/Levelup";
 import Dragonawaits from "./Components/Dragonawaits";
 import Benefits from "./Components/Benefits";
 import Roadmap from "./Components/Roadmap";
+import Tokenomics from "./Components/Tokenomics";
+import Dragons from "./Components/Thedragons";
 export default function Home() {
   return (
     <NextUIProvider>
@@ -12,6 +14,8 @@ export default function Home() {
        <Dragonawaits/>
        <Benefits/>
        <Roadmap/>
+       <Tokenomics/>
+       <Dragons/>
     </NextUIProvider>
   );
 }

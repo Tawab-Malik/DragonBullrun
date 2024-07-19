@@ -20,6 +20,8 @@ module.exports = {
           'sec3-img': 'var(--3sec-img)',
            'sec3-cart-img':'var(--3sec-card)',
             'roadmap-bg':'var(--road-bg)',
+            'token-bg': 'var(--token-bg)',
+            'dragon-bg': 'var(--dragon-bg)',
       },
       fontFamily: {
         dragonslapper: ['"DragonSlapper"', 'sans-serif'],
@@ -35,11 +37,13 @@ module.exports = {
         'border-color': '#F7F2F2',
         'nav-black': '#000203',
         'silver-color': '#333232',
+        'box-border': '#707070',
         
       },
      
       boxShadow: {
         // 'Logo-shadow': '0 3px 6px rgba(0, 0, 0, 0)',
+        'inner-custom': 'inset 0 0 0 2px rgba(107, 114, 128, 0.5)',
       },
       dropShadow: {
         'Logo-shadow': '0 5px 3px rgb(163, 138, 36)',

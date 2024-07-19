@@ -10,7 +10,9 @@
   --2sec-img: url('/assets/2sec/2secbg.png');
   --3sec-img: url('/assets/3sec/3secbg.png');
   --3sec-card: url('/assets/3sec/cartbg.png');
-  --road-bg:url('/assets/roadmap/bg1.png')
+  --road-bg:url('/assets/roadmap/bg1.png');
+  --token-bg:url('/assets/token/bg.png');
+  --dragon-bg:url('/assets/dragon/bg.png');
 }
 body {
   font-family: var(--font-inter), sans-serif;
