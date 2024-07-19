@@ -161,7 +161,7 @@ export default function Roadmap() {
                         {/* 6st card  */}
                         <div className=" block 2xl:hidden w-full 2xl:w-[390px] h-[250px] rounded-3xl bg-nav-black    ">
                             <div className=" flex bg-nav-black justify-end   rounded-3xl relative  2xl:w-[390px] h-[250px]    ">
-                                <Image src="/assets/roadmap/egg6.png" alt="img" width={500} height={500} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
+                                <Image src="/assets/roadmap/egg6.png" alt="img" width={500} height={500} className="w-[180px] -left-4 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
@@ -180,7 +180,7 @@ export default function Roadmap() {
                         {/* 7st card  */}
                         <div className=" block 2xl:hidden w-full 2xl:w-[390px] h-[250px]   md:col-span-1 xl:col-start-2 xl:col-span-1 2xl:col-start-auto  rounded-3xl bg-nav-black  ">
                             <div className=" flex justify-end   relative  2xl:w-[390px] h-[250px]   ">
-                                <Image src="/assets/roadmap/egg7.png" alt="img" width={500} height={500} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
+                                <Image src="/assets/roadmap/egg7.png" alt="img" width={500} height={500} className="w-[180px] -left-4 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 

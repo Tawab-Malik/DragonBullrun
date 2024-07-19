@@ -18,7 +18,7 @@ export default function Levelup() {
                          {/* main div */}
                 <div className=" max-w-7xl mx-5 2xl:mx-auto relative py-20  xl:flex space-y-20 xl:space-y-0">
                     {/* left */}
-                    <div className=" w-full space-y-5 ">
+                    <div className=" w-full space-y-5 p-0 xl:p-20  2xl:p-0 ">
                         <h1 className=" text-5xl  xl:text-[70px] font-dragonslapper text-text-orange">Level Up Your Earnings
                             with Dragon Bull Run</h1>
                         <p className=" text-text-white2 text-base md:text-2xl font-inter font-medium ">Dragon Bull Run is a free run to earn game on the
