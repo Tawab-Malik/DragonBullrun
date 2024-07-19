@@ -7,6 +7,7 @@ import Benefits from "./Components/Benefits";
 import Roadmap from "./Components/Roadmap";
 import Tokenomics from "./Components/Tokenomics";
 import Dragons from "./Components/Thedragons";
+import MeetourTeam from "./Components/Meetourteam";
 export default function Home() {
   return (
     <NextUIProvider>
@@ -16,6 +17,7 @@ export default function Home() {
        <Roadmap/>
        <Tokenomics/>
        <Dragons/>
+       <MeetourTeam/>
     </NextUIProvider>
   );
 }

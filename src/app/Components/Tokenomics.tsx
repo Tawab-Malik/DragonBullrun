@@ -49,7 +49,7 @@ export default function Tokenomics() {
                             </div>
                         </div>
                            {/* 3st div  */}
-                           <div className=" max-w-5xl mx-5 xl:mx-auto flex justify-between items-center  gap-5">
+                           <div className=" max-w-5xl mx-auto flex justify-between items-center  gap-5">
                             {/* left  */}
                             <div className=" backdrop-blur-3xl xl:backdrop-blur-0 p-2 xl:p-0 rounded-xl">
                                 <h2 className="  text-3xl xl:text-[70px] leading-tight text-text-orange font-dragonslapper text-center">10 % </h2>

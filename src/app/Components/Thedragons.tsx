@@ -39,7 +39,7 @@ export default function Dragons() {
                             {/* 3st card*/}
                             <div className="w-full xl:h-[560px] h-full md:h-[350px] xl:w-[530px] space-y-5 xl:space-y-10 p-5 xl:p-10 shadow-inner border-[12px] rounded-[46px] border-box-border border-opacity-65 bg-text-black bg-opacity-65">
                                 <h2 className=" text-xl md:text-3xl xl:text-[40px] font-dragonslapper text-center  text-text-orange uppercase ">Burn</h2>
-                                <p className=" text-text-white2 text-base xl:text-2xl text-center">Within the Fire Breathing domain, the Dragon Bull Run implements a token burn, commencing a deflationary cycle. Consequently, our fixed maximum supply gradually decreases, cultivating scarcity within the circulating supply of $DBRZ tokens.</p>
+                                <p className=" text-text-white2 text-base md:text-2xl text-center">Within the Fire Breathing domain, the Dragon Bull Run implements a token burn, commencing a deflationary cycle. Consequently, our fixed maximum supply gradually decreases, cultivating scarcity within the circulating supply of $DBRZ tokens.</p>
                             </div>
 
                         </div>

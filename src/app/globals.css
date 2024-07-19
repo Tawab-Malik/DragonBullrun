@@ -13,6 +13,7 @@
   --road-bg:url('/assets/roadmap/bg1.png');
   --token-bg:url('/assets/token/bg.png');
   --dragon-bg:url('/assets/dragon/bg.png');
+  --team-bg:url('/assets/team/teambg.png');
 }
 body {
   font-family: var(--font-inter), sans-serif;

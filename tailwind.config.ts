@@ -22,6 +22,7 @@ module.exports = {
             'roadmap-bg':'var(--road-bg)',
             'token-bg': 'var(--token-bg)',
             'dragon-bg': 'var(--dragon-bg)',
+            'team-bg': 'var(--team-bg)',
       },
       fontFamily: {
         dragonslapper: ['"DragonSlapper"', 'sans-serif'],
@@ -38,6 +39,7 @@ module.exports = {
         'nav-black': '#000203',
         'silver-color': '#333232',
         'box-border': '#707070',
+        
         
       },
      
