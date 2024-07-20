@@ -95,7 +95,7 @@ const Faqs = () => {
       <section className="relative bg-faqs-bg bg-center bg-cover bg-fixed">
         {/* Overlay with brightness filter */}
         <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-        <div className="max-w-7xl mx-auto brightness-100 space-y-20 py-32">
+        <div className="max-w-7xl mx-5 xl:mx-auto brightness-100 space-y-20 py-32">
           {/* Mini heading */}
           <div className="space-y-7">
             <h2 className="text-text-orange text-start xl:text-center text-5xl xl:text-[70px] font-dragonslapper">

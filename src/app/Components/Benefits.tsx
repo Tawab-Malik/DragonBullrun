@@ -53,7 +53,7 @@ export default function Benefits() {
                     {/* featured  */}
                     <div className=" space-y-5">
                         <div className=" py-10">
-                            <h1 className=" text-text-white2 font-dragonslapper brightness-100 text-2xl xl:text-5xl text-center">AS FEATURED IN:</h1>
+                            <h2 className=" text-text-white2 font-dragonslapper brightness-100 text-2xl xl:text-5xl text-center">AS FEATURED IN:</h2>
                         </div>
                         {/* scroll animation */}
                         <div className=" [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)] max-w-7xl mx-auto" >

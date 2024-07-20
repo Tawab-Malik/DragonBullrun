@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <>
             <footer className=" bg-footer-bg bg-center bg-cover">
-                <div className=" max-w-8xl mx-auto space-y-5 py-5  " >
+                <div className=" max-w-8xl mx-5 2xl:mx-auto space-y-5 py-5  " >
                     {/* 1st list div element  */}
                     <div className="py-10 flex justify-between">
                         {/* 1st div  */}
