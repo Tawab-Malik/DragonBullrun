@@ -24,6 +24,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+      <title>Dragon Bull Run</title>
+      <meta name="description" content="This is a brief description of the page content."/>
+
+
+      </head>
       <body>
         <Navbars/>
         {children}
