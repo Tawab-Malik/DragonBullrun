@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function Tokenomics() {
     return (
         <>
-            <section className=" bg-token-bg bg-center bg-cover py-20 relative    ">
+            <section className=" bg-token-bg bg-center bg-cover py-32 relative    ">
                 
                 <Image src="/assets/token/upbg.png" alt="img" className=" absolute h-60 top-0 w-full" height={1000} width={1000}></Image>
                 <div className=" max-w-7xl mx-5 xl:mx-auto  space-y-24 relative z-10">

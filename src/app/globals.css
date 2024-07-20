@@ -14,6 +14,8 @@
   --token-bg:url('/assets/token/bg.png');
   --dragon-bg:url('/assets/dragon/bg.png');
   --team-bg:url('/assets/team/teambg.png');
+  --faqs-bg:url('/assets/faqs/faqsbg.png');
+  --footer-bg:url('/assets/footer.png');
 }
 body {
   font-family: var(--font-inter), sans-serif;

@@ -1,11 +1,12 @@
-import { Button, Image } from "@nextui-org/react";
-
+import { Button, } from "@nextui-org/react";
+import Image from "next/image";
 
 
 export default function MeetourTeam() {
     return (
         <>
             <section className=" bg-team-bg bg-cover bg-center relative">
+                <Image src='/assets/team/bgend.png' alt="img" height={200} width={1000} className=" absolute bottom-0 w-full opacity-100"></Image>
                 {/* Overlay with brightness filter */}
                 <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
                 <div className=" max-w-8xl mx-5 xl:mx-auto space-y-24 md:space-y-60  py-36 brightness-100">

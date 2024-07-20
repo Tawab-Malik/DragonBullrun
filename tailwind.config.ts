@@ -23,6 +23,8 @@ module.exports = {
             'token-bg': 'var(--token-bg)',
             'dragon-bg': 'var(--dragon-bg)',
             'team-bg': 'var(--team-bg)',
+            'faqs-bg': 'var(--faqs-bg)',
+            'footer-bg': 'var(--footer-bg)',
       },
       fontFamily: {
         dragonslapper: ['"DragonSlapper"', 'sans-serif'],

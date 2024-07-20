@@ -8,6 +8,8 @@ import Roadmap from "./Components/Roadmap";
 import Tokenomics from "./Components/Tokenomics";
 import Dragons from "./Components/Thedragons";
 import MeetourTeam from "./Components/Meetourteam";
+import Faqs from "./Components/Faqs";
+
 export default function Home() {
   return (
     <NextUIProvider>
@@ -18,6 +20,8 @@ export default function Home() {
        <Tokenomics/>
        <Dragons/>
        <MeetourTeam/>
+       <Faqs/>
+      
     </NextUIProvider>
   );
 }

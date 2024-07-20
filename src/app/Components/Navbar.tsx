@@ -37,7 +37,7 @@ export default function Navbars() {
                     <h3 className=" text-lg xl:text-4xl 2xl:text-[47px] z-0 2xl:z-0 xl:z-10 relative text-center text-text-orange drop-shadow-Logo-shadow">Bull Run</h3>
                     <Image  src='/assets/Logo.png' alt="Logo" height={500} width={500} className=" absolute -bottom-4 xl:-bottom-8 -left-2 md:-left-10 xl:-left-20  !w-[60px] !h-[60px] xl:!w-[121px] xl:!h-[98px]" />
                 </div>
-                <div className=" gap-5 2xl:gap-10 hidden xl:flex">
+                <div className=" gap-5 2xl:gap-20 hidden xl:flex">
                     <Link color="foreground" href="#" className=" text-xl font-normal text-lightbrown font-dragonslapper">
                     How to Buy
                     </Link>

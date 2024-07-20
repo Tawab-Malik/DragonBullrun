@@ -3,6 +3,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbars from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 // Import the Inter font
 const inter = Inter({
@@ -25,7 +26,9 @@ export default function RootLayout({
     <html lang="en" className={inter.variable}>
       <body>
         <Navbars/>
-        {children}</body>
+        {children}
+        <Footer/>
+        </body>
     </html>
   );
 }
