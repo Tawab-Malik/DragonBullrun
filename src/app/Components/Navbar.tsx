@@ -21,7 +21,7 @@ export default function Navbars() {
 
 
 
-        <Navbar isBordered isBlurred={false} className=" !fixed xl:!sticky backdrop-blur-xl bg-transparent xl:!bg-nav-black px-5 h-20 xl:h-40 md:px-14  2xl:px-28    !border-none !border-b-0  " classNames={{
+        <Navbar isBordered isBlurred={false} className=" !fixed xl:!sticky backdrop-blur-xl bg-transparent xl:!bg-nav-black px-5 h-20 xl:h-40 md:px-14 xl:px-[2rem]  [1500px]:px-28    !border-none !border-b-0  " classNames={{
             wrapper: '!max-w-8xl mx-auto',
 
 

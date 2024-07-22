@@ -18,7 +18,7 @@ export default function Levelup() {
                 </video>
 
                          {/* main div */}
-                <div className=" max-w-8xl mx-5 xl:mx-auto relative py-20  xl:flex space-y-20 xl:space-y-0">
+                <div className=" max-w-7xl 2xl:max-w-8xl mx-5 xl:mx-auto relative py-20  xl:flex space-y-20 xl:space-y-0">
                     {/* left */}
                     <div className=" w-full space-y-5 p-0 xl:p-20  2xl:p-0 ">
                         <h1 className=" text-4xl md:text-5xl  xl:text-[70px] font-dragonslapper text-text-orange ">Level Up Your Earnings
