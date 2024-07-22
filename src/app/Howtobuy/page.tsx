@@ -67,7 +67,7 @@ export default function HowtoBuy() {
                         <div className=" bg-buy-bg bg-cover bg-center py-24 relative">
                               {/* Overlay with brightness filter */}
                               <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-                              <div className=" max-w-8xl mx-5 xl:mx-auto brightness-100">
+                              <div className=" max-w-8xl mx-5 2xl:mx-auto brightness-100">
                                     <div className=" py-10">
                                           <h2 className=" text-[50px] font-dragonslapper text-text-orange text-center">How to Buy</h2>
                                     </div>
@@ -261,7 +261,7 @@ export default function HowtoBuy() {
                               {/* Overlay with brightness filter */}
                               <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
                               {/* main 2nd */}
-                              <div className=" max-w-[1400px] mx-5 xl:mx-auto brightness-100 ">
+                              <div className=" max-w-[1400px] mx-5 2xl:mx-auto brightness-100 ">
                                     <div className="flex justify-center py-5">
                                           <div className=" relative ">
                                                 <Image src="/assets/buy/Ellipse1.png" className=" size-32" alt="img" height={300} width={300}></Image>
