@@ -25,6 +25,10 @@ module.exports = {
             'team-bg': 'var(--team-bg)',
             'faqs-bg': 'var(--faqs-bg)',
             'footer-bg': 'var(--footer-bg)',
+            "buy-bg": 'var(--buy-bg)',
+            "card-bg": 'var(--card-bg)',
+            "card2-bg": 'var(--card2-bg)',
+            "card3-bg": 'var(--card3-bg)',
       },
       fontFamily: {
         dragonslapper: ['"DragonSlapper"', 'sans-serif'],
@@ -53,22 +57,27 @@ module.exports = {
         'Logo-shadow': '0 5px 3px rgb(163, 138, 36)',
       },
       keyframes: {
+        fadeup:{
+          '0%': { transform: 'translatey(20px)' },
+          '100%': { transform: 'translatey(0px)' },
+        },
         slide: {
           '0%': { transform: 'translateX(-100%)' },
           '100%': { transform: 'translateX(0%)' },
         },
         scroll: {
           '0%' : {
-            transform: 'translateX(0)'
+            transform: 'translateX(0)' ,opacity: '0'
           },
           '100%' : {
-            transform: 'translateX(-50%)'
+            transform: 'translateX(-50%)' ,opacity: '1',
           },
         },    
       },
       animation: {
         slide: 'slide 5s forwards',
         scroll: 'scroll 50s linear infinite',
+        fadeup:'fadeup 2s ease-out forwards',
       },
      
     },

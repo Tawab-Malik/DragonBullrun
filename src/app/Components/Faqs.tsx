@@ -38,12 +38,12 @@ const FaqItem = ({ question, answer }: any) => {
     <motion.div
       initial="offscreen"
       whileInView="onscreen"
-      viewport={{ once: false, amount: 0.1 }}
+      viewport={{ once: true, amount: 0.1 }}
       variants={Faqs2}
       className="px-7 py-3 border-2 border-text-orange rounded-[18px]"
     >
       <button
-        className="flex justify-between items-center w-full   text-left text-2xl  font-bold text-text-orange"
+        className="flex justify-between items-center w-full   text-left text-base md:text-2xl  font-bold text-text-orange"
         onClick={() => setIsOpen(!isOpen)}
       >
         {question}
@@ -67,12 +67,12 @@ const FaqItem2 = ({ question2, answer2 }: any) => {
     <motion.div
       initial="offscreen"
       whileInView="onscreen"
-      viewport={{ once: false, amount: 0.1 }}
+      viewport={{ once: true, amount: 0.1 }}
       variants={Faqs1}
       className="px-7 py-3 border-2 border-text-orange rounded-[18px]"
     >
       <button
-        className="flex justify-between w-full items-center   text-left text-2xl  font-bold text-text-orange"
+        className="flex justify-between w-full items-center   text-left text-base md:text-2xl  font-bold text-text-orange"
         onClick={() => setIsOpen(!isOpen)}
       >
         {question2}
@@ -92,10 +92,10 @@ const FaqItem2 = ({ question2, answer2 }: any) => {
 const Faqs = () => {
   return (
     <>
-      <section className="relative bg-faqs-bg bg-center bg-cover bg-fixed">
+      <section className="relative bg-faqs-bg bg-center bg-cover bg-fixed overflow-hidden">
         {/* Overlay with brightness filter */}
         <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-        <div className="max-w-7xl mx-5 xl:mx-auto brightness-100 space-y-20 py-32">
+        <div className="max-w-7xl mx-5 xl:mx-auto brightness-100 space-y-20 py-24 xl:py-32">
           {/* Mini heading */}
           <div className="space-y-7">
             <h2 className="text-text-orange text-start xl:text-center text-5xl xl:text-[70px] font-dragonslapper">
@@ -108,44 +108,44 @@ const Faqs = () => {
 
           <div className="space-y-7">
             <FaqItem
-              question="Lorem ipsum dolor sit amet consectetur?"
+              question="What is dragon bull run?"
+              answer="Dragon Bull Run offers a thrilling free-to-play experience on the Ethereum blockchain, where adventure awaits at every twist and turn! Dive into an exhilarating journey through the enchanted realm of the dragon’s lair, where the excitement of pursuit intertwines with the joy of earning tangible rewards."
+            />
+            <FaqItem2
+              question2="How do i buy $DBRZ?"
+              answer2="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
+            />
+            <FaqItem
+              question="What is the $DBRZ token and what are the token details?"
               answer="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
             />
             <FaqItem2
-              question2="Diam risus nibh parturient?"
-              answer2="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
+              question2="What makes Dragon Bull Run different from other blockchain games?"
+              answer2="Dragon Bull Run presents a distinctive fusion of blockchain technology and captivating gameplay, providing players with the opportunity to earn tangible rewards while engaging in exhilarating adventures within a fantasy realm."
             />
             <FaqItem
-              question="Ridiculus ultrices fames torquent?"
-              answer="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
-            />
-            <FaqItem2
-              question2="Orci eros egestas magna?"
-              answer2="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
-            />
-            <FaqItem
-              question="Quis dignissim faucibus vestibulum?"
-              answer="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
+              question="How do I play Dragon Bull Run and is it free?"
+              answer="Indeed, Dragon Bull Run is free to play. Nonetheless, players have the choice to acquire in-game items or access premium features by utilizing $DBRZ tokens."
             />
              <FaqItem2
-              question2="Orci eros egestas magna?"
-              answer2="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
+              question2="How can players earn rewards while playing Dragon Bull Run?"
+              answer2="Players have the opportunity to earn rewards through various means such as collecting dragon eggs, overcoming challenges, and engaging in community events. "
             />
             <FaqItem
-              question="Quis dignissim faucibus vestibulum?"
-              answer="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
+              question="Is there a limit to the number of $DBRZ tokens players can earn?"
+              answer="Players have the freedom to accumulate $DBRZ tokens without any set limitations. Nevertheless, rewards are contingent upon in-game accomplishments and involvement, guaranteeing equity and equilibrium."
             />
              <FaqItem2
-              question2="Orci eros egestas magna?"
-              answer2="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
+              question2="When can I claim my $DBRZ Tokens?"
+              answer2="Once all the stages of our presale have concluded, your tokens will be available for claiming. A specific claim date will be announced in due course."
             />
             <FaqItem
-              question="Quis dignissim faucibus vestibulum?"
-              answer="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
+              question="Who do I contact for support?"
+              answer="Please feel free to reach out to us through our Telegram or Discord groups. Alternatively, you can contact us via our live chat, where one of our team members will promptly assist you."
             />
              <FaqItem2
-              question2="Orci eros egestas magna?"
-              answer2="Eros commodo bibendum tortor class nullam aliquet libero auctor volutpat platea aptent tellus sociosqu blandit odio, id donec augue eu massa laoreet viverra habitasse torquent mattis orci ridiculus cubilia. Vivamus sociosqu suscipit ad phasellus tincidunt"
+              question2="Has the smart contract been audited?"
+              answer2="The Dragon Bull Run smart contract underwent a comprehensive audit conducted by the auditing firm, Cyberscope. This meticulous examination ensures the platform’s robust security, reliability, and integrity."
             />
           </div>
         </div>

@@ -16,6 +16,10 @@
   --team-bg:url('/assets/team/teambg.png');
   --faqs-bg:url('/assets/faqs/faqsbg.png');
   --footer-bg:url('/assets/footer.png');
+  --buy-bg:url('/assets/buy/buybg.png');
+  --card-bg:url('/assets/buy/card1.png');
+  --card2-bg:url('/assets/buy/card2.png');
+  --card3-bg:url('/assets/buy/card3.png');
 }
 body {
   font-family: var(--font-inter), sans-serif;

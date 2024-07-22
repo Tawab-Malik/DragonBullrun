@@ -1,5 +1,25 @@
+"use client"
 import { Button, } from "@nextui-org/react";
 import Image from "next/image";
+import { motion, Variants } from "framer-motion";
+
+
+const cardVariants3: Variants = {
+    offscreen: {
+        y: 50,
+        opacity: 0,
+    },
+    onscreen: {
+        y: 0,
+        opacity: 1,
+
+        transition: {
+
+
+            duration: 1.0
+        }
+    }
+};
 
 
 export default function MeetourTeam() {
@@ -9,7 +29,7 @@ export default function MeetourTeam() {
                 <Image src='/assets/team/bgend.png' alt="img" height={200} width={1000} className=" absolute bottom-0 w-full opacity-100"></Image>
                 {/* Overlay with brightness filter */}
                 <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-                <div className=" max-w-8xl mx-5 xl:mx-auto space-y-24 md:space-y-60  py-36 brightness-100">
+                <div className=" max-w-8xl mx-5 xl:mx-auto space-y-24 md:space-y-60 py-24  xl:py-36 brightness-100">
                     <div className=" space-y-10">
                         <h2 className=" text-text-orange text-start xl:text-center text-5xl xl:text-[70px] font-dragonslapper">Our Team</h2>
                         <p className=" text-base xl:text-[50px] font-dragonslapper font-bold text-text-white2 text-start xl:text-center">Meet the Dragons</p>
@@ -20,10 +40,15 @@ export default function MeetourTeam() {
 
                         {/* 1st cards */}
                         <div className=" w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange ">
-                            <div className=" flex justify-center  ">
+                            <motion.div
+                             variants={cardVariants3}
+                             initial="offscreen"
+                             whileInView="onscreen"
+                             viewport={{ once: false, amount: 0.1 }}
+                              className=" flex justify-center  ">
                                 <Image src="/assets/team/dragon1.png" alt="img" className=" overflow-visible -mt-40  w-[260px] h-[220px]" width={500} height={500} />
 
-                            </div>
+                            </motion.div>
                             <div className="space-y-3">
                                 <h2 className=" text-[50px] font-dragonslapper text-text-orange">Felix</h2>
                                 <h3 className="text-xl  text-text-white2 font-bold">Lead Game Dev</h3>
@@ -33,11 +58,18 @@ export default function MeetourTeam() {
 
                         </div>
                         {/* 2st cards */}
-                        <div className=" w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-36 md:mt-0 ">
-                            <div className=" flex justify-center">
+                        <div
+                         
+                           className=" w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-36 md:mt-0 ">
+                            <motion.div
+                             variants={cardVariants3}
+                             initial="offscreen"
+                             whileInView="onscreen"
+                             viewport={{ once: false, amount: 0.1 }}
+                              className=" flex justify-center">
                                 <Image src="/assets/team/dragon2.png" alt="img" className=" -mt-40  w-[260px] h-[220px]" width={500} height={500} />
 
-                            </div>
+                            </motion.div>
                             <div className="space-y-3">
                                 <h2 className=" text-[50px] font-dragonslapper text-text-orange">Quentin</h2>
                                 <h3 className="text-xl  text-text-white2 font-bold">Blockchain Engineer</h3>
@@ -46,11 +78,18 @@ export default function MeetourTeam() {
                             </div>
                         </div>
                         {/* 3st cards */}
-                        <div className="w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-36 xl:mt-0 ">
-                            <div className=" flex justify-center ">
+                        <div
+                        
+                           className="w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-36 xl:mt-0 ">
+                            <motion.div
+                              variants={cardVariants3}
+                              initial="offscreen"
+                              whileInView="onscreen"
+                              viewport={{ once: false, amount: 0.1 }}
+                               className=" flex justify-center ">
                                 <Image src="/assets/team/dragon3.png" alt="img" className=" -mt-40   w-[260px] h-[220px]" width={500} height={500} />
 
-                            </div>
+                            </motion.div>
                             <div className="space-y-3">
                                 <h2 className=" text-[50px] font-dragonslapper text-text-orange">Jackson</h2>
                                 <h3 className="text-xl  text-text-white2 font-bold">Head of Sales</h3>
@@ -59,11 +98,17 @@ export default function MeetourTeam() {
                             </div>
                         </div>
                         {/* 4st cards */}
-                        <div className="w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-36 xl:mt-0 ">
-                            <div className=" flex justify-center">
+                        <div
+                         
+                           className="w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-36 xl:mt-0 ">
+                            <motion.div 
+                             variants={cardVariants3}
+                             initial="offscreen"
+                             whileInView="onscreen"
+                             viewport={{ once: false, amount: 0.1 }}className=" flex justify-center">
                                 <Image src="/assets/team/dragon4.png" alt="img" className=" -mt-40   w-[260px] h-[220px]" width={500} height={500} />
 
-                            </div>
+                            </motion.div>
                             <div className="space-y-3">
                                 <h2 className=" text-[50px] font-dragonslapper text-text-orange">Natalia</h2>
                                 <h3 className="text-xl  text-text-white2 font-bold">Marketing Manager</h3>
