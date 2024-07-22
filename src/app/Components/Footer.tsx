@@ -22,13 +22,13 @@ export default function Footer() {
                                     <Link href="" className="  hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">How to buy</Link>
                                 </li>
                                 <li>
-                                    <Link href="" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Roadmap</Link>
+                                    <Link href="/#2" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Roadmap</Link>
                                 </li>
                                 <li>
-                                    <Link href="" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Whitepaper</Link>
+                                    <Link href="/#3" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Whitepaper</Link>
                                 </li>
                                 <li>
-                                    <Link href="" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Tokennomics</Link>
+                                    <Link href="/#4" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Tokennomics</Link>
                                 </li>
                             </ul>
                         </div>

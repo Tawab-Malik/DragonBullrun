@@ -8,9 +8,9 @@ import Image from "next/image";
 export default function Navbars() {
     const menuItems = [
         { name: "How to buy", href: "/Components/How-to-buy" },
-        { name: "Roadmap", href: "/roadmap" },
-        { name: "Whitepaper", href: "/whitepaper" },
-        { name: "Tokenomics", href: "/tokenomics" },
+        { name: "Roadmap", href: "/#2" },
+        { name: "Whitepaper", href: "/#3" },
+        { name: "Tokenomics", href: "/#4" },
         { name: "Audit", href: "/audit" },
         { name: "KYC", href: "/kyc" },
 
@@ -36,13 +36,13 @@ export default function Navbars() {
                     <Link color="foreground" href="/Components/How-to-buy" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         How to Buy
                     </Link>
-                    <Link color="foreground" href="#" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
+                    <Link color="foreground" href="/#2" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         Roadmap
                     </Link>
-                    <Link color="foreground" href="#" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
+                    <Link color="foreground" href="/#3" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         Whitepaper
                     </Link>
-                    <Link color="foreground" href="#" className="hover:text-text-orange !duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
+                    <Link color="foreground" href="/#4" className="hover:text-text-orange !duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         Tokenomics
                     </Link>
                     <Link color="foreground" href="#" className="hover:text-text-orange !duration-500  text-xl font-normal text-lightbrown font-dragonslapper">

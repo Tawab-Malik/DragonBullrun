@@ -98,7 +98,7 @@ const Faqs = () => {
         <div className="max-w-7xl mx-5 xl:mx-auto brightness-100 space-y-20 py-24 xl:py-32">
           {/* Mini heading */}
           <div className="space-y-7">
-            <h2 className="text-text-orange text-start xl:text-center text-5xl xl:text-[70px] font-dragonslapper">
+            <h2 className="text-text-orange text-start xl:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">
               FAQs
             </h2>
             <p className="text-base xl:text-3xl font-bold text-text-white2 text-start xl:text-center">

@@ -55,12 +55,12 @@ const cardVariants: Variants = {
 export default function Roadmap() {
     return (
         <>
-            <section className="relative bg-roadmap-bg bg-center bg-cover py-24 overflow-hidden">
+            <section className="relative bg-roadmap-bg bg-center bg-cover py-24 overflow-hidden" id="2">
                 {/* Overlay with brightness filter */}
                 <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
                 <div className="brightness-100 gap-20 space-y-20 md:space-y-24 xl:space-y-24">
                     <div className="max-w-6xl mx-5 xl:mx-auto space-y-5">
-                        <h2 className="text-5xl xl:text-[70px] text-text-orange font-dragonslapper text-start xl:text-center">
+                        <h2 className=" text-3xl md:text-5xl xl:text-[70px] text-text-orange font-dragonslapper text-start xl:text-center">
                             Road Map
                         </h2>
                         <p className="text-start xl:text-center text-base xl:text-2xl text-text-white2 font-medium">

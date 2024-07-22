@@ -19,8 +19,8 @@ export default function Dragonawaits() {
           />
         </div>
         {/* right */}
-        <div className="space-y-10 w-full">
-          <h2 className="text-5xl xl:text-[70px] font-dragonslapper font-normal text-text-orange">
+        <div className=" space-y-5 md:space-y-10 w-full">
+          <h2 className=" text-3xl md:text-5xl xl:text-[70px] font-dragonslapper font-normal text-text-orange">
             the Dragon Awaits
           </h2>
           <h3 className="text-base md:text-2xl  font-inter font-medium text-text-white2">

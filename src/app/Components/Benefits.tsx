@@ -28,7 +28,7 @@ export default function Benefits() {
 
                 <div className=" max-w-8xl mx-5 xl:mx-auto">
                     <div className=" brightness-100 space-y-5 ">
-                        <h2 className=" text-5xl xl:text-[70px] font-dragonslapper text-start xl:text-center text-text-orange">BEnefits</h2>
+                        <h2 className=" text-3xl md:text-5xl xl:text-[70px] font-dragonslapper text-start xl:text-center text-text-orange">BEnefits</h2>
                         <p className=" text-text-white2 text-base md:text-2xl font-medium text-start xl:text-center">Run from the dragon to earn income and rewards.</p>
                     </div>
 
@@ -93,37 +93,37 @@ export default function Benefits() {
                         </div>
                         {/* scroll animation */}
                         <div className=" [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)] max-w-7xl mx-auto" >
-                            <div className="overflow-hidden whitespace-nowrap ">
-                                <div className="flex animate-scroll   gap-10 xl:gap-28 items-center">
-                                    <div className=" flex-shrink-0">
+                            <div className="overflow-hidden whitespace-nowrap brightness-100 opacity-100 ">
+                                <div className="flex animate-scroll   gap-10 xl:gap-28 items-center brightness-100">
+                                <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/1.png" height={40} width={150} alt="Image 1" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0">
+                                    <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/2.png" height={60} width={210} alt="Image 2" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0">
+                                    <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/3.png" height={60} width={230} alt="Image 3" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0">
+                                    <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/4.png" height={60} width={290} alt="Image 3" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0">
+                                    <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/5.png" height={50} width={200} alt="Image 3" className="inline-block" />
                                     </div>
                                     {/* Repeat images to create an infinite scroll effect */}
-                                    <div className=" flex-shrink-0">
+                                    <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/1.png" height={40} width={150} alt="Image 1" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0">
+                                    <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/2.png" height={60} width={210} alt="Image 2" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0">
+                                    <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/3.png" height={60} width={230} alt="Image 3" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0">
+                                    <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/4.png" height={60} width={290} alt="Image 3" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0">
+                                    <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/5.png" height={50} width={200} alt="Image 3" className="inline-block" />
                                     </div>
                                 </div>

@@ -21,7 +21,7 @@ export default function Levelup() {
                 <div className=" max-w-8xl mx-5 xl:mx-auto relative py-20  xl:flex space-y-20 xl:space-y-0">
                     {/* left */}
                     <div className=" w-full space-y-5 p-0 xl:p-20  2xl:p-0 ">
-                        <h1 className=" text-5xl  xl:text-[70px] font-dragonslapper text-text-orange ">Level Up Your Earnings
+                        <h1 className=" text-4xl md:text-5xl  xl:text-[70px] font-dragonslapper text-text-orange ">Level Up Your Earnings
                             with Dragon Bull Run</h1>
                         <p className=" text-text-white2 text-base md:text-2xl font-inter font-medium ">Dragon Bull Run is a free run to earn game on the
                             Ethereum blockchain, where adventure awaits at every turn!</p>
@@ -47,7 +47,7 @@ export default function Levelup() {
                           delay: 0,
                           
                           
-                        }} className="box border border-text-orange rounded-2xl p-5 xl:p-10 space-y-3 w-full md:w-[410px] h-auto xl:h-[615px] backdrop-blur-sm ">
+                        }} className="box border border-text-orange rounded-2xl p-5 xl:p-10 space-y-3 w-full md:w-[410px] h-auto xl:h-[615px] backdrop-blur-sm bg-nav-black xl:bg-transparent ">
                             <div>
                             <h3 className=" text-sm font-inter text-text-white2 font-semibold text-center">Current Stage</h3>
                             <h2 className="  text-3xl font-inter text-text-orange font-bold text-center">Stage 1 of 8</h2>

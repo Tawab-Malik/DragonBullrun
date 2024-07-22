@@ -29,6 +29,7 @@ module.exports = {
             "card-bg": 'var(--card-bg)',
             "card2-bg": 'var(--card2-bg)',
             "card3-bg": 'var(--card3-bg)',
+            "presale-bg" : 'var(--presale-bg)',
       },
       fontFamily: {
         dragonslapper: ['"DragonSlapper"', 'sans-serif'],
