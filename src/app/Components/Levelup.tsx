@@ -37,7 +37,7 @@ export default function Levelup() {
                         </ul>
                     </div>
                     {/* right */}
-                    <div className=" w-full flex justify-center animate-fadeup">
+                    <div className=" w-full flex justify-center animate-fadeup" id="1">
                         {/* cart div */}
                         <motion.div
                         initial={{ opacity: 0,  y: 50 }}

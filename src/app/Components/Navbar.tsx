@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Navbars() {
     const menuItems = [
-        { name: "How to buy", href: "/Components/How-to-buy" },
+        { name: "How to buy", href: "/Howtobuy" },
         { name: "Roadmap", href: "/#2" },
         { name: "Whitepaper", href: "/#3" },
         { name: "Tokenomics", href: "/#4" },
@@ -33,7 +33,7 @@ export default function Navbars() {
                     <Image src='/assets/Logo2.png' alt="Logo" height={500} width={500} className="   !w-[100px] !h-[60px] xl:!w-[270px] xl:!h-[140px]" /></Link>
                 </div>
                 <div className=" gap-5 2xl:gap-20 hidden xl:flex">
-                    <Link color="foreground" href="/Components/How-to-buy" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
+                    <Link color="foreground" href="/Howtobuy" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         How to Buy
                     </Link>
                     <Link color="foreground" href="/#2" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">

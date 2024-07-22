@@ -46,6 +46,7 @@ module.exports = {
         'nav-black': '#000203',
         'silver-color': '#333232',
         'box-border': '#707070',
+        'progress-brown': '#210600'
         
         
       },

@@ -19,7 +19,7 @@ export default function Footer() {
                             <h2 className=" text-xl xl:text-4xl text-text-white2 font-dragonslapper">Navigation</h2>
                             <ul className=" space-y-3">
                                 <li>
-                                    <Link href="" className="  hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">How to buy</Link>
+                                    <Link href="/Howtobuy" className="  hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">How to buy</Link>
                                 </li>
                                 <li>
                                     <Link href="/#2" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Roadmap</Link>
