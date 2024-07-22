@@ -79,6 +79,14 @@ export default function Navbars() {
                         </Link>
                     </NavbarMenuItem>
                 ))}
+                <div className=" gap-5 flex">
+                    <Button as={Link} color="warning" href="#" className=" font-dragonslapper hover:scale-110 uppercase h-10 !w-40 text-base font-normal text-text-white2 bg-transparent border-border-color border rounded  ">
+                        Login
+                    </Button>
+                    <Button as={Link} href="#" className=" font-dragonslapper hover:scale-110 uppercase h-10 !w-40 bg-text-orange rounded text-white text-base font-normal">
+                        Buy Tokens
+                    </Button>
+                </div>
             </NavbarMenu>
 
         </Navbar>
