@@ -7,10 +7,10 @@ import Image from "next/image";
 
 export default function Navbars() {
     const menuItems = [
-        { name: "How to buy", href: "/Howtobuy" },
-        { name: "Roadmap", href: "/#2" },
-        { name: "Whitepaper", href: "/#3" },
-        { name: "Tokenomics", href: "/#4" },
+        { name: "How to buy", href: "/how-to-buy" },
+        { name: "Roadmap", href: "/#roadmap" },
+        { name: "Whitepaper", href: "/#whitepaper" },
+        { name: "Tokenomics", href: "/#tokenomics" },
         { name: "Audit", href: "/audit" },
         { name: "KYC", href: "/kyc" },
 
@@ -33,16 +33,16 @@ export default function Navbars() {
                     <Image src='/assets/Logo2.png' alt="Logo" height={500} width={500} className="   !w-[100px] !h-[60px] xl:!w-[270px] xl:!h-[140px]" /></Link>
                 </div>
                 <div className=" gap-5 2xl:gap-20 hidden xl:flex">
-                    <Link color="foreground" href="/Howtobuy" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
+                    <Link target="_blank" color="foreground" href="/how-to-buy" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         How to Buy
                     </Link>
-                    <Link color="foreground" href="/#2" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
+                    <Link color="foreground" href="/#roadmap" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         Roadmap
                     </Link>
-                    <Link color="foreground" href="/#3" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
+                    <Link color="foreground" href="/#whitepaper" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         Whitepaper
                     </Link>
-                    <Link color="foreground" href="/#4" className="hover:text-text-orange !duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
+                    <Link color="foreground" href="/#tokenomics" className="hover:text-text-orange !duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         Tokenomics
                     </Link>
                     <Link color="foreground" href="#" className="hover:text-text-orange !duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
@@ -57,7 +57,7 @@ export default function Navbars() {
                     <Button as={Link} color="warning" href="#" className=" hover:scale-110 uppercase h-10 !w-40 text-base font-normal text-text-white2 bg-transparent border-border-color border rounded  ">
                         Login
                     </Button>
-                    <Button as={Link} href="#" className=" hover:scale-110 uppercase h-10 !w-40 bg-text-orange rounded text-white text-base font-normal">
+                    <Button as={Link} href="/#buynow" className=" hover:scale-110 uppercase h-10 !w-40 bg-text-orange rounded text-white text-base font-normal">
                         Buy Tokens
                     </Button>
                 </div>
@@ -83,7 +83,7 @@ export default function Navbars() {
                     <Button as={Link} color="warning" href="#" className=" font-dragonslapper hover:scale-110 uppercase h-10 !w-40 text-base font-normal text-text-white2 bg-transparent border-border-color border rounded  ">
                         Login
                     </Button>
-                    <Button as={Link} href="#" className=" font-dragonslapper hover:scale-110 uppercase h-10 !w-40 bg-text-orange rounded text-white text-base font-normal">
+                    <Button as={Link} href="/#buynow" className=" font-dragonslapper hover:scale-110 uppercase h-10 !w-40 bg-text-orange rounded text-white text-base font-normal">
                         Buy Tokens
                     </Button>
                 </div>

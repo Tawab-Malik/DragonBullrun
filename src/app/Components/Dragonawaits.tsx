@@ -33,7 +33,7 @@ export default function Dragonawaits() {
             <Button className="w-40 h-10 border hover:scale-110 bg-transparent border-white text-white rounded uppercase font-dragonslapper text-base">
               Login
             </Button>
-            <Link href="/#1">
+            <Link href="/#buynow">
             <Button className="w-40 h-10 hover:scale-110 rounded bg-text-orange uppercase font-dragonslapper text-base">
               buy tokens
             </Button></Link>

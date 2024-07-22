@@ -26,7 +26,7 @@ const cardVariants3: Variants = {
 export default function Dragons() {
     return (
         <>
-            <section className=" bg-dragon-bg bg-cover bg-center" id="3">
+            <section className=" bg-dragon-bg bg-cover bg-center" id="whitepaper">
                 <div className=" max-w-8xl mx-5 xl:mx-auto space-y-24 xl:space-y-48 py-24 xl:py-36 ">
                     <div className=" space-y-5 md:space-y-10">
                         <h2 className=" text-text-orange text-start leading-tight xl:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper uppercase">THE DRAGONS REALM</h2>

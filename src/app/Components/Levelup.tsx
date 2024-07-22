@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 export default function Levelup() {
     return (
         <>
-            <section className=" bg-black relative" id="1">
+            <section className=" bg-black relative" id="buynow">
 
                 <video src="/assets/dragoneye.mov"
                     autoPlay loop muted
@@ -25,7 +25,7 @@ export default function Levelup() {
                             with Dragon Bull Run</h1>
                         <p className=" text-text-white2 text-base md:text-2xl font-inter font-medium ">Dragon Bull Run is a free run to earn game on the
                             Ethereum blockchain, where adventure awaits at every turn!</p>
-                        <Button href="#" className=" hover:scale-110 h-10 !w-40 bg-text-orange uppercase rounded  text-white font-dragonslapper text-[17px] font-normal">
+                        <Button href="/#buynow" className=" hover:scale-110 h-10 !w-40 bg-text-orange uppercase rounded  text-white font-dragonslapper text-[17px] font-normal">
                             Buy Tokens
                         </Button>
                         <ul className=" flex gap-5 ">

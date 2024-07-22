@@ -19,16 +19,16 @@ export default function Footer() {
                             <h2 className=" text-xl xl:text-4xl text-text-white2 font-dragonslapper">Navigation</h2>
                             <ul className=" space-y-3">
                                 <li>
-                                    <Link href="/Howtobuy" className="  hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">How to buy</Link>
+                                    <Link href="/how-to-buy" className="  hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">How to buy</Link>
                                 </li>
                                 <li>
-                                    <Link href="/#2" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Roadmap</Link>
+                                    <Link href="/#roadmap" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Roadmap</Link>
                                 </li>
                                 <li>
-                                    <Link href="/#3" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Whitepaper</Link>
+                                    <Link href="/#whitepaper" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Whitepaper</Link>
                                 </li>
                                 <li>
-                                    <Link href="/#4" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Tokennomics</Link>
+                                    <Link href="/#tokenomics" className=" hover:text-text-orange duration-500  text-base xl:text-xl text-text-white2">Tokennomics</Link>
                                 </li>
                             </ul>
                         </div>
@@ -37,7 +37,7 @@ export default function Footer() {
                             <h2 className=" text-xl xl:text-4xl text-text-white2 font-dragonslapper">Contact Us</h2>
                             <ul>
                                 <li className=" text-base xl:text-xl text-text-white2">
-                                    Media & Marketing: media@dragonbullrun.io
+                                    <Link href="mailto:media@dragonbullrun.io" target="_blank">Media & Marketing: media@dragonbullrun.io</Link>
                                 </li>
 
                             </ul>

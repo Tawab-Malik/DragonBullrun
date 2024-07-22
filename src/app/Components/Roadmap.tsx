@@ -4,58 +4,58 @@ import Image from "next/image";
 import { motion, Variants } from "framer-motion";
 const cardVariants: Variants = {
     offscreen: {
-      x: -50,
-      opacity: 0,
+        x: -50,
+        opacity: 0,
     },
     onscreen: {
-      x: 0,
-      opacity: 1,
-     
-      transition: {
-       
-    
-        duration: 1.0
-      }
+        x: 0,
+        opacity: 1,
+
+        transition: {
+
+
+            duration: 1.0
+        }
     }
-  };
-  const cardVariants3: Variants = {
+};
+const cardVariants3: Variants = {
     offscreen: {
-      y: 50,
-      opacity: 0,
+        y: 50,
+        opacity: 0,
     },
     onscreen: {
-      y: 0,
-      opacity: 1,
-     
-      transition: {
-       
-    
-        duration: 1.0
-      }
+        y: 0,
+        opacity: 1,
+
+        transition: {
+
+
+            duration: 1.0
+        }
     }
-  };
-  const cardVariants2: Variants = {
+};
+const cardVariants2: Variants = {
     offscreen: {
-      x: 50,
-      opacity: 0,
+        x: 50,
+        opacity: 0,
     },
     onscreen: {
-      x: 0,
-      opacity: 1,
-     
-      transition: {
-       
-    
-        duration: 1.0
-      }
+        x: 0,
+        opacity: 1,
+
+        transition: {
+
+
+            duration: 1.0
+        }
     }
-  };
+};
 
 
 export default function Roadmap() {
     return (
         <>
-            <section className="relative bg-roadmap-bg bg-center bg-cover py-24 overflow-hidden" id="2">
+            <section className="relative bg-roadmap-bg bg-center bg-cover py-24 overflow-hidden" id="roadmap">
                 {/* Overlay with brightness filter */}
                 <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
                 <div className="brightness-100 gap-20 space-y-20 md:space-y-24 xl:space-y-24">
@@ -74,11 +74,11 @@ export default function Roadmap() {
                         {/* 1st card  */}
 
                         <motion.div
-                         variants={cardVariants}
-                         initial="offscreen"
-                         whileInView="onscreen"
-                         viewport={{ once: true, amount: 0.1 }}
-                          className=" flex bg-nav-black  justify-end  rounded-3xl relative w-full 2xl:w-[390px] h-[250px]  ">
+                            variants={cardVariants}
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            viewport={{ once: true, amount: 0.1 }}
+                            className=" flex bg-nav-black  justify-end  rounded-3xl relative w-full 2xl:w-[390px] h-[250px]  ">
                             <Image src="/assets/roadmap/egg1.png" alt="img" width={500} height={500} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                             />
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -96,11 +96,11 @@ export default function Roadmap() {
                         {/* 2st card  */}
 
                         <motion.div
-                          variants={cardVariants}
-                          initial="offscreen"
-                          whileInView="onscreen"
-                          viewport={{ once: true, amount: 0.1 }}
-                           className=" flex bg-nav-black justify-end   rounded-3xl relative w-full 2xl:w-[390px] h-[250px]  ">
+                            variants={cardVariants}
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            viewport={{ once: true, amount: 0.1 }}
+                            className=" flex bg-nav-black justify-end   rounded-3xl relative w-full 2xl:w-[390px] h-[250px]  ">
                             <Image src="/assets/roadmap/egg2.png" alt="img" width={500} height={500} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                             />
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -111,18 +111,20 @@ export default function Roadmap() {
                                     Phase 2
                                 </h2>
                                 <p className=" text-sm xl:text-xl text-text-white2 text-center">
-                                    Publish Whitepaper Token Audit Launch Website Presale Begins
+                                    Marketing Begins
+                                    Teaser Video
+                                    Giveaways
                                 </p>
                             </div>
                         </motion.div>
                         {/* 3st card  */}
 
                         <motion.div
-                          variants={cardVariants2}
-                          initial="offscreen"
-                          whileInView="onscreen"
-                          viewport={{ once: true, amount: 0.1 }}
-                           className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
+                            variants={cardVariants2}
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            viewport={{ once: true, amount: 0.1 }}
+                            className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
                             <Image src="/assets/roadmap/egg3.png" alt="img" width={500} height={500} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                             />
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -133,18 +135,19 @@ export default function Roadmap() {
                                     Phase 3
                                 </h2>
                                 <p className=" text-sm xl:text-xl text-text-white2 text-center">
-                                    Publish Whitepaper Token Audit Launch Website Presale Begins
+                                    Further marketing
+                                    PR blast
                                 </p>
                             </div>
                         </motion.div>
                         {/* 4st card  */}
 
                         <motion.div
-                          variants={cardVariants2}
-                          initial="offscreen"
-                          whileInView="onscreen"
-                          viewport={{ once: true, amount: 0.1 }}
-                           className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
+                            variants={cardVariants2}
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            viewport={{ once: true, amount: 0.1 }}
+                            className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
                             <Image src="/assets/roadmap/egg4.png" alt="img" width={500} height={500} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                             />
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -155,18 +158,21 @@ export default function Roadmap() {
                                     Phase 4
                                 </h2>
                                 <p className=" text-sm xl:text-xl text-text-white2 text-center">
-                                    Publish Whitepaper Token Audit Launch Website Presale Begins
+                                    Start development of
+                                    NFT Marketplace
+                                    More promos and
+                                    giveaways
                                 </p>
                             </div>
                         </motion.div>
                         {/* 5st card  */}
 
                         <motion.div
-                         variants={cardVariants3}
-                         initial="offscreen"
-                         whileInView="onscreen"
-                         viewport={{ once: true, amount: 0.1 }}
-                          className=" block 2xl:hidden w-full 2xl:w-[390px] h-[250px]  rounded-3xl bg-nav-black  ">
+                            variants={cardVariants3}
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            viewport={{ once: true, amount: 0.1 }}
+                            className=" block 2xl:hidden w-full 2xl:w-[390px] h-[250px]  rounded-3xl bg-nav-black  ">
                             <div className=" flex bg-nav-black justify-end   rounded-3xl relative  2xl:w-[390px] h-[250px]    ">
                                 <Image src="/assets/roadmap/egg4.png" alt="img" width={500} height={500} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
@@ -178,18 +184,21 @@ export default function Roadmap() {
                                         Phase 5
                                     </h2>
                                     <p className=" text-sm xl:text-xl text-text-white2 text-center">
-                                        Publish Whitepaper Token Audit Launch Website Presale Begins
+                                        Start development of
+                                        P2E game
+                                        Coin gecko listing
+                                        Cmc listing
                                     </p>
                                 </div>
                             </div>
                         </motion.div>
                         {/* 6st card  */}
                         <motion.div
-                         variants={cardVariants3}
-                         initial="offscreen"
-                         whileInView="onscreen"
-                         viewport={{ once: true, amount: 0.1 }}
-                          className=" block 2xl:hidden w-full 2xl:w-[390px] h-[250px] rounded-3xl bg-nav-black    ">
+                            variants={cardVariants3}
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            viewport={{ once: true, amount: 0.1 }}
+                            className=" block 2xl:hidden w-full 2xl:w-[390px] h-[250px] rounded-3xl bg-nav-black    ">
                             <div className=" flex bg-nav-black justify-end   rounded-3xl relative  2xl:w-[390px] h-[250px]    ">
                                 <Image src="/assets/roadmap/egg6.png" alt="img" width={500} height={500} className="w-[180px] -left-4 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
@@ -201,7 +210,8 @@ export default function Roadmap() {
                                         Phase 6
                                     </h2>
                                     <p className=" text-sm xl:text-xl text-text-white2 text-center">
-                                        Publish Whitepaper Token Audit Launch Website Presale Begins
+                                        NFT marketplace Launch
+                                        Uniswap TGE
                                     </p>
                                 </div>
                             </div>
@@ -209,11 +219,11 @@ export default function Roadmap() {
 
                         {/* 7st card  */}
                         <motion.div
-                         variants={cardVariants3}
-                         initial="offscreen"
-                         whileInView="onscreen"
-                         viewport={{ once: true, amount: 0.1 }}
-                          className=" block 2xl:hidden w-full 2xl:w-[390px] h-[250px]   md:col-span-1 xl:col-start-2 xl:col-span-1 2xl:col-start-auto  rounded-3xl bg-nav-black  ">
+                            variants={cardVariants3}
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            viewport={{ once: true, amount: 0.1 }}
+                            className=" block 2xl:hidden w-full 2xl:w-[390px] h-[250px]   md:col-span-1 xl:col-start-2 xl:col-span-1 2xl:col-start-auto  rounded-3xl bg-nav-black  ">
                             <div className=" flex justify-end   relative  2xl:w-[390px] h-[250px]   ">
                                 <Image src="/assets/roadmap/egg7.png" alt="img" width={500} height={500} className="w-[180px] -left-4 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
@@ -225,7 +235,7 @@ export default function Roadmap() {
                                         Phase 7
                                     </h2>
                                     <p className=" text-sm xl:text-xl text-text-white2 text-center">
-                                        Publish Whitepaper Token Audit Launch Website Presale Begins
+                                        Game Launch V1
                                     </p>
                                 </div>
                             </div>
@@ -240,11 +250,11 @@ export default function Roadmap() {
                             {/* 5st card  */}
 
                             <motion.div
-                             variants={cardVariants3}
-                             initial="offscreen"
-                             whileInView="onscreen"
-                             viewport={{ once: true, amount: 0.1 }}
-                              className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
+                                variants={cardVariants3}
+                                initial="offscreen"
+                                whileInView="onscreen"
+                                viewport={{ once: true, amount: 0.1 }}
+                                className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
                                 <Image src="/assets/roadmap/egg4.png" alt="img" width={500} height={500} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -255,18 +265,21 @@ export default function Roadmap() {
                                         Phase 5
                                     </h2>
                                     <p className=" text-sm xl:text-xl text-text-white2 text-center">
-                                        Publish Whitepaper Token Audit Launch Website Presale Begins
+                                        Start development of
+                                        P2E game
+                                        Coin gecko listing
+                                        Cmc listing
                                     </p>
                                 </div>
                             </motion.div>
                             {/* 6st card  */}
 
                             <motion.div
-                             variants={cardVariants3}
-                             initial="offscreen"
-                             whileInView="onscreen"
-                             viewport={{ once: true, amount: 0.1 }}
-                              className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
+                                variants={cardVariants3}
+                                initial="offscreen"
+                                whileInView="onscreen"
+                                viewport={{ once: true, amount: 0.1 }}
+                                className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
                                 <Image src="/assets/roadmap/egg6.png" alt="img" width={500} height={500} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -277,18 +290,19 @@ export default function Roadmap() {
                                         Phase 6
                                     </h2>
                                     <p className=" text-sm xl:text-xl text-text-white2 text-center">
-                                        Publish Whitepaper Token Audit Launch Website Presale Begins
+                                    NFT marketplace Launch 
+                                    Uniswap TGE 
                                     </p>
                                 </div>
                             </motion.div>
                             {/* 7st card  */}
 
                             <motion.div
-                             variants={cardVariants3}
-                             initial="offscreen"
-                             whileInView="onscreen"
-                             viewport={{ once: true, amount: 0.1 }}
-                              className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]   ">
+                                variants={cardVariants3}
+                                initial="offscreen"
+                                whileInView="onscreen"
+                                viewport={{ once: true, amount: 0.1 }}
+                                className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]   ">
                                 <Image src="/assets/roadmap/egg7.png" alt="img" width={500} height={500} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -299,7 +313,7 @@ export default function Roadmap() {
                                         Phase 7
                                     </h2>
                                     <p className=" text-sm xl:text-xl text-text-white2 text-center">
-                                        Publish Whitepaper Token Audit Launch Website Presale Begins
+                                    Game Launch V1
                                     </p>
                                 </div>
                             </motion.div>
