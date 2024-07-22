@@ -268,7 +268,7 @@ export default function HowtoBuy() {
                                                 <Image src="/assets/buy/Logo.png" className=" absolute top-0 w-[170px] h-[135px] left-0" alt="img" height={300} width={300}></Image>
                                           </div>
                                     </div>
-
+                                   {/* address button */}
                                     <div className="brightness-100 space-y-5">
                                           <h2 className=" text-3xl md:text-[48px] text-start xl:text-[70px] text-text-orange font-dragonslapper md:text-center py-5">Pre Sale Live Now</h2>
                                           <div className=" flex gap-5 items-center">
@@ -277,7 +277,7 @@ export default function HowtoBuy() {
 
                                           </div>
                                           {copySuccess && (
-                                                <div className="mt-2 text-white font-inter text-xs md:text-base absolute top-[120px] xl:top-24 lg:top-14 right-0 xl:left-14">{copySuccess}</div>
+                                                <div className="mt-2 text-white font-inter text-xs md:text-base absolute top-[120px] xl:top-24 lg:top-16 right-0 xl:left-14">{copySuccess}</div>
                                           )}
 
 
