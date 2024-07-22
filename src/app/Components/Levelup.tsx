@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 export default function Levelup() {
     return (
         <>
-            <section className=" bg-black relative">
+            <section className=" bg-black relative" id="1">
 
                 <video src="/assets/dragoneye.mov"
                     autoPlay loop muted
@@ -37,7 +37,7 @@ export default function Levelup() {
                         </ul>
                     </div>
                     {/* right */}
-                    <div className=" w-full flex justify-center animate-fadeup" id="1">
+                    <div className=" w-full flex justify-center animate-fadeup" >
                         {/* cart div */}
                         <motion.div
                         initial={{ opacity: 0,  y: 50 }}
