@@ -55,7 +55,7 @@ export default function Footer() {
                         <p className=" text-lg text-text-white2 text-center md:text-end">© 2024 Dragon Bull Run. All rights reserved</p>
                     </div>
                     {/* line div */}
-                    <div className=" h-[2px] bg-silver-color w-full flex justify-around">
+                    <div className=" h-[2px] bg-silver-color w-full flex justify-between">
                         <div className=" h-[2px] bg-text-white2 w-40"></div>
                         <div className=" h-[2px] bg-text-white2 w-40"></div>
 
