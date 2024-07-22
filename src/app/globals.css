@@ -46,6 +46,9 @@ body {
 
   scroll-behavior: smooth;
  }
+ header.z-40.flex.px-6.gap-4.w-full.flex-row.relative.flex-nowrap.items-center.justify-between.h-\[var\(--navbar-height\)\].max-w-\[1024px\].\!max-w-8xl.mx-auto{
+   padding-inline: 0px !important;
+}
 /* 
 @media (prefers-color-scheme: dark) {
   :root {
