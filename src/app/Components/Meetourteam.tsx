@@ -2,6 +2,7 @@
 import { Button, } from "@nextui-org/react";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
+import Link from "next/link";
 
 
 const cardVariants3: Variants = {
@@ -123,7 +124,7 @@ export default function MeetourTeam() {
 
                     {/* buttons */}
                     <div className=" flex justify-center md:flex-row flex-col gap-10">
-                        <Button className=" w-full md:w-40 h-10 uppercase hover:scale-110 bg-text-orange rounded font-dragonslapper text-base">buy now</Button>
+                        <Link href="/#1"><Button className=" w-full md:w-40 h-10 uppercase hover:scale-110 bg-text-orange rounded font-dragonslapper text-base">buy now</Button></Link>
                         <Button className=" w-full md:w-56 h-10 uppercase hover:scale-110 bg-transparent border border-white text-white rounded font-dragonslapper text-base">verify smart contract</Button>
                     </div>
                 </div>
