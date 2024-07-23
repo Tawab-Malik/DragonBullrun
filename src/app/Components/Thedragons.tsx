@@ -26,11 +26,11 @@ const cardVariants3: Variants = {
 export default function Dragons() {
     return (
         <>
-            <section className=" bg-dragon-bg bg-cover bg-center" id="whitepaper">
+            <section className=" bg-dragon-bg bg-cover bg-center overflow-hidden" id="whitepaper">
                 <div className=" max-w-8xl mx-5 xl:mx-auto space-y-24 xl:space-y-48 py-24 xl:py-36 ">
                     <div className=" space-y-5 md:space-y-10">
-                        <h2 className=" text-text-orange text-start leading-tight xl:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper uppercase">THE DRAGONS REALM</h2>
-                        <p className=" max-w-6xl mx-auto text-base xl:text-3xl font-bold text-text-white2 text-start xl:text-center">Step into the captivating Dragon Bull Run NFT marketplace, where unique digital collectibles boast immense value.</p>
+                        <h2 className=" text-text-orange text-start leading-tight md:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper uppercase">THE DRAGONS REALM</h2>
+                        <p className=" max-w-6xl mx-auto text-base xl:text-3xl font-bold text-text-white2 text-start md:text-center">Step into the captivating Dragon Bull Run NFT marketplace, where unique digital collectibles boast immense value.</p>
                     </div>
                     <div>
                         {/* cards */}

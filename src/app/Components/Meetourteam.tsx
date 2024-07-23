@@ -30,17 +30,17 @@ export default function MeetourTeam() {
                 <Image src='/assets/team/bgend.png' alt="img" height={200} width={1000} className=" absolute bottom-0 w-full opacity-100"></Image>
                 {/* Overlay with brightness filter */}
                 <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-                <div className=" max-w-8xl mx-5 xl:mx-auto space-y-24 md:space-y-60 py-24  xl:py-36 brightness-100">
+                <div className=" max-w-8xl mx-5 xl:mx-auto space-y-24 xl:space-y-60 py-24  xl:py-36 brightness-100">
                     <div className=" space-y-5 md:space-y-10">
-                        <h2 className=" text-text-orange text-start xl:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">Our Team</h2>
-                        <p className=" text-base xl:text-[50px] font-dragonslapper font-bold text-text-white2 text-start xl:text-center">Meet the Dragons</p>
+                        <h2 className=" text-text-orange text-start md:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">Our Team</h2>
+                        <p className=" text-base xl:text-[50px] font-dragonslapper font-bold text-text-white2 text-start md:text-center">Meet the Dragons</p>
                     </div>
                     {/* teams cards */}
-                    <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center pt-14 md:pt-0">
+                    <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center pt-14 md:pt-18 xl:p-0">
 
 
                         {/* 1st cards */}
-                        <div className=" w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange ">
+                        <div className=" w-full md:w-[310px] h-auto md:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange ">
                             <motion.div
                              variants={cardVariants3}
                              initial="offscreen"
@@ -61,7 +61,7 @@ export default function MeetourTeam() {
                         {/* 2st cards */}
                         <div
                          
-                           className=" w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-36 md:mt-0 ">
+                           className=" w-full md:w-[310px] h-auto md:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-40 md:mt-0 ">
                             <motion.div
                              variants={cardVariants3}
                              initial="offscreen"
@@ -81,7 +81,7 @@ export default function MeetourTeam() {
                         {/* 3st cards */}
                         <div
                         
-                           className="w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-36 xl:mt-0 ">
+                           className="w-full md:w-[310px] h-auto md:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-40 xl:mt-0 ">
                             <motion.div
                               variants={cardVariants3}
                               initial="offscreen"
@@ -101,7 +101,7 @@ export default function MeetourTeam() {
                         {/* 4st cards */}
                         <div
                          
-                           className="w-full md:w-[310px] h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-36 xl:mt-0 ">
+                           className="w-full md:w-[310px] h-auto md:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-40 xl:mt-0 ">
                             <motion.div 
                              variants={cardVariants3}
                              initial="offscreen"

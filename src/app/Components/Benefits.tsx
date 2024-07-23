@@ -22,14 +22,14 @@ const cardVariants: Variants = {
 export default function Benefits() {
     return (
         <>
-            <section className=" bg-sec3-img bg-center bg-cover py-20 relative ">
+            <section className=" bg-sec3-img bg-center bg-cover py-20 relative overflow-hidden ">
                 {/* Overlay with brightness filter */}
                 <div className="absolute inset-0 bg-black opacity-20 "></div>
 
                 <div className=" max-w-8xl mx-5 xl:mx-auto">
-                    <div className=" brightness-100 space-y-5 ">
-                        <h2 className=" text-3xl md:text-5xl xl:text-[70px] font-dragonslapper text-start xl:text-center text-text-orange">BEnefits</h2>
-                        <p className=" text-text-white2 text-base md:text-2xl font-medium text-start xl:text-center">Run from the dragon to earn income and rewards.</p>
+                    <div className=" brightness-100 space-y-5  ">
+                        <h2 className=" text-3xl md:text-5xl xl:text-[70px] font-dragonslapper text-center text-text-orange">BEnefits</h2>
+                        <p className=" text-text-white2 text-base md:text-2xl font-medium text-center">Run from the dragon to earn income and rewards.</p>
                     </div>
 
 

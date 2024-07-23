@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <>
-            <footer className=" bg-footer-bg bg-center bg-cover relative">
+            <footer className=" bg-footer-bg bg-center bg-cover relative overflow-hidden">
                 {/* Overlay with brightness filter */}
                 <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
                 <div className=" max-w-8xl mx-5 2xl:mx-auto space-y-5 py-5 brightness-100 " >
@@ -36,7 +36,7 @@ export default function Footer() {
                         <div className=" space-y-10 ">
                             <h2 className=" text-xl xl:text-4xl text-text-white2 font-dragonslapper">Contact Us</h2>
                             <ul>
-                                <li className=" text-base xl:text-xl text-text-white2">
+                                <li className=" text-base xl:text-xl text-text-white2 hover:text-text-orange duration-500">
                                     <Link href="mailto:media@dragonbullrun.io" target="_blank">Media & Marketing: media@dragonbullrun.io</Link>
                                 </li>
 

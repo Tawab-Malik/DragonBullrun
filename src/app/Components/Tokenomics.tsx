@@ -30,8 +30,8 @@ export default function Tokenomics() {
                 <div className=" max-w-7xl mx-5 xl:mx-auto  space-y-24 relative z-10">
 
                     <div className=" space-y-5">
-                        <h2 className=" text-text-orange text-start xl:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">Tokenomics</h2>
-                        <p className=" text-base xl:text-3xl font-bold text-text-white2 text-start xl:text-center">Total token supply: 8,888,888,888 $DBRZ</p>
+                        <h2 className=" text-text-orange text-start md:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">Tokenomics</h2>
+                        <p className=" text-base xl:text-3xl font-bold text-text-white2 text-start md:text-center">Total token supply: 8,888,888,888 $DBRZ</p>
                     </div>
 
                     {/* token divs */}

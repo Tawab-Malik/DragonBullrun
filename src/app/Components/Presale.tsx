@@ -79,12 +79,12 @@ export default function Presale(){
                                                             initial="offscreen"
                                                             whileInView="onscreen"
                                                             viewport={{ once: true, amount: 0.1 }}
-                                                            className="    h-[60%] bg-[#FF9D00] rounded-full w-[80%]">
+                                                            className="  h-[60%] bg-[#FF9D00] rounded-full w-[80%] overflow-hidden">
                                                             <Image src="/assets/buy/progress.png" className=" w-full" alt="img" height={2000} width={2000}></Image>
                                                       </motion.div>
 
                                                 </div>
-                                                {/* <Image src="/assets/buy/progress.png" className=" w-[250px] md:w-[500px] xl:w-[1150px]  h-[25px] md:h-[50px] xl:h-[85px]" alt="img" height={2000} width={2000}></Image> */}
+                                             
                                                 <Image src="/assets/buy/treasure.png" className=" size-24 md:size-56" alt="img" height={2000} width={2000}></Image>
                                           </div>
                                           <div className="flex flex-col md:flex-row justify-between items-center gap-2">

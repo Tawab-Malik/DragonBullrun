@@ -60,17 +60,17 @@ export default function Roadmap() {
                 <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
                 <div className="brightness-100 gap-20 space-y-20 md:space-y-24 xl:space-y-24">
                     <div className="max-w-6xl mx-5 xl:mx-auto space-y-5">
-                        <h2 className=" text-3xl md:text-5xl xl:text-[70px] text-text-orange font-dragonslapper text-start xl:text-center">
+                        <h2 className=" text-3xl md:text-5xl xl:text-[70px] text-text-orange font-dragonslapper text-start md:text-center">
                             Road Map
                         </h2>
-                        <p className="text-start xl:text-center text-base xl:text-2xl text-text-white2 font-medium">
+                        <p className="text-start md:text-center text-base xl:text-2xl text-text-white2 font-medium">
                             Please be aware that the 7 stages of the roadmap operate
                             independently from the phases of the presale and are susceptible
                             to modifications.
                         </p>
                     </div>
                     {/* Cards */}
-                    <div className=" xl:pt-10 md:pt-20 max-w-7xl  2xl:max-w-8xl mx-5 xl:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4 gap-16 md:gap-24 xl:gap-24 place-items-center 2xl:gap-5" >
+                    <div className=" xl:pt-10 md:pt-20 max-w-7xl  2xl:max-w-8xl mx-5 xl:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4 gap-16 md:gap-16 xl:gap-24 place-items-center 2xl:gap-5" >
                         {/* 1st card  */}
 
                         <motion.div
