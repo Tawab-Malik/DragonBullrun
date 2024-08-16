@@ -5,7 +5,7 @@ import Image from "next/image";
 // Manually provide the image path as a string
 
 
-export default function Navbars() {
+export default function Header() {
     const menuItems = [
         { name: "How to buy", href: "/how-to-buy" },
         { name: "Roadmap", href: "/#roadmap" },
@@ -21,7 +21,7 @@ export default function Navbars() {
 
 
 
-        <Navbar isBordered isBlurred={false} className=" !fixed xl:!sticky backdrop-blur-xl bg-transparent xl:!bg-nav-black px-5 h-20 xl:h-40 md:px-14 xl:px-[2rem]  [1500px]:px-28    !border-none !border-b-0  " classNames={{
+        <Navbar isBordered isBlurred={false} className=" !fixed xl:!sticky backdrop-blur-xl bg-transparent xl:!bg-nav-black px-5 h-20 xl:h-64 md:px-14 xl:px-[2rem]  [1500px]:px-28    !border-none !border-b-0  " classNames={{
             wrapper: '!max-w-8xl mx-auto xl:mx-5',
 
 
@@ -66,7 +66,7 @@ export default function Navbars() {
             <NavbarContent className="xl:hidden  flex justify-end" justify="end">
                 <NavbarMenuToggle className=" !text-text-orange" />
             </NavbarContent>
-            <NavbarMenu className=" py-10 bg-transparent backdrop-blur-xl space-y-5">
+            <NavbarMenu className=" py-10 bg-transparent backdrop-blur-xl space-y-5 items-center">
                 {menuItems.map((item, index) => (
                     <NavbarMenuItem key={`${item}-${index}`}>
                         <Link

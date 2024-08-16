@@ -23,8 +23,8 @@ const cardVariants3: Variants = {
 
 
 
-export default function Dragons() {
-    return (
+export default function Thedragonrealm() {
+    return ( 
         <>
             <section className=" bg-dragon-bg bg-cover bg-center overflow-hidden" id="whitepaper">
                 <div className=" max-w-8xl mx-5 xl:mx-auto  xl:space-y-36 pt-24 xl:pt-28 pb-28 xl:pb-32 ">

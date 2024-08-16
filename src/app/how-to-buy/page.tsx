@@ -50,7 +50,7 @@ const cardVariants4: Variants = {
 
 
 export default function HowtoBuy() {
-    
+
       return (
             <>
                   <section>
@@ -227,9 +227,9 @@ export default function HowtoBuy() {
                                                             whileInView="onscreen"
                                                             viewport={{ once: true, amount: 0.1 }}
                                                             className=" md:flex justify-center py-10  ">
-                                                             <div className=" flex justify-center py-5">
-                                                <Link><Button className="  !px-9 !py-8 bg-text-orange rounded text-3xl text-nav-black uppercase font-dragonslapper hover:scale-110 ">buy now</Button></Link>
-                                          </div>
+                                                            <div className=" flex justify-center py-5">
+                                                                  <Link><Button className="  !px-9 !py-8 bg-text-orange rounded text-3xl text-nav-black uppercase font-dragonslapper hover:scale-110 ">buy now</Button></Link>
+                                                            </div>
                                                       </motion.div>
 
                                                 </form>
@@ -241,8 +241,8 @@ export default function HowtoBuy() {
 
 
                         {/* 2nd component */}
-                        <Presale/>
-                       
+                        <Presale />
+
 
                   </section>
             </>

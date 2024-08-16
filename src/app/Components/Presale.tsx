@@ -60,7 +60,7 @@ export default function Presale() {
 
                                           </div>
                                           {copySuccess && (
-                                                <div className="mt-2 text-white font-inter text-xs md:text-base absolute top-[120px] xl:top-28 lg:top-16 right-0 xl:left-[45%]">{copySuccess}</div>
+                                                <div className="mt-2 w-36 text-center p-2 text-white bg-text-orange font-inter text-xs md:text-base absolute top-[120px] xl:top-14 lg:-top-10 right-0 xl:left-[71%] rounded-md">{copySuccess}</div>
                                           )}
 
 
@@ -79,7 +79,7 @@ export default function Presale() {
                                                                   variants={cardVariants4}
                                                                   initial="offscreen"
                                                                   whileInView="onscreen"
-                                                                  viewport={{ once: true, amount: 0.1 }}
+                                                                  viewport={{ once: false, amount: 0.1 }}
                                                                   className="   bg-[#FF9D00] rounded-full w-[80%] ">
                                                                   <Image src="/assets/buy/progress.png" className=" w-full" alt="img" height={2000} width={2000}></Image>
                                                             </motion.div>
