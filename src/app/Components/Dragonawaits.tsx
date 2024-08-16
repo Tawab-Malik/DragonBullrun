@@ -6,7 +6,7 @@ export default function Dragonawaits() {
   return (
     <section className="relative bg-sec2-image bg-cover bg-center h-full">
 
-      <div className="relative max-w-6xl mx-5 xl:mx-auto flex xl:flex-row flex-col  justify-between py-8 md:pt-64 md:pb-40 z-10">
+      <div className="relative max-w-6xl mx-5 xl:mx-auto flex xl:flex-row flex-col  justify-between py-8 pt-20 xl:pt-64 md:pb-40 z-10">
         {/* left */}
         <div className="w-full flex justify-center">
           <Image
@@ -28,10 +28,10 @@ export default function Dragonawaits() {
             and Experience Thrills at Every Turn!
           </h3>
           <div className="flex gap-7">
-            <Button as={Link} color="warning" href="#" className=" hover:scale-110 uppercase !py-5 !px-14 text-base font-normal text-text-white2 bg-transparent border-border-color border rounded  ">
+            <Button as={Link} color="warning" href="#" className=" hover:scale-110 font-dragonslapper uppercase !py-5 !px-14 text-base font-normal text-text-white2 bg-transparent border-border-color border rounded  ">
               Login
             </Button>
-            <Button as={Link} href="/#buynow" className=" hover:scale-110 uppercase !py-5 !px-8 bg-text-orange rounded text-white text-base font-normal">
+            <Button as={Link} href="/#buynow" className=" hover:scale-110 font-dragonslapper uppercase !py-5 !px-8 bg-text-orange rounded text-white text-base font-normal">
               Buy Tokens
             </Button>
           </div>

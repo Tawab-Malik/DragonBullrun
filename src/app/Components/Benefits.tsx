@@ -32,7 +32,7 @@ export default function Benefits() {
 
 
                     {/* main div card */}
-                    <div className=" grid-cols-1 gap-10 md:gap-0 lg:grid-cols-2 place-items-center grid 2xl:grid-cols-3 py-12">
+                    <div className=" grid-cols-1 gap-x-10 xl:gap-0 lg:grid-cols-2 place-items-center grid 2xl:grid-cols-3 pt-12 xl:py-12">
                         {/* card1 */}
                         <motion.div
                          variants={cardVariants}

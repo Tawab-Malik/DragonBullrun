@@ -33,11 +33,11 @@ export default function Footer() {
                             </ul>
                         </div>
                         {/* 2nd div  */}
-                        <div className=" space-y-10 flex flex-col justify-center items-center">
+                        <div className=" space-y-10 flex flex-col justify-center ">
                             <h2 className=" text-xl xl:text-4xl text-text-white2 font-dragonslapper">Contact Us</h2>
-                            
-                                    <p  className="text-base xl:text-xl text-text-white2 hover:text-text-orange duration-500" >Media & Marketing: <br /> <Link
-                                      rel="stylesheet" href="mailto:media@dragonbullrun.io" target="_blank" /> media@dragonbullrun.io</p>
+
+                            <p className="text-base xl:text-xl text-text-white2 hover:text-text-orange duration-500" >Media & Marketing: <br /> <Link
+                                rel="stylesheet" href="mailto:media@dragonbullrun.io" target="_blank" /> media@dragonbullrun.io</p>
                         </div>
                         {/* 3rd div  */}
                         <div className=" flex justify-center">

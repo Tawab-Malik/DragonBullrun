@@ -28,17 +28,17 @@ export default function MeetourTeam() {
         <>
             <section className=" bg-team-bg bg-cover bg-center relative">
                 
-                <div className=" max-w-8xl mx-5 xl:mx-auto space-y-24 xl:space-y-60 py-24  xl:py-36 brightness-100">
+                <div className=" max-w-9xl mx-5 xl:mx-auto space-y-24 xl:space-y-60 py-24  xl:pb-20 xl:pt-20 brightness-100">
                     <div className=" space-y-5 md:space-y-10">
                         <h2 className=" text-text-orange text-start md:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">Our Team</h2>
                         <p className=" text-base xl:text-[50px] font-dragonslapper font-bold text-text-white2 text-start md:text-center">Meet the Dragons</p>
                     </div>
                     {/* teams cards */}
-                    <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center pt-14 md:pt-18 xl:p-0">
+                    <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center pt-14 md:pt-18 xl:p-0 gap-x-16">
 
 
                         {/* 1st cards */}
-                        <div className=" w-full md:w-[310px] h-auto md:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange ">
+                        <div className=" w-full xl:w-[310px] h-auto xl:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange ">
                             <motion.div
                              variants={cardVariants3}
                              initial="offscreen"
@@ -59,7 +59,7 @@ export default function MeetourTeam() {
                         {/* 2st cards */}
                         <div
                          
-                           className=" w-full md:w-[310px] h-auto md:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-40 md:mt-0 ">
+                           className=" w-full xl:w-[310px] h-auto xl:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-40 md:mt-0 ">
                             <motion.div
                              variants={cardVariants3}
                              initial="offscreen"
@@ -79,7 +79,7 @@ export default function MeetourTeam() {
                         {/* 3st cards */}
                         <div
                         
-                           className="w-full md:w-[310px] h-auto md:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-40 xl:mt-0 ">
+                           className="w-full xl:w-[310px] h-auto xl:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-40 xl:mt-0 ">
                             <motion.div
                               variants={cardVariants3}
                               initial="offscreen"
@@ -99,7 +99,7 @@ export default function MeetourTeam() {
                         {/* 4st cards */}
                         <div
                          
-                           className="w-full md:w-[310px] h-auto md:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-40 xl:mt-0 ">
+                           className="w-full xl:w-[310px] h-auto xl:h-[480px] p-5 text-center shadow-inner border-2 rounded-[28px] border-text-orange mt-40 xl:mt-0 ">
                             <motion.div 
                              variants={cardVariants3}
                              initial="offscreen"
@@ -121,7 +121,7 @@ export default function MeetourTeam() {
                     </div>
 
                     {/* buttons */}
-                    <div className=" flex justify-center md:flex-row flex-col gap-10">
+                    <div className=" flex justify-center md:flex-row flex-col gap-10 mt-16 xl:!mt-44">
                         <Link href="/#buynow"><Button className=" w-full px-10 !py-5 uppercase hover:scale-110 bg-text-orange rounded font-dragonslapper text-base">buy now</Button></Link>
                         <Button className=" w-auto !px-5 !py-5 uppercase hover:scale-110 bg-transparent border border-white text-white rounded font-dragonslapper text-base">verify smart contract</Button>
                     </div>

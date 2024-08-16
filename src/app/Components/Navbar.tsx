@@ -30,7 +30,7 @@ export default function Navbars() {
             <div className="  contents text-text-white2 font-dragonslapper  " >
                 <div className="">
                     <Link href="/">
-                        <Image src='/assets/Logo2.png' alt="Logo" height={500} width={500} className="   !w-[100px] !h-[60px] xl:!w-[270px] xl:!h-[140px]" /></Link>
+                        <Image src='/assets/Logo2.png' alt="Logo" height={500} width={500} className="   !w-[130px] !h-[60px] xl:!w-[270px] xl:!h-[140px]" /></Link>
                 </div>
                 <div className=" gap-5 2xl:gap-16 hidden xl:flex">
                     <Link target="_blank" color="foreground" href="/how-to-buy" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
