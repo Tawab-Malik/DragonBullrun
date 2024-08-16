@@ -5,10 +5,8 @@ import Link from "next/link";
 export default function Dragonawaits() {
   return (
     <section className="relative bg-sec2-image bg-cover bg-center h-full">
-      {/* Overlay with brightness filter */}
-      <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
 
-      <div className="relative max-w-6xl mx-5 xl:mx-auto flex xl:flex-row flex-col  justify-between py-8 md:py-56 z-10">
+      <div className="relative max-w-6xl mx-5 xl:mx-auto flex xl:flex-row flex-col  justify-between py-8 md:pt-64 md:pb-40 z-10">
         {/* left */}
         <div className="w-full flex justify-center">
           <Image
@@ -29,14 +27,13 @@ export default function Dragonawaits() {
             Free-to-Play Adventure on the Ethereum Blockchain! Explore, Earn,
             and Experience Thrills at Every Turn!
           </h3>
-          <div className="flex gap-5">
-            <Button className="w-40 h-10 border hover:scale-110 bg-transparent border-white text-white rounded uppercase font-dragonslapper text-base">
+          <div className="flex gap-7">
+            <Button as={Link} color="warning" href="#" className=" hover:scale-110 uppercase !py-5 !px-14 text-base font-normal text-text-white2 bg-transparent border-border-color border rounded  ">
               Login
             </Button>
-            <Link href="/#buynow">
-            <Button className="w-40 h-10 hover:scale-110 rounded bg-text-orange uppercase font-dragonslapper text-base">
-              buy tokens
-            </Button></Link>
+            <Button as={Link} href="/#buynow" className=" hover:scale-110 uppercase !py-5 !px-8 bg-text-orange rounded text-white text-base font-normal">
+              Buy Tokens
+            </Button>
           </div>
         </div>
       </div>

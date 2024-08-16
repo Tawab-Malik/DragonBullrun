@@ -69,10 +69,10 @@ module.exports = {
         },
         scroll: {
           '0%' : {
-            transform: 'translateX(0)' ,opacity: '0'
+            transform: 'translateX(0)' 
           },
           '100%' : {
-            transform: 'translateX(-50%)' ,opacity: '1',
+            transform: 'translateX(-50%)' 
           },
         },    
       },

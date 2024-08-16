@@ -7,40 +7,40 @@ import { useState } from "react";
 import { MdOutlineFileCopy } from "react-icons/md";
 
 const cardVariants4: Variants = {
-    offscreen: {
-          x: -800,
+      offscreen: {
+            x: -800,
 
-    },
-    onscreen: {
-          x: 0,
-
-
-          transition: {
+      },
+      onscreen: {
+            x: 0,
 
 
-                duration: 3.0
-          }
-    }
+            transition: {
+
+
+                  duration: 3.0
+            }
+      }
 };
 
 
 
 
-export default function Presale(){
-    const [copySuccess, setCopySuccess] = useState('');
+export default function Presale() {
+      const [copySuccess, setCopySuccess] = useState('');
 
-    const copyToClipboard = (text: any) => {
-          navigator.clipboard.writeText(text).then(() => {
-                setCopySuccess('Address Copied!');
-                setTimeout(() => setCopySuccess(''), 1000); // Clear message after 1 seconds
-          }, (err) => {
-                setCopySuccess('Failed to copy!');
-          });
-    };
-    return(
-        <>
-        <section>
-        <div className=" bg-presale-bg bg-center bg-cover relative py-24" >
+      const copyToClipboard = (text: any) => {
+            navigator.clipboard.writeText(text).then(() => {
+                  setCopySuccess('Address Copied!');
+                  setTimeout(() => setCopySuccess(''), 1000); // Clear message after 1 seconds
+            }, (err) => {
+                  setCopySuccess('Failed to copy!');
+            });
+      };
+      return (
+            <>
+                  <section>
+                        <div className=" bg-presale-bg bg-center bg-cover relative py-24" >
                               {/* Overlay with brightness filter */}
                               <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
                               {/* main 2nd */}
@@ -51,9 +51,9 @@ export default function Presale(){
                                                 <Image src="/assets/buy/Logo.png" className=" absolute top-0 w-[170px] h-[135px] left-0" alt="img" height={300} width={300}></Image>
                                           </div>
                                     </div>
-                                   {/* address button */}
+                                    {/* address button */}
                                     <div className="brightness-100 space-y-5">
-                                          <h2 className=" text-3xl md:text-[48px] text-start xl:text-[70px] text-text-orange font-dragonslapper md:text-center py-5">Pre Sale Live Now</h2>
+                                          <h2 className=" text-3xl md:text-5xl text-start xl:text-[70px] text-text-orange font-dragonslapper md:text-center py-5">Pre Sale Live Now</h2>
                                           <div className=" flex gap-5 items-center justify-center">
                                                 <h3 className=" text-base md:text-2xl xl:text-3xl text-text-white2 font-bold text-start md:text-center w-[700px] line-clamp-1">Contract Address - 0xC955faa 911D7507aEE0c0d7a2d5a 79c79a041AB8</h3>
                                                 <MdOutlineFileCopy className=" size-7 hover:text-text-orange duration-500 cursor-pointer text-white" onClick={() => copyToClipboard(' 0xC955faa 911D7507aEE0c0d7a2d5a 79c79a041AB8')} />
@@ -73,18 +73,21 @@ export default function Presale(){
 
 
                                           <div className=" flex items-center">
-                                                <div className="pl-5 overflow-hidden w-[250px] md:w-[500px] xl:w-[1150px]  h-[25px] md:h-[50px] xl:h-[85px] bg-progress-brown rounded-full flex justify-start items-center">
-                                                      <motion.div
-                                                            variants={cardVariants4}
-                                                            initial="offscreen"
-                                                            whileInView="onscreen"
-                                                            viewport={{ once: true, amount: 0.1 }}
-                                                            className="  h-[60%] bg-[#FF9D00] rounded-full w-[80%] overflow-hidden">
-                                                            <Image src="/assets/buy/progress.png" className=" w-full" alt="img" height={2000} width={2000}></Image>
-                                                      </motion.div>
+                                                <div className=" bg-progress-brown rounded-full px-5 py-5">
+                                                      <div className=" w-[250px] md:w-[500px] xl:w-[1150px] overflow-hidden rounded-full    flex justify-start items-center">
+                                                            <motion.div
+                                                                  variants={cardVariants4}
+                                                                  initial="offscreen"
+                                                                  whileInView="onscreen"
+                                                                  viewport={{ once: true, amount: 0.1 }}
+                                                                  className="   bg-[#FF9D00] rounded-full w-[80%] ">
+                                                                  <Image src="/assets/buy/progress.png" className=" w-full" alt="img" height={2000} width={2000}></Image>
+                                                            </motion.div>
 
+                                                      </div>
                                                 </div>
-                                             
+
+
                                                 <Image src="/assets/buy/treasure.png" className=" size-24 md:size-56" alt="img" height={2000} width={2000}></Image>
                                           </div>
                                           <div className="flex flex-col md:flex-row justify-between items-center gap-2">
@@ -92,7 +95,7 @@ export default function Presale(){
                                                 <h3 className=" text-lg md:text-2xl xl:text-3xl text-text-white2 font-normal">USDT Raised: 3,641,817.38 </h3>
                                           </div>
                                           <div className=" flex justify-center py-5">
-                                                <Link><Button className=" w-72 h-16 bg-text-orange rounded text-3xl text-nav-black uppercase font-dragonslapper hover:scale-110 ">join presale</Button></Link>
+                                                <Link><Button className="  !px-9 !py-8 bg-text-orange rounded text-3xl text-nav-black uppercase font-dragonslapper hover:scale-110 ">join presale</Button></Link>
                                           </div>
 
 
@@ -104,8 +107,8 @@ export default function Presale(){
 
 
                         </div>
-        </section>
-        </>
-    )
+                  </section>
+            </>
+      )
 
 }

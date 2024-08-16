@@ -24,9 +24,8 @@ const cardVariants3: Variants = {
 export default function Tokenomics() {
     return (
         <>
-            <section className=" bg-token-bg bg-center bg-cover py-24  xl:py-32 relative    " id="tokenomics">
+            <section className=" bg-token-bg bg-center bg-cover pb-24 pt-10 relative    " id="tokenomics">
                 
-                <Image src="/assets/token/upbg.png" alt="img" className=" absolute h-60 top-0 w-full" height={1000} width={1000}></Image>
                 <div className=" max-w-7xl mx-5 xl:mx-auto  space-y-24 relative z-10">
 
                     <div className=" space-y-5">
@@ -35,7 +34,7 @@ export default function Tokenomics() {
                     </div>
 
                     {/* token divs */}
-                    <div className=" space-y-20">
+                    <div className=" space-y-28">
                         {/* 1st div  */}
                         <motion.div
                           variants={cardVariants3}
@@ -81,7 +80,7 @@ export default function Tokenomics() {
                              initial="offscreen"
                              whileInView="onscreen"
                              viewport={{ once: false, amount: 0.1 }}
-                              className=" max-w-5xl mx-auto flex justify-between items-center  gap-5">
+                              className=" max-w-4xl mx-auto flex justify-between items-center  gap-5">
                             {/* left  */}
                             <div className=" backdrop-blur-3xl xl:backdrop-blur-0 p-2 xl:p-0 rounded-xl">
                                 <h2 className="  text-3xl xl:text-[70px] leading-tight text-text-orange font-dragonslapper text-center">10 % </h2>

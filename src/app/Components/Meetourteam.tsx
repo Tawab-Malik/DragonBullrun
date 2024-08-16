@@ -27,9 +27,7 @@ export default function MeetourTeam() {
     return (
         <>
             <section className=" bg-team-bg bg-cover bg-center relative">
-                <Image src='/assets/team/bgend.png' alt="img" height={200} width={1000} className=" absolute bottom-0 w-full opacity-100"></Image>
-                {/* Overlay with brightness filter */}
-                <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
+                
                 <div className=" max-w-8xl mx-5 xl:mx-auto space-y-24 xl:space-y-60 py-24  xl:py-36 brightness-100">
                     <div className=" space-y-5 md:space-y-10">
                         <h2 className=" text-text-orange text-start md:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">Our Team</h2>
@@ -47,7 +45,7 @@ export default function MeetourTeam() {
                              whileInView="onscreen"
                              viewport={{ once: false, amount: 0.1 }}
                               className=" flex justify-center  ">
-                                <Image src="/assets/team/dragon1.png" alt="img" className=" overflow-visible -mt-40  w-[260px] h-[220px]" width={500} height={500} />
+                                <Image src="/assets/team/dragon1.png" alt="img" className=" overflow-visible -mt-44  w-[260px] h-[220px]" width={500} height={500} />
 
                             </motion.div>
                             <div className="space-y-3">
@@ -68,7 +66,7 @@ export default function MeetourTeam() {
                              whileInView="onscreen"
                              viewport={{ once: false, amount: 0.1 }}
                               className=" flex justify-center">
-                                <Image src="/assets/team/dragon2.png" alt="img" className=" -mt-40  w-[260px] h-[220px]" width={500} height={500} />
+                                <Image src="/assets/team/dragon2.png" alt="img" className=" -mt-44  w-[260px] h-[220px]" width={500} height={500} />
 
                             </motion.div>
                             <div className="space-y-3">
@@ -88,7 +86,7 @@ export default function MeetourTeam() {
                               whileInView="onscreen"
                               viewport={{ once: false, amount: 0.1 }}
                                className=" flex justify-center ">
-                                <Image src="/assets/team/dragon3.png" alt="img" className=" -mt-40   w-[260px] h-[220px]" width={500} height={500} />
+                                <Image src="/assets/team/dragon3.png" alt="img" className=" -mt-44   w-[260px] h-[220px]" width={500} height={500} />
 
                             </motion.div>
                             <div className="space-y-3">
@@ -107,7 +105,7 @@ export default function MeetourTeam() {
                              initial="offscreen"
                              whileInView="onscreen"
                              viewport={{ once: false, amount: 0.1 }}className=" flex justify-center">
-                                <Image src="/assets/team/dragon4.png" alt="img" className=" -mt-40   w-[260px] h-[220px]" width={500} height={500} />
+                                <Image src="/assets/team/dragon4.png" alt="img" className=" -mt-44   w-[260px] h-[220px]" width={500} height={500} />
 
                             </motion.div>
                             <div className="space-y-3">
@@ -124,8 +122,8 @@ export default function MeetourTeam() {
 
                     {/* buttons */}
                     <div className=" flex justify-center md:flex-row flex-col gap-10">
-                        <Link href="/#buynow"><Button className=" w-full md:w-40 h-10 uppercase hover:scale-110 bg-text-orange rounded font-dragonslapper text-base">buy now</Button></Link>
-                        <Button className=" w-full md:w-56 h-10 uppercase hover:scale-110 bg-transparent border border-white text-white rounded font-dragonslapper text-base">verify smart contract</Button>
+                        <Link href="/#buynow"><Button className=" w-full px-10 !py-5 uppercase hover:scale-110 bg-text-orange rounded font-dragonslapper text-base">buy now</Button></Link>
+                        <Button className=" w-auto !px-5 !py-5 uppercase hover:scale-110 bg-transparent border border-white text-white rounded font-dragonslapper text-base">verify smart contract</Button>
                     </div>
                 </div>
             </section>

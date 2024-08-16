@@ -227,7 +227,9 @@ export default function HowtoBuy() {
                                                             whileInView="onscreen"
                                                             viewport={{ once: true, amount: 0.1 }}
                                                             className=" md:flex justify-center py-10  ">
-                                                            <Link href="/#buynow" className=" w-full md:w-72"><Button className=" w-full md:w-72 h-12 xl:h-16 bg-text-orange rounded text-2xl xl:text-3xl text-nav-black uppercase font-dragonslapper hover:scale-110 ">Buy now</Button></Link>
+                                                             <div className=" flex justify-center py-5">
+                                                <Link><Button className="  !px-9 !py-8 bg-text-orange rounded text-3xl text-nav-black uppercase font-dragonslapper hover:scale-110 ">buy now</Button></Link>
+                                          </div>
                                                       </motion.div>
 
                                                 </form>
