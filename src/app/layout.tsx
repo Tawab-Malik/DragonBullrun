@@ -12,18 +12,17 @@ const inter = Inter({
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-  showFooter?: boolean;
-}>) {
-
+}) {
   const pathname = usePathname();
 
   // Define paths where the footer should be hidden
-  const hideFooterPaths = ["/how-to-buy",];
+  const hideFooterPaths = ["/how-to-buy"];
 
   // Check if the current path is in the list of paths to hide the footer
   const showFooter = !hideFooterPaths.includes(pathname);
+
   return (
     <html lang="en" className={inter.variable}>
       <head>
