@@ -9,8 +9,7 @@ export default function Footer() {
     return (
         <>
             <footer className=" bg-footer-bg bg-center bg-cover relative overflow-hidden">
-                {/* Overlay with brightness filter */}
-                <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
+
                 <div className=" max-w-8xl mx-5 2xl:mx-auto space-y-5 py-5 brightness-100 " >
                     {/* 1st list div element  */}
                     <div className="py-10 flex justify-between md:flex-row flex-col-reverse gap-10 xl:gap-0">
@@ -36,8 +35,8 @@ export default function Footer() {
                         <div className=" space-y-10 flex flex-col justify-center ">
                             <h2 className=" text-xl xl:text-4xl text-text-white2 font-dragonslapper">Contact Us</h2>
 
-                            <p className="text-base xl:text-xl text-text-white2 hover:text-text-orange duration-500" >Media & Marketing: <br /> <Link
-                                rel="stylesheet" href="mailto:media@dragonbullrun.io" target="_blank" /> media@dragonbullrun.io</p>
+                            <p className="text-base xl:text-xl text-text-white2  " >Media & Marketing: <br /> <Link
+                                rel="stylesheet" className="hover:text-text-orange duration-300" href="mailto:media@dragonbullrun.io" target="_blank" > media@dragonbullrun.io </Link></p>
                         </div>
                         {/* 3rd div  */}
                         <div className=" flex justify-center">

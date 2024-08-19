@@ -10,8 +10,9 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
+        '7xxl': '1400px',
         '8xl': '1600px',
-        '9xl': '1450px'
+        '9xl': '1400px'
       },
 
       backgroundImage: {

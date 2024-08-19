@@ -72,7 +72,7 @@ export default function Thedragonrealm() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className="w-full md:w-[470px] xl:h-[560px] h-full  xl:w-[530px] space-y-5 xl:space-y-10 p-5 xl:p-12 shadow-inner border-[12px] rounded-[46px] border-box-border border-opacity-65 bg-text-black bg-opacity-65 xl:pl-5">
+                            className="w-full md:w-[370px] xl:h-[560px] h-full  xl:w-[530px] space-y-5 xl:space-y-10 p-5 xl:p-12 shadow-inner border-[12px] rounded-[46px] border-box-border border-opacity-65 bg-text-black bg-opacity-65 xl:pl-5">
                             <h2 className=" text-xl md:text-3xl xl:text-[40px] font-dragonslapper text-center  text-text-orange uppercase ">Burn</h2>
                             <p className=" text-text-white2 text-base md:text-2xl text-center xl:pl-5">Within the Fire Breathing domain, the Dragon Bull Run implements a token burn, commencing a deflationary cycle. Consequently, our fixed maximum supply gradually decreases, cultivating scarcity within the circulating supply of $DBRZ tokens.</p>
                         </motion.div>

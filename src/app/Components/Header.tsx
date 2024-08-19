@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Header() {
     const menuItems = [
-        { name: "How to buy", href: "/how-to-buy" },
+        { name: "How to buy", href: "/howtoBuy" },
         { name: "Roadmap", href: "/#roadmap" },
         { name: "Whitepaper", href: "/#whitepaper" },
         { name: "Tokenomics", href: "/#tokenomics" },
@@ -22,7 +22,7 @@ export default function Header() {
 
 
         <Navbar isBordered isBlurred={false} className=" !fixed xl:!sticky backdrop-blur-xl bg-transparent xl:!bg-nav-black px-5 h-20 xl:h-64 md:px-14 xl:px-[2rem]  [1500px]:px-28    !border-none !border-b-0  " classNames={{
-            wrapper: '!max-w-8xl mx-auto xl:mx-5',
+            wrapper: '!max-w-8xl mx-auto ',
 
 
         }}>
@@ -33,7 +33,7 @@ export default function Header() {
                         <Image src='/assets/Logo2.png' alt="Logo" height={500} width={500} className="   !w-[130px] !h-[60px] xl:!w-[270px] xl:!h-[140px]" /></Link>
                 </div>
                 <div className=" gap-5 2xl:gap-16 hidden xl:flex">
-                    <Link target="_blank" color="foreground" href="/how-to-buy" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
+                    <Link target="_blank" color="foreground" href="/howtoBuy" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         How to Buy
                     </Link>
                     <Link color="foreground" href="/#roadmap" className="hover:text-text-orange duration-500  text-xl font-normal text-lightbrown font-dragonslapper">

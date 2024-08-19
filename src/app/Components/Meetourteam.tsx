@@ -26,7 +26,7 @@ const cardVariants3: Variants = {
 export default function MeetourTeam() {
     return (
         <>
-            <section className=" bg-team-bg bg-cover bg-center relative">
+            <section className=" bg-team-bg bg-cover bg-center relative overflow-hidden">
                 
                 <div className=" max-w-9xl mx-5 xl:mx-auto space-y-24 xl:space-y-60 py-24  xl:pb-20 xl:pt-20 brightness-100">
                     <div className=" space-y-5 md:space-y-10">
@@ -49,7 +49,7 @@ export default function MeetourTeam() {
 
                             </motion.div>
                             <div className="space-y-3">
-                                <h2 className=" text-2xl xl:text-[50px] font-dragonslapper text-text-orange">Felix</h2>
+                                <h2 className=" text-2xl xl:text-[50px] font-dragonslapper text-text-orange [text-shadow:_0_6px_3px_rgb(0_0_0_/_90%)]">Felix</h2>
                                 <h3 className="text-xl  text-text-white2 font-bold">Lead Game Dev</h3>
                                 <p className=" text-xl  text-text-white2 font-medium">
                                     Felix, with over ten years in the gaming industry, excels at leading successful game projects at DragonBullRun, blending innovation with a deep understanding of player preferences.</p>
@@ -70,7 +70,7 @@ export default function MeetourTeam() {
 
                             </motion.div>
                             <div className="space-y-3">
-                                <h2 className=" text-2xl xl:text-[50px] text-center font-dragonslapper text-text-orange">Quentin</h2>
+                                <h2 className=" text-2xl xl:text-[50px] text-center font-dragonslapper text-text-orange [text-shadow:_0_6px_3px_rgb(0_0_0_/_90%)]">Quentin</h2>
                                 <h3 className="text-xl  text-text-white2 font-bold">Blockchain Engineer</h3>
                                 <p className=" text-xl  text-text-white2 font-medium">
                                     Quentin, a blockchain engineer with six years of experience, specializes in Ethereum-based solutions, playing a key role in developing secure systems for the DragonBullRun ecosystem.</p>
@@ -90,7 +90,7 @@ export default function MeetourTeam() {
 
                             </motion.div>
                             <div className="space-y-3">
-                                <h2 className=" text-2xl xl:text-[50px] font-dragonslapper text-text-orange">Jackson</h2>
+                                <h2 className=" text-2xl xl:text-[50px] font-dragonslapper text-text-orange [text-shadow:_0_6px_3px_rgb(0_0_0_/_90%)]">Jackson</h2>
                                 <h3 className="text-xl  text-text-white2 font-bold">Head of Sales</h3>
                                 <p className=" text-xl  text-text-white2 font-medium">
                                     Jackson excels in driving revenue growth and strategic partnerships for DragonBullRun, leveraging his vast experience in sales and business development across various industries.</p>
@@ -109,7 +109,7 @@ export default function MeetourTeam() {
 
                             </motion.div>
                             <div className="space-y-3">
-                                <h2 className=" text-2xl xl:text-[50px] font-dragonslapper text-text-orange">Natalia</h2>
+                                <h2 className=" text-2xl xl:text-[50px] font-dragonslapper text-text-orange [text-shadow:_0_6px_3px_rgb(0_0_0_/_90%)]">Natalia</h2>
                                 <h3 className="text-xl  text-text-white2 font-bold">Marketing Manager</h3>
                                 <p className=" text-xl  text-text-white2 font-medium">
                                     Natalia, a seasoned marketing expert with a Web3 and digital marketing background, boosts DragonBullRun’s visibility with her knack for crafting impactful strategies and executing multi-channel campaigns.</p>

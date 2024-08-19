@@ -9,7 +9,13 @@ import Faqs from "./Components/Faqs";
 import Herosection from "./Components/Levelup";
 import Thedragonrealm from "./Components/Thedragons";
 
+
+
+
+
+  // Define the routes where the footer should be shown
 export default function Home() {
+  
   return (
     <NextUIProvider>
        <Herosection/>

@@ -69,7 +69,7 @@ export default function Roadmap() {
                         </p>
                     </div>
                     {/* Cards */}
-                    <div className="  max-w-7xl  2xl:max-w-8xl mx-5 xl:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4 gap-16 md:gap-y-16 md:gap-x-10 xl:gap-24 place-items-center 2xl:gap-7" >
+                    <div className=" overflow-hidden  max-w-7xl  2xl:max-w-8xl mx-5 xl:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  2xl:grid-cols-4 gap-y-32 md:gap-y-28 md:gap-x-5 xl:gap-y-16 place-items-center 2xl:gap-y-7" >
                         {/* 1st card  */}
 
                         <motion.div
@@ -77,13 +77,13 @@ export default function Roadmap() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className=" flex bg-nav-black  justify-end  rounded-3xl relative w-full 2xl:w-[390px] h-[250px]  ">
+                            className=" flex bg-nav-black  justify-end  rounded-3xl relative w-full py-3 h-full  ">
                             <Image src="/assets/roadmap/egg1.png" alt="img" width={180} height={330} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                             />
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                            <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center  p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2 xl:pl-9 ">
+                            <div className="px-8 md:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start  p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2 xl:pl-9 ">
                                 <h2 className="text-3xl xl:text-5xl font-dragonslapper text-text-orange text-center">
                                     Phase 1
                                 </h2>
@@ -99,13 +99,13 @@ export default function Roadmap() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className=" flex bg-nav-black justify-end   rounded-3xl relative w-full 2xl:w-[390px] h-[250px]  ">
+                            className=" flex bg-nav-black justify-end   rounded-3xl relative w-full py-3 h-full   ">
                             <Image src="/assets/roadmap/egg2.png" alt="img" width={180} height={330} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                             />
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                            <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2  ">
+                            <div className="px-8 md:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2  ">
                                 <h2 className="text-3xl xl:text-5xl font-dragonslapper text-text-orange text-center">
                                     Phase 2
                                 </h2>
@@ -123,17 +123,17 @@ export default function Roadmap() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
+                            className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full py-3 h-full  ">
                             <Image src="/assets/roadmap/egg3.png" alt="img" width={180} height={330} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                             />
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                            <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2 xl:pl-6 ">
+                            <div className="px-8 md:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2 xl:pl-6 ">
                                 <h2 className="text-3xl xl:text-5xl font-dragonslapper text-text-orange text-center">
                                     Phase 3
                                 </h2>
-                                <p className=" text-sm xl:text-xl text-text-white2 text-center">
+                                <p className=" text-sm xl:text-xl text-text-white2 text-center 2xl:pl-3">
                                     Further marketing
                                     PR blast
                                 </p>
@@ -146,13 +146,13 @@ export default function Roadmap() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
+                            className="  flex bg-nav-black justify-end   rounded-3xl relative  w-full py-3 h-full  ">
                             <Image src="/assets/roadmap/egg4.png" alt="img" width={180} height={330} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                             />
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                            <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2  ">
+                            <div className="px-8 md:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2  ">
                                 <h2 className="text-3xl xl:text-5xl font-dragonslapper text-text-orange text-center">
                                     Phase 4
                                 </h2>
@@ -171,14 +171,14 @@ export default function Roadmap() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className=" block 2xl:hidden w-full 2xl:w-[390px] h-[250px]  rounded-3xl bg-nav-black  ">
-                            <div className=" flex bg-nav-black justify-end   rounded-3xl relative  2xl:w-[390px] h-[250px]    ">
+                            className=" block 2xl:hidden w-full py-3 h-full  rounded-3xl bg-nav-black  ">
+                            <div className=" flex bg-nav-black justify-end   rounded-3xl relative  py-3    ">
                                 <Image src="/assets/roadmap/egg4.png" alt="img" width={180} height={330} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                                <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2  ">
+                                <div className="px-8 md:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2  ">
                                     <h2 className="text-3xl xl:text-5xl font-dragonslapper text-text-orange text-center">
                                         Phase 5
                                     </h2>
@@ -197,8 +197,8 @@ export default function Roadmap() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className=" block 2xl:hidden w-full 2xl:w-[390px] h-[250px] rounded-3xl bg-nav-black    ">
-                            <div className=" flex bg-nav-black justify-end   rounded-3xl relative  2xl:w-[390px] h-[250px]    ">
+                            className=" block 2xl:hidden w-full py-3 h-full rounded-3xl bg-nav-black relative     ">
+                            <div className=" flex bg-nav-black justify-end   rounded-3xl   ">
                                 <Image src="/assets/roadmap/egg6.png" alt="img" width={180} height={330} className="w-[180px] -left-4 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -222,8 +222,8 @@ export default function Roadmap() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className="hidden xl:block 2xl:hidden w-full 2xl:w-[390px] h-[250px]   md:col-span-1 xl:col-start-2 xl:col-span-1 2xl:col-start-auto  rounded-3xl bg-nav-black  ">
-                            <div className=" flex justify-end   relative  2xl:w-[390px] h-[250px]   ">
+                            className="xl:pt-24  md:hidden xl:block 2xl:hidden w-full py-3 h-full   md:col-span-1 xl:col-start-2 xl:col-span-1 2xl:col-start-auto  rounded-3xl bg-nav-black  ">
+                            <div className=" flex justify-end   relative  py-3   ">
                                 <Image src="/assets/roadmap/egg7.png" alt="img" width={180} height={330} className="w-[180px] -left-4 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -253,7 +253,7 @@ export default function Roadmap() {
                                 initial="offscreen"
                                 whileInView="onscreen"
                                 viewport={{ once: true, amount: 0.1 }}
-                                className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
+                                className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full py-3 h-full  ">
                                 <Image src="/assets/roadmap/egg4.png" alt="img" width={180} height={330} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -278,7 +278,7 @@ export default function Roadmap() {
                                 initial="offscreen"
                                 whileInView="onscreen"
                                 viewport={{ once: true, amount: 0.1 }}
-                                className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]  ">
+                                className=" flex bg-nav-black justify-end   rounded-3xl relative  w-full py-3 h-auto  ">
                                 <Image src="/assets/roadmap/egg6.png" alt="img" width={180} height={330} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -301,7 +301,7 @@ export default function Roadmap() {
                                 initial="offscreen"
                                 whileInView="onscreen"
                                 viewport={{ once: true, amount: 0.1 }}
-                                className="flex  bg-nav-black justify-end   rounded-3xl relative  w-full 2xl:w-[390px] h-[250px]   ">
+                                className="flex  bg-nav-black justify-end rounded-3xl relative  w-full py-3 h-auto   ">
                                 <Image src="/assets/roadmap/egg7.png" alt="img" width={180} height={330} className="w-[180px] left-0 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
@@ -327,8 +327,8 @@ export default function Roadmap() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className="  -mt-10 w-[500px] h-[250px]   md:col-span-1 xl:col-start-2 xl:col-span-1 2xl:col-start-auto  rounded-3xl bg-nav-black  ">
-                            <div className=" flex justify-end   relative  2xl:w-[390px] h-[250px]   ">
+                            className=" -mt-10  md:-mt-2 w-[500px] hidden md:block h-auto md:h-[180px] xl:h-auto pt-5 xl:hidden   md:col-span-1 xl:col-start-2 xl:col-span-1 2xl:col-start-auto  rounded-3xl bg-nav-black  ">
+                            <div className=" flex justify-end   relative  py-3   ">
                                 <Image src="/assets/roadmap/egg7.png" alt="img" width={180} height={330} className="w-[180px] -left-4 absolute h-[300px] bottom-0 xl:h-[330px] "
                                 />
                                 {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
