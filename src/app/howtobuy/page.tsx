@@ -123,7 +123,7 @@ export default function HowtoBuy() {
                                                                         <li className=" w-full md:w-[450px]">Your account will be automatically updated after the
                                                                               required number of blockchain confirmations.</li>
                                                                   </div>
-                                                                  <p className=" text-white text-lg md:text-lg xl:text-base w-full relative md:w-[300px]">Congratulations! Your purchase is now successfully completed</p>
+                                                                  <p className=" text-white text-lg md:text-lg xl:text-sm w-full relative md:w-[300px]">Congratulations! Your purchase is now successfully completed</p>
                                                             </div>
 
                                                       </motion.div>

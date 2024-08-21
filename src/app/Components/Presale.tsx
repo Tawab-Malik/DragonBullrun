@@ -66,7 +66,7 @@ export default function Presale() {
                                           </div>
                                     </div>
                                     {/* address button */}
-                                    <div className=" ">
+                                    <div className=" relative ">
                                           <h2 className=" text-3xl md:text-5xl text-start xl:text-[70px] text-tree-poppy font-dragonslapper md:text-center py-5">Pre Sale Live Now</h2>
                                           <div className=" flex gap-5 items-center justify-center">
                                                 <h3 className=" text-base md:text-2xl xl:text-3xl text-white font-bold text-start md:text-center w-full">Contract Address - 0xC955faa 911D7507aEE0c0d7a2d5a 79c79a041AB8</h3>
@@ -74,7 +74,7 @@ export default function Presale() {
 
                                           </div>
                                           {copySuccess && (
-                                                <div className="mt-2 w-28 md:w-36 text-center p-2 text-white bg-tree-poppy font-inter text-xs md:text-base absolute top-64 md:top-32 xl:top-14 lg:-top-10 right-0 xl:left-[93%] rounded-md">{copySuccess}</div>
+                                                <div className="mt-2 w-28 md:w-36 text-center p-2 text-white bg-tree-poppy font-inter text-xs md:text-base absolute top-12 md:top-10 xl:!top-14 lg:top-10 right-0 xl:left-[88%] 2xl:left-[93%] rounded-md">{copySuccess}</div>
                                           )}
 
 
