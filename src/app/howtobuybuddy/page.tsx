@@ -57,7 +57,7 @@ export default function HowtoBuy() {
                   <section className=" overflow-hidden">
 
                         {/* 1st component */}
-                        <div className=" bg-buy-bg bg-cover bg-center pb-10 pt-24 relative">
+                        <div className=" bg-buy-bg bg-cover bg-center  pb-10 pt-24 relative">
 
                               <div className=" max-w-[1450px] mx-5 2xl:mx-auto ">
                                     <div className=" pb-20">
