@@ -61,7 +61,7 @@ export default function HowtoBuy() {
 
                               <div className=" max-w-[1450px] mx-5 2xl:mx-auto ">
                                     <div className=" pb-20">
-                                          <h2 className=" text-3xl md:text-[50px] font-dragonslapper text-text-orange text-center">How to Buy</h2>
+                                          <h2 className=" text-3xl md:text-[50px] font-dragonslapper text-tree-poppy text-center">How to Buy</h2>
                                     </div>
                                     {/* both div combiner */}
                                     
@@ -79,8 +79,8 @@ export default function HowtoBuy() {
                                                             className=" bg-card-bg bg-cover w-full  h-full  relative 2xl:w-[50%] ">
                                                             <Image src="/assets/buy/egg.png" className=" w-[70px] bottom-0 right-10 md:right-14 h-[90px] absolute" alt=" img" height={100} width={100}></Image>
                                                             <div className=" px-5 md:px-7 py-3 md:py-5 ">
-                                                                  <h2 className="  py-2 text-center text-xl md:text-3xl font-dragonslapper text-text-white2">Account Creation</h2>
-                                                                  <p className="w-full mr-10 md:ml-0 2xl:pr-28  leading-normal text-base md:text-xl xl:text-base relative z-10  text-text-white2">To get started, click on <br />  <Link href="/" ><Button className=" font-dragonslapper my-5  w-14 md:w-40 h-7 md:h-10 rounded uppercase text-[10px] md:text-sm xl:text-base bg-nav-black text-text-orange">Buy tokens</Button></Link>
+                                                                  <h2 className="  py-2 text-center text-xl md:text-3xl font-dragonslapper text-white">Account Creation</h2>
+                                                                  <p className="w-full mr-10 md:ml-0 2xl:pr-28  leading-normal text-base md:text-xl xl:text-base relative z-10  text-white">To get started, click on <br />  <Link href="/" ><Button className=" font-dragonslapper my-5 py-5 px-6 md:px-8 rounded uppercase text-[10px] md:text-sm xl:text-base bg-nav-black text-tree-poppy">Buy tokens</Button></Link>
                                                                         <br />to set up your account. This will enable you to track your purchases, redeem rewards, and manage your $DBRZ holdings efficiently.</p>
                                                             </div>
 
@@ -94,8 +94,8 @@ export default function HowtoBuy() {
                                                             className=" bg-card2-bg bg-cover w-full  h-auto  relative 2xl:w-[50%] ">
                                                             <Image src="/assets/buy/egg.png" className=" w-[70px] bottom-0 right-14 md:right-[6.5rem] h-[90px] absolute" alt=" img" height={100} width={100}></Image>
                                                             <div className="px-5 md:px-7 py-3 md:py-5">
-                                                                  <h2 className=" py-2 text-center text-xl md:text-3xl font-dragonslapper text-text-white2">Specify Amount</h2>
-                                                                  <p className=" relative md:text-center leading-normal text-base md:text-xl xl:text-base text-text-white2">After creating your account, proceed to the next screen and indicate the payment amount in USD.</p>
+                                                                  <h2 className=" py-2 text-center text-xl md:text-3xl font-dragonslapper text-white">Specify Amount</h2>
+                                                                  <p className=" relative md:text-center leading-normal text-base md:text-xl xl:text-base text-white">After creating your account, proceed to the next screen and indicate the payment amount in USD.</p>
                                                             </div>
 
                                                       </motion.div>
@@ -110,10 +110,10 @@ export default function HowtoBuy() {
                                                             className=" bg-card3-bg bg-cover w-full xl:w-[600px] 2xl:w-full h-full  relative  ">
                                                             <Image src="/assets/buy/brokenegg.png" className=" w-[140px] bottom-0 right-[0.5rem] md:right-[5.5rem] h-[100px] absolute" alt=" img" height={100} width={100}></Image>
                                                             <div className="px-5 md:px-7 py-3 md:py-5">
-                                                                  <h2 className=" py-2 text-center text-xl md:text-3xl font-dragonslapper text-text-white2">Payment with Cryptocurrency</h2>
-                                                                  <p className=" leading-normal text-base md:text-xl xl:text-base font-bold text-text-white2">Follow these instructions to finalize your purchase using cryptocurrency:
+                                                                  <h2 className=" py-2 text-center text-xl md:text-3xl font-dragonslapper text-white">Payment with Cryptocurrency</h2>
+                                                                  <p className=" leading-normal text-base md:text-xl xl:text-base font-bold text-white">Follow these instructions to finalize your purchase using cryptocurrency:
                                                                   </p>
-                                                                  <div className=" text-text-white2 text-sm md:text-xl xl:text-base w-[90%] md:w-full">
+                                                                  <div className=" text-white text-sm md:text-xl xl:text-base w-[90%] md:w-full">
                                                                         <li>Choose your preferred cryptocurrency from the dropdown menu.</li>
                                                                         <li>Click on ‘PAY NOW’ to proceed with your transaction.</li>
                                                                         <li className=" w-full md:w-[450px]">On the final screen, you can either copy the payment wallet address
@@ -123,7 +123,7 @@ export default function HowtoBuy() {
                                                                         <li className=" w-full md:w-[450px]">Your account will be automatically updated after the
                                                                               required number of blockchain confirmations.</li>
                                                                   </div>
-                                                                  <p className=" text-white text-lg md:text-sm w-full relative md:w-[300px]">Congratulations! Your purchase is now successfully completed</p>
+                                                                  <p className=" text-white text-lg md:text-lg xl:text-base w-full relative md:w-[300px]">Congratulations! Your purchase is now successfully completed</p>
                                                             </div>
 
                                                       </motion.div>
@@ -135,12 +135,12 @@ export default function HowtoBuy() {
 
 
                                           {/* DBRZ contract */}
-                                          <div className="max-w-[1400px] mx-0 xl:mx-auto brightness-100 space-y-10 pt-80">
+                                          <div className="max-w-[1400px] mx-0 xl:mx-auto brightness-100 space-y-10 pt-20 xl:pt-80">
 
 
                                                 <div className=" space-y-3">
-                                                      <h2 className=" text-2xl font-bold text-text-white2">$DBRZ Contract</h2>
-                                                      <p className=" text-xl font-medium text-text-white2">Utilize the contract details provided below to include $DBRZ in
+                                                      <h2 className=" text-2xl font-bold text-white">$DBRZ Contract</h2>
+                                                      <p className=" text-xl font-medium text-white">Utilize the contract details provided below to include $DBRZ in
                                                             your wallet.</p>
                                                 </div>
 
@@ -153,11 +153,11 @@ export default function HowtoBuy() {
                                                                   whileInView="onscreen"
                                                                   viewport={{ once: true, amount: 0.1 }}
                                                                   className=" space-y-5">
-                                                                  <label htmlFor="Contract Address" className=" text-xl text-text-white2">Contract Address</label>
+                                                                  <label htmlFor="Contract Address" className=" text-xl text-white">Contract Address</label>
                                                                   <Input size='lg' isRequired type="email" defaultValue="" className=" border border-text-orange rounded-[18px] h-14  w-full "
                                                                         classNames={{
                                                                               inputWrapper: ' !bg-transparent group-data-[focus=true]:bg-transparent w-full h-14',
-                                                                              input: 'group-data-[has-value=true]:text-text-white2 !text-xl  '
+                                                                              input: 'group-data-[has-value=true]:text-white !text-xl  '
                                                                         }
                                                                         } />
 
@@ -169,11 +169,11 @@ export default function HowtoBuy() {
                                                                   whileInView="onscreen"
                                                                   viewport={{ once: true, amount: 0.1 }}
                                                                   className=" space-y-5" >
-                                                                  <label htmlFor="Token Type" className=" text-xl text-text-white2">Token Type</label>
+                                                                  <label htmlFor="Token Type" className=" text-xl text-white">Token Type</label>
                                                                   <Input size='lg' isRequired type="email" defaultValue="" className=" border border-text-orange rounded-[18px] h-14  w-full "
                                                                         classNames={{
                                                                               inputWrapper: ' !bg-transparent group-data-[focus=true]:bg-transparent w-full h-14',
-                                                                              input: 'group-data-[has-value=true]:text-text-white2 !text-xl  '
+                                                                              input: 'group-data-[has-value=true]:text-white !text-xl  '
                                                                         }
                                                                         } />
 
@@ -185,11 +185,11 @@ export default function HowtoBuy() {
                                                                   whileInView="onscreen"
                                                                   viewport={{ once: true, amount: 0.1 }}
                                                                   className=" space-y-5">
-                                                                  <label htmlFor="Token Name" className=" text-xl text-text-white2">Token Name</label>
+                                                                  <label htmlFor="Token Name" className=" text-xl text-white">Token Name</label>
                                                                   <Input size='lg' isRequired type="email" defaultValue="" className=" border border-text-orange rounded-[18px] h-14  w-full "
                                                                         classNames={{
                                                                               inputWrapper: ' !bg-transparent group-data-[focus=true]:bg-transparent w-full h-14',
-                                                                              input: 'group-data-[has-value=true]:text-text-white2 !text-xl  '
+                                                                              input: 'group-data-[has-value=true]:text-white !text-xl  '
                                                                         }
                                                                         } />
 
@@ -201,11 +201,11 @@ export default function HowtoBuy() {
                                                                   whileInView="onscreen"
                                                                   viewport={{ once: true, amount: 0.1 }}
                                                                   className=" space-y-5">
-                                                                  <label htmlFor="Token symbol" className=" text-xl text-text-white2">Token Symbol</label>
+                                                                  <label htmlFor="Token symbol" className=" text-xl text-white">Token Symbol</label>
                                                                   <Input size='lg' isRequired type="email" defaultValue="" className=" border border-text-orange rounded-[18px] h-14  w-full "
                                                                         classNames={{
                                                                               inputWrapper: ' !bg-transparent group-data-[focus=true]:bg-transparent w-full h-14',
-                                                                              input: 'group-data-[has-value=true]:text-text-white2 !text-xl  '
+                                                                              input: 'group-data-[has-value=true]:text-white !text-xl  '
                                                                         }
                                                                         } />
 
@@ -217,11 +217,11 @@ export default function HowtoBuy() {
                                                                   whileInView="onscreen"
                                                                   viewport={{ once: true, amount: 0.1 }}
                                                                   className=" space-y-5">
-                                                                  <label htmlFor="Decimal" className=" text-xl text-text-white2">Decimal</label>
+                                                                  <label htmlFor="Decimal" className=" text-xl text-white">Decimal</label>
                                                                   <Input size='lg' isRequired type="email" defaultValue="" className=" border border-text-orange rounded-[18px] h-14  w-full "
                                                                         classNames={{
                                                                               inputWrapper: ' !bg-transparent group-data-[focus=true]:bg-transparent w-full h-14',
-                                                                              input: 'group-data-[has-value=true]:text-text-white2 !text-xl  '
+                                                                              input: 'group-data-[has-value=true]:text-white !text-xl  '
                                                                         }
                                                                         } />
 
@@ -234,7 +234,7 @@ export default function HowtoBuy() {
                                                             viewport={{ once: true, amount: 0.1 }}
                                                             className=" md:flex justify-center py-10  ">
                                                             <div className=" flex justify-center py-5">
-                                                                  <Link><Button className=" px-6 md:!px-8 py-6 md:!py-8 bg-text-orange rounded  text-xl md:text-3xl text-nav-black uppercase font-dragonslapper hover:scale-110 ">buy now</Button></Link>
+                                                                  <Link><Button className=" px-6 md:!px-8 py-6 md:!py-8 bg-text-orange rounded  text-xl md:text-3xl text-nav-black uppercase font-dragonslapper  ">buy now</Button></Link>
                                                             </div>
                                                       </motion.div>
 

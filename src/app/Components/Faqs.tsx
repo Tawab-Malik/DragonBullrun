@@ -43,7 +43,7 @@ const FaqItem = ({ question, answer }: any) => {
       className="px-7 py-3 border-2 border-text-orange rounded-[18px] brightness-100"
     >
       <button
-        className="flex brightness-100 justify-between items-center w-full   text-left text-base md:text-2xl  font-bold text-text-orange"
+        className="flex brightness-100 justify-between items-center w-full   text-left text-base md:text-2xl  font-bold text-tree-poppy"
         onClick={() => setIsOpen(!isOpen)}
       >
         {question}
@@ -54,7 +54,7 @@ const FaqItem = ({ question, answer }: any) => {
           isOpen ? 'max-h-screen' : 'max-h-0'
         }`}
       >
-        <p className="mt-2 text-base text-text-white2 ">{answer}</p>
+        <p className="mt-2 text-base text-white ">{answer}</p>
       </div>
     </motion.div>
   );
@@ -72,7 +72,7 @@ const FaqItem2 = ({ question2, answer2 }: any) => {
       className="px-7 py-3 border-2 border-text-orange rounded-[18px] brightness-100"
     >
       <button
-        className="flex brightness-100  justify-between w-full items-center   text-left text-base md:text-2xl  font-bold text-text-orange"
+        className="flex brightness-100  justify-between w-full items-center   text-left text-base md:text-2xl  font-bold text-tree-poppy"
         onClick={() => setIsOpen(!isOpen)}
       >
         {question2}
@@ -83,7 +83,7 @@ const FaqItem2 = ({ question2, answer2 }: any) => {
           isOpen ? 'max-h-screen' : 'max-h-0'
         }`}
       >
-        <p className="mt-2 text-base text-text-white2 ">{answer2}</p>
+        <p className="mt-2 text-base text-white ">{answer2}</p>
       </div>
     </motion.div>
   );
@@ -92,15 +92,15 @@ const FaqItem2 = ({ question2, answer2 }: any) => {
 const Faqs = () => {
   return (
     <>
-      <section className="relative bg-faqs-bg bg-center bg-cover bg-fixed overflow-hidden">
+      <section className="relative bg-faqs-bg bg-center bg-cover  overflow-hidden">
         
         <div className="max-w-7xl mx-5 xl:mx-auto brightness-100 space-y-20 py-24 xl:py-32">
           {/* Mini heading */}
           <div className="space-y-7">
-            <h2 className="text-text-orange text-start xl:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">
+            <h2 className="text-tree-poppy text-start xl:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">
               FAQs
             </h2>
-            <p className="text-base xl:text-3xl font-bold text-text-white2 text-start xl:text-center">
+            <p className="text-xl md:text-2xl xl:text-3xl font-bold text-white text-start xl:text-center">
               Frequently asked questions and answers.
             </p>
           </div>

@@ -18,10 +18,10 @@ export default function RootLayout({
   const pathname = usePathname();
 
   // Define paths where the footer should be hidden
-  const hideFooterPaths = ["/how-to-buy"];
+  // const hideFooterPaths = ["/howtoBuy"];
 
   // Check if the current path is in the list of paths to hide the footer
-  const showFooter = !hideFooterPaths.includes(pathname);
+  // const showFooter = !hideFooterPaths.includes(pathname);
 
   return (
     <html lang="en" className={inter.variable}>
@@ -32,7 +32,9 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
-        {showFooter && <Footer />} {/* Conditionally render the footer */}
+        <Footer/>
+        {/* {showFooter && <Footer />} */}
+         {/* Conditionally render the footer */}
       </body>
     </html>
   );

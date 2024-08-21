@@ -26,8 +26,8 @@ export default function Benefits() {
 
                 <div className=" max-w-8xl mx-5 xl:mx-auto">
                     <div className=" space-y-5  ">
-                        <h2 className=" text-3xl md:text-5xl xl:text-[70px] font-dragonslapper text-center text-text-orange">BEnefits</h2>
-                        <p className=" text-text-white2 text-base md:text-2xl font-medium text-center">Run from the dragon to earn income and rewards.</p>
+                        <h2 className=" text-3xl md:text-5xl xl:text-[70px] font-dragonslapper text-center text-tree-poppy">BEnefits</h2>
+                        <p className=" text-white text-base md:text-2xl font-medium text-center">Run from the dragon to earn income and rewards.</p>
                     </div>
 
 
@@ -87,17 +87,17 @@ export default function Benefits() {
                     {/* featured  */}
                     <div className=" space-y-5 brightness-100">
                         <div className=" pt-10 pb-5">
-                            <h2 className=" text-text-white2 font-dragonslapper brightness-100 text-2xl xl:text-5xl text-center">AS FEATURED IN:</h2>
+                            <h2 className=" text-white font-dragonslapper brightness-100 text-2xl xl:text-5xl text-center">AS FEATURED IN:</h2>
                         </div>
                         {/* scroll animation */}
-                        <div className=" [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)] max-w-7xl mx-auto" >
+                        <div className=" [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-50px),transparent_100%)] max-w-[1320px] mx-auto" >
                             <div className="overflow-hidden whitespace-nowrap brightness-100 opacity-100 ">
-                                <div className="flex animate-scroll   gap-10 xl:gap-28 items-center brightness-100">
+                                <div className="flex animate-scroll   gap-x-10 xl:gap-x-16 items-center brightness-100">
                                     <div className=" flex-shrink-0 brightness-100">
-                                        <Image src="/assets/3sec/1.png" height={40} width={150} alt="Image 1" className="inline-block" />
+                                        <Image src="/assets/3sec/1.png" height={40} width={150} alt="Image 1" className="inline-block h-10 w-[150px]" />
                                     </div>
                                     <div className=" flex-shrink-0 brightness-100">
-                                        <Image src="/assets/3sec/2.png" height={60} width={210} alt="Image 2" className="inline-block" />
+                                        <Image src="/assets/3sec/2.png" height={60} width={210} alt="Image 2" className="inline-block " />
                                     </div>
                                     <div className=" flex-shrink-0 brightness-100">
                                         <Image src="/assets/3sec/3.png" height={60} width={230} alt="Image 3" className="inline-block" />
