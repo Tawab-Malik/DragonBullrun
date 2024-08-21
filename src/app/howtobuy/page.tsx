@@ -61,7 +61,7 @@ export default function HowtoBuy() {
 
                               <div className=" max-w-[1450px] mx-5 2xl:mx-auto ">
                                     <div className=" pb-20">
-                                          <h2 className=" text-3xl md:text-[50px] font-dragonslapper text-tree-poppy text-center">How to Buy</h2>
+                                          <h2 className=" text-3xl md:text-5xl font-dragonslapper text-tree-poppy text-center">How to Buy</h2>
                                     </div>
                                     {/* both div combiner */}
                                     
@@ -69,14 +69,14 @@ export default function HowtoBuy() {
 
                                           {/* for check  */}
                                           <div className=" flex flex-col 2xl:flex-row justify-center items-center gap-8 w-full h-full">
-                                                <div className=" flex gap-x-8 md:flex-row flex-col gap-y-8 w-full 2xl:w-[52%] h-full">
+                                                <div className=" flex gap-x-8 md:flex-row flex-col gap-y-8 w-full 2xl:w-[51%] h-full">
                                                       {/* 1st card */}
                                                       <motion.div
                                                             variants={cardVariants3}
                                                             initial="offscreen"
                                                             whileInView="onscreen"
                                                             viewport={{ once: true, amount: 0.1 }}
-                                                            className=" bg-card-bg bg-cover w-full  h-full  relative 2xl:w-[50%] ">
+                                                            className=" bg-card-bg bg-center bg-cover w-full  h-full  relative 2xl:w-[50%] ">
                                                             <Image src="/assets/buy/egg.png" className=" w-[70px] bottom-0 right-10 md:right-14 h-[90px] absolute" alt=" img" height={100} width={100}></Image>
                                                             <div className=" px-5 md:px-7 py-3 md:py-5 ">
                                                                   <h2 className="  py-2 text-center text-xl md:text-3xl font-dragonslapper text-white">Account Creation</h2>
@@ -91,16 +91,16 @@ export default function HowtoBuy() {
                                                             initial="offscreen"
                                                             whileInView="onscreen"
                                                             viewport={{ once: true, amount: 0.1 }}
-                                                            className=" bg-card2-bg bg-cover w-full  h-auto  relative 2xl:w-[50%] ">
+                                                            className=" bg-card2-bg  bg-cover w-full  h-auto  relative 2xl:w-[50%] ">
                                                             <Image src="/assets/buy/egg.png" className=" w-[70px] bottom-0 right-14 md:right-[6.5rem] h-[90px] absolute" alt=" img" height={100} width={100}></Image>
-                                                            <div className="px-5 md:px-7 py-3 md:py-5">
+                                                            <div className="px-5 md:px-7 py-3 md:py-5 xl:px-8">
                                                                   <h2 className=" py-2 text-center text-xl md:text-3xl font-dragonslapper text-white">Specify Amount</h2>
                                                                   <p className=" relative md:text-center leading-normal text-base md:text-xl xl:text-base text-white">After creating your account, proceed to the next screen and indicate the payment amount in USD.</p>
                                                             </div>
 
                                                       </motion.div>
                                                 </div>
-                                                <div className=" w-full xl:w-[50%] 2xl:w-[45%]">
+                                                <div className=" w-full xl:w-[50%] 2xl:w-[40%]">
                                                       {/* 3rd card */}
                                                       <motion.div
                                                             variants={cardVariants3}
@@ -113,7 +113,7 @@ export default function HowtoBuy() {
                                                                   <h2 className=" py-2 text-center text-xl md:text-3xl font-dragonslapper text-white">Payment with Cryptocurrency</h2>
                                                                   <p className=" leading-normal text-base md:text-xl xl:text-base font-bold text-white">Follow these instructions to finalize your purchase using cryptocurrency:
                                                                   </p>
-                                                                  <div className=" text-white text-sm md:text-xl xl:text-base w-[90%] md:w-full">
+                                                                  <div className=" text-white text-sm md:text-xl xl:text-sm w-[90%] md:w-full">
                                                                         <li>Choose your preferred cryptocurrency from the dropdown menu.</li>
                                                                         <li>Click on ‘PAY NOW’ to proceed with your transaction.</li>
                                                                         <li className=" w-full md:w-[450px]">On the final screen, you can either copy the payment wallet address

@@ -79,7 +79,7 @@ const FaqItem2 = ({ question2, answer2 }: any) => {
         {isOpen ? <FaChevronUp className=' size-4' /> : <FaChevronDown className=' size-4' />}
       </button>
       <div
-        className={`transition-max-height duration-500 ease-in-out overflow-hidden ${
+        className={`transition-max-height duration-700 ease-in-out overflow-hidden ${
           isOpen ? 'max-h-screen' : 'max-h-0'
         }`}
       >
