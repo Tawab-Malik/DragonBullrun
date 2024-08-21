@@ -59,7 +59,7 @@ export default function Presale() {
 
                                           </div>
                                           {copySuccess && (
-                                                <div className="mt-2 w-28 md:w-36 text-center p-2 text-white bg-text-orange font-inter text-xs md:text-base absolute top-[120px] xl:top-14 lg:-top-10 right-0 xl:left-[93%] rounded-md">{copySuccess}</div>
+                                                <div className="mt-2 w-28 md:w-36 text-center p-2 text-white bg-tree-poppy font-inter text-xs md:text-base absolute top-[120px] xl:top-14 lg:-top-10 right-0 xl:left-[93%] rounded-md">{copySuccess}</div>
                                           )}
 
 
@@ -94,7 +94,7 @@ export default function Presale() {
                                                 <h3 className=" text-lg md:text-2xl xl:text-3xl text-white font-normal">USDT Raised: 3,641,817.38 </h3>
                                           </div>
                                           <div className=" flex justify-center py-5">
-                                                <Link><Button className=" px-7  md:!px-9 py-6 md:!py-8 bg-text-orange rounded text-xl md:text-3xl text-nav-black uppercase font-dragonslapper  ">join presale</Button></Link>
+                                                <Link><Button className=" px-7  md:!px-9 py-6 md:!py-8 bg-tree-poppy rounded text-xl md:text-3xl text-nav-black uppercase font-dragonslapper  ">join presale</Button></Link>
                                           </div>
 
 

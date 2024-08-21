@@ -154,7 +154,7 @@ export default function HowtoBuy() {
                                                                   viewport={{ once: true, amount: 0.1 }}
                                                                   className=" space-y-5">
                                                                   <label htmlFor="Contract Address" className=" text-xl text-white">Contract Address</label>
-                                                                  <Input size='lg' isRequired type="email" defaultValue="" className=" border border-text-orange rounded-[18px] h-14  w-full "
+                                                                  <Input size='lg' isRequired type="email" defaultValue="" className=" border border-tree-poppy rounded-[18px] h-14  w-full "
                                                                         classNames={{
                                                                               inputWrapper: ' !bg-transparent group-data-[focus=true]:bg-transparent w-full h-14',
                                                                               input: 'group-data-[has-value=true]:text-white !text-xl  '
@@ -170,7 +170,7 @@ export default function HowtoBuy() {
                                                                   viewport={{ once: true, amount: 0.1 }}
                                                                   className=" space-y-5" >
                                                                   <label htmlFor="Token Type" className=" text-xl text-white">Token Type</label>
-                                                                  <Input size='lg' isRequired type="email" defaultValue="" className=" border border-text-orange rounded-[18px] h-14  w-full "
+                                                                  <Input size='lg' isRequired type="email" defaultValue="" className=" border border-tree-poppy rounded-[18px] h-14  w-full "
                                                                         classNames={{
                                                                               inputWrapper: ' !bg-transparent group-data-[focus=true]:bg-transparent w-full h-14',
                                                                               input: 'group-data-[has-value=true]:text-white !text-xl  '
@@ -186,7 +186,7 @@ export default function HowtoBuy() {
                                                                   viewport={{ once: true, amount: 0.1 }}
                                                                   className=" space-y-5">
                                                                   <label htmlFor="Token Name" className=" text-xl text-white">Token Name</label>
-                                                                  <Input size='lg' isRequired type="email" defaultValue="" className=" border border-text-orange rounded-[18px] h-14  w-full "
+                                                                  <Input size='lg' isRequired type="email" defaultValue="" className=" border border-tree-poppy rounded-[18px] h-14  w-full "
                                                                         classNames={{
                                                                               inputWrapper: ' !bg-transparent group-data-[focus=true]:bg-transparent w-full h-14',
                                                                               input: 'group-data-[has-value=true]:text-white !text-xl  '
@@ -202,7 +202,7 @@ export default function HowtoBuy() {
                                                                   viewport={{ once: true, amount: 0.1 }}
                                                                   className=" space-y-5">
                                                                   <label htmlFor="Token symbol" className=" text-xl text-white">Token Symbol</label>
-                                                                  <Input size='lg' isRequired type="email" defaultValue="" className=" border border-text-orange rounded-[18px] h-14  w-full "
+                                                                  <Input size='lg' isRequired type="email" defaultValue="" className=" border border-tree-poppy rounded-[18px] h-14  w-full "
                                                                         classNames={{
                                                                               inputWrapper: ' !bg-transparent group-data-[focus=true]:bg-transparent w-full h-14',
                                                                               input: 'group-data-[has-value=true]:text-white !text-xl  '
@@ -218,7 +218,7 @@ export default function HowtoBuy() {
                                                                   viewport={{ once: true, amount: 0.1 }}
                                                                   className=" space-y-5">
                                                                   <label htmlFor="Decimal" className=" text-xl text-white">Decimal</label>
-                                                                  <Input size='lg' isRequired type="email" defaultValue="" className=" border border-text-orange rounded-[18px] h-14  w-full "
+                                                                  <Input size='lg' isRequired type="email" defaultValue="" className=" border border-tree-poppy rounded-[18px] h-14  w-full "
                                                                         classNames={{
                                                                               inputWrapper: ' !bg-transparent group-data-[focus=true]:bg-transparent w-full h-14',
                                                                               input: 'group-data-[has-value=true]:text-white !text-xl  '
@@ -234,7 +234,7 @@ export default function HowtoBuy() {
                                                             viewport={{ once: true, amount: 0.1 }}
                                                             className=" md:flex justify-center py-10  ">
                                                             <div className=" flex justify-center py-5">
-                                                                  <Link><Button className=" px-6 md:!px-8 py-6 md:!py-8 bg-text-orange rounded  text-xl md:text-3xl text-nav-black uppercase font-dragonslapper  ">buy now</Button></Link>
+                                                                  <Link><Button className=" px-6 md:!px-8 py-6 md:!py-8 bg-tree-poppy rounded  text-xl md:text-3xl text-nav-black uppercase font-dragonslapper  ">buy now</Button></Link>
                                                             </div>
                                                       </motion.div>
 

@@ -32,17 +32,17 @@ export default function Benefits() {
 
 
                     {/* main div card */}
-                    <div className=" grid-cols-1 gap-x-10 xl:gap-0 lg:grid-cols-2 place-items-center grid 2xl:grid-cols-3 pt-12 xl:py-12">
+                    <div className=" grid-cols-1 gap-x-10 md:gap-x-0 lg:grid-cols-2 place-items-center grid 2xl:grid-cols-3 pt-12 xl:py-12">
                         {/* card1 */}
                         <motion.div
                              variants={cardVariants}
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className=" bg-cover  relative h-[200px] w-[300px] md:h-[400px] md:w-[570px] bg-sec3-cart-img px-10 md:px-20 py-8 md:py-20 space-y-1 md:space-y-3 ">
+                            className=" bg-center bg-cover  relative  w-full h-full bg-sec3-cart-img px-10 md:px-16  lg:px-8 xl:px-28 2xl:px-8 py-12 md:py-32 lg:py-12 xl:py-20 2xl:py-16 space-y-1 md:space-y-4 ">
 
                             <h2 className=" text-center z-10 relative font-dragonslapper text-2xl md:text-6xl text-black">Play</h2>
-                            <p className="text-text-black  text-xs md:text-xl text-center relative z-10">Dive into a mesmerizing realm where ancient legends spring to life. Assume the persona of a bold adventurer as you enter the dragon’s lair, prepared to confront challenges and conquer obstacles on your quest for glory. </p>
+                            <p className="text-text-black  text-xs md:text-xl text-center relative z-10 md:px-9">Dive into a mesmerizing realm where ancient legends spring to life. Assume the persona of a bold adventurer as you enter the dragon’s lair, prepared to confront challenges and conquer obstacles on your quest for glory. </p>
                         </motion.div>
                         {/* card2 */}
                         <motion.div
@@ -50,10 +50,10 @@ export default function Benefits() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className=" bg-cover  relative h-[200px] w-[300px] md:h-[400px] md:w-[570px] bg-sec3-cart-img px-10 md:px-20 py-8 md:py-20 space-y-1 md:space-y-3  ">
+                            className="   bg-center bg-cover  relative  w-full h-full bg-sec3-cart-img px-10 md:px-16  lg:px-8 xl:px-28 2xl:px-8 py-12 md:py-32 lg:py-12 xl:py-20 2xl:py-16 space-y-1 md:space-y-4">
 
                             <h2 className=" text-center z-10 relative font-dragonslapper text-2xl md:text-6xl text-black">Run</h2>
-                            <p className="text-text-black  text-xs md:text-xl text-center relative z-10">Experience the rush of adrenaline surging through your veins as you traverse perilous landscapes, evade fiery obstacles, and out manoeuvres cunning foes. The journey to triumph is filled with hazards, yet bravery is rewarded by fortune.</p>
+                            <p className="text-text-black  text-xs md:text-xl text-center relative z-10 md:px-9">Experience the rush of adrenaline surging through your veins as you traverse perilous landscapes, evade fiery obstacles, and out manoeuvres cunning foes. The journey to triumph is filled with hazards, yet bravery is rewarded by fortune.</p>
                         </motion.div>
                         {/* card3 */}
                         <motion.div
@@ -61,10 +61,11 @@ export default function Benefits() {
                             initial="offscreen"
                             whileInView="onscreen"
                             viewport={{ once: true, amount: 0.1 }}
-                            className=" 2xl:block hidden bg-cover  relative h-[200px] w-[300px] md:h-[400px] md:w-[570px] bg-sec3-cart-img px-10 md:px-24 py-8 md:py-20 space-y-1 md:space-y-3   ">
+                            className=" 2xl:block hidden bg-center bg-cover  relative  md:h-[400px] md:w-[570px] xl:w-full xl:h-full bg-sec3-cart-img px-10 md:px-24 py-12 md:py-16 space-y-1 md:space-y-4   ">
 
-                            <h2 className=" text-center z-10 relative font-dragonslapper text-2xl md:text-6xl text-black">Earn</h2>
-                            <p className=" text-text-black  text-xs md:text-xl text-center relative z-10">Grasp the chance to claim your well-deserved rewards! Gather the precious dragon eggs strewn across the land and unveil valuable treasures concealed within. </p>
+                            <h2 className=" text-center  z-10 relative font-dragonslapper text-2xl md:text-6xl text-black">Earn</h2>
+                            <p className=" text-text-black  text-xs md:text-xl text-center relative z-10 px-5
+                            xl:px-0 ">Grasp the chance to claim your well-deserved rewards! Gather the precious dragon eggs strewn across the land and unveil valuable treasures concealed within. </p>
                         </motion.div>
                     </div>
                     {/* single card  */}
@@ -75,10 +76,11 @@ export default function Benefits() {
                         whileInView="onscreen"
                         viewport={{ once: true, amount: 0.1 }}
                         className=" flex justify-center 2xl:hidden">
-                        <div className=" bg-cover  relative h-[200px] w-[300px] md:h-[400px] md:w-[570px] bg-sec3-cart-img px-10 md:px-20 py-8 md:py-20 space-y-1 md:space-y-3   ">
+                        <div className="  bg-center bg-cover  relative  w-full h-full lg:w-[500px] xl:w-[700px] bg-sec3-cart-img px-10 md:px-28 lg:px-8 xl:!px-32 py-12 md:py-32 lg:py-12 xl:py-28 space-y-1 md:space-y-4  ">
 
                             <h2 className=" text-center z-10 relative font-dragonslapper text-2xl md:text-6xl text-black">Earn</h2>
-                            <p className=" text-text-black  text-xs md:text-xl text-center relative z-10">Grasp the chance to claim your well-deserved rewards! Gather the precious dragon eggs strewn across the land and unveil valuable treasures concealed within. </p>
+                            <p className=" text-text-black  text-xs md:text-xl text-center relative z-10 px-5
+                            xl:px-0 ">Grasp the chance to claim your well-deserved rewards! Gather the precious dragon eggs strewn across the land and unveil valuable treasures concealed within. </p>
                         </div>
                     </motion.div>
 
@@ -87,7 +89,7 @@ export default function Benefits() {
                     {/* featured  */}
                     <div className=" space-y-5 brightness-100">
                         <div className=" pt-10 pb-5">
-                            <h2 className=" text-white font-dragonslapper brightness-100 text-2xl xl:text-5xl text-center">AS FEATURED IN:</h2>
+                            <h2 className=" text-white font-dragonslapper brightness-100 text-2xl xl:text-5xl text-center">FEATURED IN:</h2>
                         </div>
                         {/* scroll animation */}
                         <div className=" [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-50px),transparent_100%)] max-w-[1320px] mx-auto" >

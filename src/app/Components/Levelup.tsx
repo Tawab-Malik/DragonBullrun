@@ -25,7 +25,7 @@ export default function Herosection() {
                             with Dragon Bull Run</h1>
                         <p className=" text-white text-base md:text-2xl font-inter mt-12 font-medium xl:text-start text-start md:text-center ">Dragon Bull Run is a free run to earn game on the
                              Ethereum blockchain, where adventure awaits at every turn!</p>
-                        <Button href="/#buynow" className="  !mt-9 !py-5 !px-8 bg-text-orange uppercase rounded  text-black font-dragonslapper text-lg font-normal">
+                        <Button href="/#buynow" className="  !mt-9 !py-5 !px-8 bg-tree-poppy uppercase rounded  text-black font-dragonslapper text-lg font-normal">
                             Buy Tokens
                         </Button>
                         <ul className=" flex gap-x-6 mt-9">
@@ -40,29 +40,29 @@ export default function Herosection() {
                     <div className=" w-full flex justify-center " >
                         {/* cart div */}
                         <div
-                            className="box border border-text-orange rounded-2xl p-5 xl:p-10 space-y-3 w-full md:w-[410px] h-auto   bg-[#020202B3]  ">
+                            className="box border border-tree-poppy rounded-2xl p-5 xl:p-10 space-y-3 w-full md:w-[410px] h-auto   bg-[#020202B3]  ">
                             <div>
                                 <h3 className=" text-sm font-inter text-white font-semibold text-center">Current Stage</h3>
                                 <h2 className="  text-3xl font-inter text-tree-poppy font-bold text-center">Stage 1 of 8</h2>
                             </div>
 
-                            <div className="space-y-1 border rounded-[14px] border-text-orange p-3 ">
+                            <div className="space-y-1 border rounded-[14px] border-tree-poppy p-3 ">
                                 <h3 className=" font-inter text-xs font-semibold text-white">Raised (USD)</h3>
                                 <h2 className=" font-semibold text-3xl text-tree-poppy font-inter">$1,234,567.89</h2>
                             </div>
-                            <div className="space-y-1 border rounded-[14px] border-text-orange p-3 ">
+                            <div className="space-y-1 border rounded-[14px] border-tree-poppy p-3 ">
                                 <h3 className=" font-inter text-xs font-semibold text-white">Token Sold</h3>
                                 <h2 className=" font-semibold text-3xl text-tree-poppy font-inter">$1,234,567</h2>
                             </div>
-                            <div className="space-y-1 border rounded-[14px] border-text-orange p-3 ">
+                            <div className="space-y-1 border rounded-[14px] border-tree-poppy p-3 ">
                                 <h3 className=" font-inter  text-xs font-semibold text-white">Remaining</h3>
                                 <h2 className=" font-semibold text-3xl text-tree-poppy font-inter">$1,234,567.89</h2>
                                 <h3 className=" font-inter  text-xs font-semibold text-white">Next Stage 0.000124 USD</h3>
                             </div>
                             {/* Progress bar */}
                             <div className=" space-y-1">
-                                <div className=" overflow-hidden w-full h-[30px] border rounded-2xl bg-silver-color border-text-orange ">
-                                    <div className=" animate-slide  h-[30px] rounded-2xl bg-text-orange w-[80%]"></div>
+                                <div className=" overflow-hidden w-full h-[30px] border rounded-2xl bg-silver-color border-tree-poppy ">
+                                    <div className=" animate-slide  h-[30px] rounded-2xl bg-tree-poppy w-[80%]"></div>
                                 </div>
                                 <div className=" flex justify-between items-center">
                                     <h3 className=" font-inter  text-xs  font-semibold text-white">0.000123 USD = 1$DBRX</h3>
@@ -78,7 +78,7 @@ export default function Herosection() {
                                 <Image src="/assets/coins/usdc.png" alt="img" className=" h-6 w-6" height={50} width={50}></Image>
                                 <Image src="/assets/coins/13.webp" alt="img" className=" h-6 w-6" height={50} width={50}></Image>
                             </div>
-                            <Button className=" py-5 bg-text-orange rounded font-dragonslapper text-2xl font-normal w-full  ">Buy $DBRZ</Button>
+                            <Button className=" py-5 bg-tree-poppy rounded font-dragonslapper text-2xl font-normal w-full  ">Buy $DBRZ</Button>
                         </div>
 
 

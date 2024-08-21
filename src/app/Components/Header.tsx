@@ -57,7 +57,7 @@ export default function Header() {
                     <Button as={Link} color="warning" href="#" className="   uppercase !py-5 !px-14 text-base font-normal text-white bg-transparent hover:text-tree-poppy hover:!opacity-100 hover:border-tree-poppy duration-300 border-white border rounded  ">
                         Login
                     </Button>
-                    <Button as={Link} href="/#buynow" className="  uppercase !py-5 !px-8 bg-text-orange rounded text-black text-base font-normal">
+                    <Button as={Link} href="/#buynow" className="  uppercase !py-5 !px-8 bg-tree-poppy rounded text-black text-base font-normal">
                         Buy Tokens
                     </Button>
                 </div>
@@ -80,10 +80,10 @@ export default function Header() {
                     </NavbarMenuItem>
                 ))}
                 <div className=" gap-5 flex">
-                    <Button as={Link} color="warning" href="#" className=" font-dragonslapper hover:scale-110 uppercase !py-5 !px-14 text-base font-normal text-white bg-transparent border-white border rounded  ">
+                    <Button as={Link} color="warning" href="#" className=" font-dragonslapper hover:text-tree-poppy uppercase !py-5 !px-14 text-base font-normal text-white bg-transparent border-white border rounded  ">
                         Login
                     </Button>
-                    <Button as={Link} href="/#buynow" className=" font-dragonslapper hover:scale-110 uppercase !py-5 !px-8 bg-text-orange rounded text-white text-base font-normal">
+                    <Button as={Link} href="/#buynow" className=" font-dragonslapper  uppercase !py-5 !px-8 bg-tree-poppy rounded text-white text-base font-normal">
                         Buy Tokens
                     </Button>
                 </div>

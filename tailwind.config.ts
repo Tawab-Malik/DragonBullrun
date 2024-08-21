@@ -41,18 +41,19 @@ module.exports = {
       },
       colors: {
         // 'white': '#FCF9F9',
-        'text-orange': '#F89225',
+        
         'text-white2': '#FDFDFD',
         'text-black': '#050505',
         'btn-black': '#000000',
         'border-color': '#F7F2F2',
         'nav-black': '#000203',
         'silver-color': '#333232',
-        'box-border': '#707070',
+        
         'progress-brown': '#210600',
         'white': {  DEFAULT: '#FDFDFD',  50: '#FFFFFF',  100: '#FFFFFF',  200: '#FFFFFF',  300: '#FFFFFF',  400: '#FFFFFF',  500: '#FDFDFD',  600: '#E1E1E1',  700: '#C5C5C5',  800: '#A9A9A9',  900: '#8D8D8D',  950: '#7F7F7F'},
   'tree-poppy': {  DEFAULT: '#F89225',  50: '#FEEBD7',  100: '#FDE1C3',  200: '#FCCD9C',  300: '#FBBA74',  400: '#F9A64D',  500: '#F89225',  600: '#DE7607',  700: '#A75905',  800: '#713C04',  900: '#3B1F02',  950: '#201101'},
-      },
+      'dove-gray': {  DEFAULT: '#707070',  50: '#CCCCCC',  100: '#C2C2C2',  200: '#ADADAD',  300: '#999999',  400: '#848484',  500: '#707070',  600: '#545454',  700: '#383838',  800: '#1C1C1C',  900: '#000000',  950: '#000000'},
+},
      
       boxShadow: {
         // 'Logo-shadow': '0 3px 6px rgba(0, 0, 0, 0)',

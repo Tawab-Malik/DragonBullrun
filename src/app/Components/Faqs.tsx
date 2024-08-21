@@ -40,7 +40,7 @@ const FaqItem = ({ question, answer }: any) => {
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.1 }}
       variants={Faqs2}
-      className="px-7 py-3 border-2 border-text-orange rounded-[18px] brightness-100"
+      className="px-7 py-3 border-2 border-tree-poppy rounded-[18px] brightness-100"
     >
       <button
         className="flex brightness-100 justify-between items-center w-full   text-left text-base md:text-2xl  font-bold text-tree-poppy"
@@ -69,7 +69,7 @@ const FaqItem2 = ({ question2, answer2 }: any) => {
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.1 }}
       variants={Faqs1}
-      className="px-7 py-3 border-2 border-text-orange rounded-[18px] brightness-100"
+      className="px-7 py-3 border-2 border-tree-poppy rounded-[18px] brightness-100"
     >
       <button
         className="flex brightness-100  justify-between w-full items-center   text-left text-base md:text-2xl  font-bold text-tree-poppy"

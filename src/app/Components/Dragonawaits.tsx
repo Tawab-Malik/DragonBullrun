@@ -31,7 +31,7 @@ export default function Dragonawaits() {
             <Button as={Link} color="warning" href="#" className="hover:text-tree-poppy hover:!opacity-100 hover:border-tree-poppy duration-300 font-dragonslapper uppercase !py-5 !px-14 text-base font-normal text-white bg-transparent border-white border rounded  ">
               Login
             </Button>
-            <Button as={Link} href="/#buynow" className="  font-dragonslapper uppercase !py-5 !px-8 bg-text-orange rounded text-black text-base font-normal">
+            <Button as={Link} href="/#buynow" className="  font-dragonslapper uppercase !py-5 !px-8 bg-tree-poppy rounded text-black text-base font-normal">
               Buy Tokens
             </Button>
           </div>
