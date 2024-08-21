@@ -27,7 +27,7 @@ export default function Thedragonrealm() {
     return ( 
         <>
             <section className=" bg-dragon-bg bg-cover bg-center overflow-hidden" id="whitepaper">
-                <div className=" max-w-8xl mx-5 xl:mx-auto  xl:space-y-36 pt-24 xl:pt-28 pb-28 xl:pb-32 ">
+                <div className=" max-w-8xl mx-5 xl:mx-auto  xl:space-y-36 pt-16 md:pt-24 xl:pt-28 pb-16 md:pb-28 xl:pb-32 ">
                     <div className=" space-y-5 md:space-y-10 pb-10 xl:pb-0">
                         <h2 className=" text-tree-poppy text-start leading-tight md:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper uppercase">THE DRAGONS REALM</h2>
                         <p className=" max-w-6xl mx-auto text-xl md:text-2xl xl:text-3xl font-bold text-white text-start md:text-center">Step into the captivating Dragon Bull Run NFT marketplace, where unique digital collectibles boast immense value.</p>

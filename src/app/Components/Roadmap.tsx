@@ -55,7 +55,7 @@ const cardVariants2: Variants = {
 export default function Roadmap() {
     return (
         <>
-            <section className="relative bg-roadmap-bg bg-center bg-cover pb-24 pt-20 overflow-hidden" id="roadmap">
+            <section className="relative bg-roadmap-bg bg-center bg-cover pb-0 md:pb-24 pt-16 md:pt-20 overflow-hidden" id="roadmap">
                 <div className="max-w-6xl mx-5 xl:mx-auto space-y-5">
                     <h2 className=" text-3xl md:text-5xl xl:text-[70px] text-tree-poppy font-dragonslapper text-start md:text-center">
                         Road Map

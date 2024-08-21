@@ -28,7 +28,7 @@ export default function MeetourTeam() {
         <>
             <section className=" bg-team-bg bg-cover bg-center relative overflow-hidden">
                 
-                <div className=" max-w-9xl mx-5 xl:mx-auto space-y-24 xl:space-y-60 py-24  xl:pb-20 xl:pt-20 brightness-100">
+                <div className=" max-w-9xl mx-5 xl:mx-auto space-y-24 xl:space-y-60 py-16 md:py-24  xl:pb-20 xl:pt-20 brightness-100">
                     <div className=" space-y-5 md:space-y-10">
                         <h2 className=" text-tree-poppy text-start md:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">Our Team</h2>
                         <p className=" text-xl md:text-2xl xl:text-5xl font-dragonslapper font-bold text-white text-start md:text-center">Meet the Dragons</p>

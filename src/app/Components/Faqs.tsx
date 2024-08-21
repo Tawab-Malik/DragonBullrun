@@ -94,7 +94,7 @@ const Faqs = () => {
     <>
       <section className="relative bg-faqs-bg bg-center bg-cover  overflow-hidden">
         
-        <div className="max-w-7xl mx-5 xl:mx-auto brightness-100 space-y-20 py-24 xl:py-32">
+        <div className="max-w-7xl mx-5 xl:mx-auto  space-y-20 py-16 md:py-24 xl:py-32">
           {/* Mini heading */}
           <div className="space-y-7">
             <h2 className="text-tree-poppy text-start xl:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">
@@ -105,7 +105,7 @@ const Faqs = () => {
             </p>
           </div>
 
-          <div className="space-y-7 brightness-100">
+          <div className="space-y-7 ">
             <FaqItem
               question="What is dragon bull run?"
               answer="Dragon Bull Run offers a thrilling free-to-play experience on the Ethereum blockchain, where adventure awaits at every twist and turn! Dive into an exhilarating journey through the enchanted realm of the dragon’s lair, where the excitement of pursuit intertwines with the joy of earning tangible rewards."
