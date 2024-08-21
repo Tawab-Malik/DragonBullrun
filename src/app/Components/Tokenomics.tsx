@@ -34,7 +34,7 @@ export default function Tokenomics() {
                     </div>
 
                     {/* token divs */}
-                    <div className=" space-y-28">
+                    <div className=" space-y-10 md:space-y-28">
                         {/* 1st div  */}
                         <motion.div
                           variants={cardVariants3}

@@ -29,18 +29,33 @@ const cardVariants4: Variants = {
 export default function Presale() {
       const [copySuccess, setCopySuccess] = useState('');
 
-      const copyToClipboard = (text: any) => {
-            navigator.clipboard.writeText(text).then(() => {
-                  setCopySuccess('Address Copied!');
-                  setTimeout(() => setCopySuccess(''), 1000); // Clear message after 1 seconds
-            }, (err) => {
-                  setCopySuccess('Failed to copy!');
-            });
-      };
+      const copyToClipboard = (text: string) => {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).then(() => {
+                    setCopySuccess('Address Copied!');
+                    setTimeout(() => setCopySuccess(''), 1000);
+                }).catch((err) => {
+                    setCopySuccess('Failed to copy!');
+                });
+            } else {
+                const textArea = document.createElement("textarea");
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    setCopySuccess('Address Copied!');
+                } catch (err) {
+                    setCopySuccess('Failed to copy!');
+                }
+                document.body.removeChild(textArea);
+                setTimeout(() => setCopySuccess(''), 1000);
+            }
+        };
       return (
             <>
                   <section>
-                        <div className=" bg-presale-bg bg-center bg-cover relative pb-16 pt-20" >
+                        <div className=" bg-presale-bg bg-center bg-cover relative pb-16 pt-10 md:pt-20" >
                             
                               {/* main 2nd */}
                               <div className=" max-w-[1400px] mx-5 2xl:mx-auto  ">
@@ -59,7 +74,7 @@ export default function Presale() {
 
                                           </div>
                                           {copySuccess && (
-                                                <div className="mt-2 w-28 md:w-36 text-center p-2 text-white bg-tree-poppy font-inter text-xs md:text-base absolute top-[120px] xl:top-14 lg:-top-10 right-0 xl:left-[93%] rounded-md">{copySuccess}</div>
+                                                <div className="mt-2 w-28 md:w-36 text-center p-2 text-white bg-tree-poppy font-inter text-xs md:text-base absolute top-64 md:top-32 xl:top-14 lg:-top-10 right-0 xl:left-[93%] rounded-md">{copySuccess}</div>
                                           )}
 
 
@@ -87,7 +102,7 @@ export default function Presale() {
                                                 </div>
 
 
-                                                <Image src="/assets/buy/treasure.png" className=" size-24 md:h-44 md:w-60" alt="img" height={2000} width={2000}></Image>
+                                                <Image src="/assets/buy/treasure.png" className=" h-16 w-24 md:h-44 md:w-60" alt="img" height={2000} width={2000}></Image>
                                           </div>
                                           <div className="flex flex-col md:flex-row justify-between items-center gap-2">
                                                 <h2 className=" text-lg md:text-2xl xl:text-3xl text-white font-bold">0.04745536 USDT = 1 $DBRZ</h2>

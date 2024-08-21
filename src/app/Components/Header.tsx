@@ -29,7 +29,7 @@ export default function Header() {
 
             <div className="  contents text-white font-dragonslapper  " >
 
-                <Link href="/" className="hover:!opacity-100">
+                <Link href="/" className="hover:!opacity-100 order-2 xl:order-none">
                     <Image src='/assets/Logo2.png' alt="Logo" height={70} width={170} className=" w-[170px] h-[70px]" /></Link>
 
                 <div className=" gap-x-5 2xl:gap-x-16 hidden xl:flex">
@@ -63,7 +63,7 @@ export default function Header() {
                 </div>
 
             </div>
-            <NavbarContent className="xl:hidden  flex justify-end" justify="end">
+            <NavbarContent className="xl:hidden  flex justify-start order-1 xl:order-3 xl:justify-end" >
                 <NavbarMenuToggle className=" !text-tree-poppy" />
             </NavbarContent>
             <NavbarMenu className=" py-10 bg-transparent backdrop-blur-xl space-y-5 items-center overflow-hidden ">
@@ -83,7 +83,7 @@ export default function Header() {
                     <Button as={Link} color="warning" href="#" className=" font-dragonslapper hover:text-tree-poppy uppercase !py-5 !px-14 text-base font-normal text-white bg-transparent border-white border rounded  ">
                         Login
                     </Button>
-                    <Button as={Link} href="/#buynow" className=" font-dragonslapper  uppercase !py-5 !px-8 bg-tree-poppy rounded text-white text-base font-normal">
+                    <Button as={Link} href="/#buynow" className=" font-dragonslapper  uppercase !py-5 !px-8 bg-tree-poppy rounded text-black text-base font-normal">
                         Buy Tokens
                     </Button>
                 </div>

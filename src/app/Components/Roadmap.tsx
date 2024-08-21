@@ -81,7 +81,7 @@ export default function Roadmap() {
                         {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                        <div className="px-8 md:px-5 xl:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start  p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2 xl:pl-9 ">
+                        <div className="px-8 md:px-5 xl:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start  p-2 md:p-5 xl:p-7 2xl:p-5 gap-y-2 md:gap-5 space-y-2 xl:pl-9 ">
                             <h2 className="text-3xl xl:text-5xl font-dragonslapper text-tree-poppy text-center">
                                 Phase 1
                             </h2>
@@ -103,7 +103,7 @@ export default function Roadmap() {
                         {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                        <div className="px-8 md:px-5 xl:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2  ">
+                        <div className="px-8 md:px-5 xl:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-y-2 md:gap-5 space-y-2  ">
                             <h2 className="text-3xl xl:text-5xl font-dragonslapper text-tree-poppy text-center">
                                 Phase 2
                             </h2>
@@ -127,7 +127,7 @@ export default function Roadmap() {
                         {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                        <div className="px-8 md:px-5 xl:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2 xl:pl-6 ">
+                        <div className="px-8 md:px-5 xl:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-y-2 md:gap-5 space-y-2 xl:pl-6 ">
                             <h2 className="text-3xl xl:text-5xl font-dragonslapper text-tree-poppy text-center">
                                 Phase 3
                             </h2>
@@ -150,7 +150,7 @@ export default function Roadmap() {
                         {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                        <div className="px-8 md:px-5 xl:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2  ">
+                        <div className="px-8 md:px-5 xl:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-y-2 md:gap-5 space-y-2  ">
                             <h2 className="text-3xl xl:text-5xl font-dragonslapper text-tree-poppy text-center">
                                 Phase 4
                             </h2>
@@ -176,7 +176,7 @@ export default function Roadmap() {
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                            <div className="px-8 md:px-6 xl:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2  ">
+                            <div className="px-8 md:px-6 xl:px-0 flex flex-col w-[60%] xl:w-[240px] justify-center xl:justify-start p-2 md:p-5 xl:p-7 2xl:p-5 gap-y-2 md:gap-5 space-y-2  ">
                                 <h2 className="text-3xl xl:text-5xl font-dragonslapper text-tree-poppy text-center">
                                     Phase 5
                                 </h2>
@@ -202,7 +202,7 @@ export default function Roadmap() {
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                            <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center p-2 md:p-5 xl:p-7 2xl:p-5 gap-y-10 md:gap-y-5 space-y-2  ">
+                            <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center p-2 md:p-5 xl:p-7 2xl:p-5 gap-y-2 md:gap-y-5 space-y-2  ">
                                 <h2 className="text-3xl xl:text-5xl font-dragonslapper text-tree-poppy text-center">
                                     Phase 6
                                 </h2>
@@ -222,12 +222,12 @@ export default function Roadmap() {
                         viewport={{ once: true, amount: 0.1 }}
                         className="xl:pb-24  md:hidden xl:block 2xl:hidden w-full py-3 h-full relative   md:col-span-1 xl:col-start-2 xl:col-span-1 2xl:col-start-auto  rounded-3xl bg-nav-black  ">
                         <div className=" flex justify-end  py-3   ">
-                            <Image src="/assets/roadmap/egg7.svg" alt="img" width={180} height={330} className="w-[180px] -left-4 absolute h-[300px] bottom-3 xl:h-[330px] "
+                            <Image src="/assets/roadmap/egg7.svg" alt="img" width={180} height={330} className="w-[180px] -left-4 absolute h-[300px] -bottom-4  md:bottom-3 xl:h-[330px] "
                             />
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                            <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2   ">
+                            <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center p-2 md:p-5 xl:p-7 2xl:p-5 gap-y-2 md:gap-5 space-y-2   ">
                                 <h2 className="text-3xl xl:text-5xl font-dragonslapper text-tree-poppy text-center">
                                     Phase 7
                                 </h2>
@@ -332,7 +332,7 @@ export default function Roadmap() {
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                            <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center p-2 md:p-5 xl:p-7 2xl:p-5 gap-10 md:gap-5 space-y-2   ">
+                            <div className=" flex flex-col w-[60%] xl:w-[240px] justify-center p-2 md:p-5 xl:p-7 2xl:p-5 gap-y-2 md:gap-5 space-y-2   ">
                                 <h2 className="text-3xl xl:text-5xl font-dragonslapper text-tree-poppy text-center">
                                     Phase 7
                                 </h2>
