@@ -32,7 +32,7 @@ export default function Header() {
                 <Link href="/" className="hover:!opacity-100">
                     <Image src='/assets/Logo2.png' alt="Logo" height={70} width={170} className=" w-[170px] h-[70px]" /></Link>
 
-                <div className=" gap-5 2xl:gap-16 hidden xl:flex">
+                <div className=" gap-x-5 2xl:gap-x-16 hidden xl:flex">
                     <Link  color="foreground" href="/howtobuy" className="hover:text-tree-poppy duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         How to Buy
                     </Link>
