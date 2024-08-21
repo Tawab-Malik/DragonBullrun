@@ -33,7 +33,7 @@ export default function Header() {
                     <Image src='/assets/Logo2.png' alt="Logo" height={70} width={170} className=" w-[170px] h-[70px]" /></Link>
 
                 <div className=" gap-5 2xl:gap-16 hidden xl:flex">
-                    <Link target="_blank" color="foreground" href="/howtobuy" className="hover:text-tree-poppy duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
+                    <Link  color="foreground" href="/howtobuy" className="hover:text-tree-poppy duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
                         How to Buy
                     </Link>
                     <Link color="foreground" href="/#roadmap" className="hover:text-tree-poppy !duration-500  text-xl font-normal text-lightbrown font-dragonslapper">
