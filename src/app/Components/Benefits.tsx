@@ -76,7 +76,7 @@ export default function Benefits() {
                         whileInView="onscreen"
                         viewport={{ once: true, amount: 0.1 }}
                         className=" flex justify-center 2xl:hidden">
-                        <div className=" mt-10 md:mt-0  bg-center bg-cover  relative  w-full h-full lg:w-[500px] xl:w-[700px] bg-sec3-cart-img px-10 md:px-28 lg:px-8 xl:!px-32 py-12 md:py-32 lg:py-12 xl:py-28 space-y-1 md:space-y-4  ">
+                        <div className=" mt-10 md:mt-10 lg:mt-0  bg-center bg-cover  relative  w-full h-full lg:w-[500px] xl:w-[700px] bg-sec3-cart-img px-10 md:px-28 lg:px-8 xl:!px-32 py-12 md:py-32 lg:py-12 xl:py-28 space-y-1 md:space-y-4  ">
 
                             <h2 className=" text-center z-10 relative font-dragonslapper text-2xl md:text-6xl text-black">Earn</h2>
                             <p className=" text-text-black  text-xs md:text-xl text-center relative z-10 px-5

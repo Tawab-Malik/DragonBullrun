@@ -70,7 +70,7 @@ export default function Presale() {
                                           <h2 className=" text-3xl md:text-5xl text-start xl:text-[70px] text-tree-poppy font-dragonslapper md:text-center py-5">Pre Sale Live Now</h2>
                                           <div className=" flex gap-5 items-center justify-center">
                                                 <h3 className=" text-base md:text-2xl xl:text-3xl text-white font-bold text-start md:text-center w-full">Contract Address - 0xC955faa 911D7507aEE0c0d7a2d5a 79c79a041AB8</h3>
-                                                <MdOutlineFileCopy className=" size-10 md:size-7 hover:text-tree-poppy duration-500 cursor-pointer text-white" onClick={() => copyToClipboard(' 0xC955faa 911D7507aEE0c0d7a2d5a 79c79a041AB8')} />
+                                                <MdOutlineFileCopy className=" size-7 md:size-7 hover:text-tree-poppy duration-500 cursor-pointer text-white" onClick={() => copyToClipboard(' 0xC955faa 911D7507aEE0c0d7a2d5a 79c79a041AB8')} />
 
                                           </div>
                                           {copySuccess && (
@@ -102,7 +102,7 @@ export default function Presale() {
                                                 </div>
 
 
-                                                <Image src="/assets/buy/treasure.png" className=" h-16 w-24 md:h-44 md:w-60" alt="img" height={2000} width={2000}></Image>
+                                                <Image src="/assets/buy/treasure.png" className=" h-16 w-24 md:h-44 md:w-60" alt="img" height={176} width={240} />
                                           </div>
                                           <div className="flex flex-col md:flex-row justify-between items-center gap-2">
                                                 <h2 className=" text-lg md:text-2xl xl:text-3xl text-white font-bold">0.04745536 USDT = 1 $DBRZ</h2>

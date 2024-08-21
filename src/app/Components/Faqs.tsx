@@ -94,7 +94,7 @@ const Faqs = () => {
     <>
       <section className="relative bg-faqs-bg bg-center bg-cover  overflow-hidden">
         
-        <div className="max-w-[930px] mx-5 lg:mx-auto  space-y-20 py-16 md:py-24 xl:py-32">
+        <div className="max-w-7xl mx-5 xl:mx-auto  space-y-20 py-16 md:py-24 xl:py-32">
           {/* Mini heading */}
           <div className="space-y-7">
             <h2 className="text-tree-poppy text-start xl:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">
