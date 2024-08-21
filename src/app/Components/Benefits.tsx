@@ -42,7 +42,7 @@ export default function Benefits() {
                             className=" bg-center bg-cover  relative  w-full h-full bg-sec3-cart-img px-10 md:px-16  lg:px-8 xl:px-28 2xl:px-8 py-12 md:py-32 lg:py-12 xl:py-20 2xl:py-16 space-y-1 md:space-y-4 ">
 
                             <h2 className=" text-center z-10 relative font-dragonslapper text-2xl md:text-6xl text-black">Play</h2>
-                            <p className="text-text-black  text-xs md:text-xl text-center relative z-10 md:px-9">Dive into a mesmerizing realm where ancient legends spring to life. Assume the persona of a bold adventurer as you enter the dragon’s lair, prepared to confront challenges and conquer obstacles on your quest for glory. </p>
+                            <p className="text-text-black  text-xs md:text-xl text-center relative z-10 md:px-12">Dive into a mesmerizing realm where ancient legends spring to life. Assume the persona of a bold adventurer as you enter the dragon’s lair, prepared to confront challenges and conquer obstacles on your quest for glory. </p>
                         </motion.div>
                         {/* card2 */}
                         <motion.div
@@ -87,43 +87,43 @@ export default function Benefits() {
 
 
                     {/* featured  */}
-                    <div className=" space-y-5 brightness-100">
+                    <div className=" space-y-5 ">
                         <div className=" pt-10 pb-5">
-                            <h2 className=" text-white font-dragonslapper brightness-100 text-2xl xl:text-5xl text-center">FEATURED IN:</h2>
+                            <h2 className=" text-white font-dragonslapper  text-2xl xl:text-5xl text-center">Featured In:</h2>
                         </div>
                         {/* scroll animation */}
                         <div className=" [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-50px),transparent_100%)] max-w-[1320px] mx-auto" >
-                            <div className="overflow-hidden whitespace-nowrap brightness-100 opacity-100 ">
-                                <div className="flex animate-scroll   gap-x-10 xl:gap-x-16 items-center brightness-100">
-                                    <div className=" flex-shrink-0 brightness-100">
+                            <div className="overflow-hidden whitespace-nowrap   ">
+                                <div className="flex animate-scroll   gap-x-10 xl:gap-x-16 items-center ">
+                                    <div className=" flex-shrink-0 ">
                                         <Image src="/assets/3sec/1.png" height={40} width={150} alt="Image 1" className="inline-block h-10 w-[150px]" />
                                     </div>
-                                    <div className=" flex-shrink-0 brightness-100">
+                                    <div className=" flex-shrink-0">
                                         <Image src="/assets/3sec/2.png" height={60} width={210} alt="Image 2" className="inline-block " />
                                     </div>
-                                    <div className=" flex-shrink-0 brightness-100">
+                                    <div className=" flex-shrink-0 ">
                                         <Image src="/assets/3sec/3.png" height={60} width={230} alt="Image 3" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0 brightness-100">
+                                    <div className=" flex-shrink-0 ">
                                         <Image src="/assets/3sec/4.png" height={60} width={290} alt="Image 3" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0 brightness-100">
+                                    <div className=" flex-shrink-0 ">
                                         <Image src="/assets/3sec/5.png" height={50} width={200} alt="Image 3" className="inline-block" />
                                     </div>
                                     {/* Repeat images to create an infinite scroll effect */}
-                                    <div className=" flex-shrink-0 brightness-100">
+                                    <div className=" flex-shrink-0 ">
                                         <Image src="/assets/3sec/1.png" height={40} width={150} alt="Image 1" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0 brightness-100">
+                                    <div className=" flex-shrink-0 ">
                                         <Image src="/assets/3sec/2.png" height={60} width={210} alt="Image 2" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0 brightness-100">
+                                    <div className=" flex-shrink-0 ">
                                         <Image src="/assets/3sec/3.png" height={60} width={230} alt="Image 3" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0 brightness-100">
+                                    <div className=" flex-shrink-0 ">
                                         <Image src="/assets/3sec/4.png" height={60} width={290} alt="Image 3" className="inline-block" />
                                     </div>
-                                    <div className=" flex-shrink-0 brightness-100">
+                                    <div className=" flex-shrink-0 ">
                                         <Image src="/assets/3sec/5.png" height={50} width={200} alt="Image 3" className="inline-block" />
                                     </div>
                                 </div>

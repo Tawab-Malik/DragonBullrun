@@ -28,7 +28,7 @@ export default function MeetourTeam() {
         <>
             <section className=" bg-team-bg bg-cover bg-center relative overflow-hidden">
                 
-                <div className=" max-w-9xl mx-5 xl:mx-auto space-y-24 xl:space-y-60 py-16 md:py-24  xl:pb-20 xl:pt-20 brightness-100">
+                <div className=" max-w-9xl mx-5 xl:mx-auto space-y-24 xl:space-y-52 py-16 md:py-24  xl:pb-20 xl:pt-20 brightness-100">
                     <div className=" space-y-5 md:space-y-10">
                         <h2 className=" text-tree-poppy text-start md:text-center text-3xl md:text-5xl xl:text-[70px] font-dragonslapper">Our Team</h2>
                         <p className=" text-xl md:text-2xl xl:text-5xl font-dragonslapper font-bold text-white text-start md:text-center">Meet the Dragons</p>
@@ -45,7 +45,7 @@ export default function MeetourTeam() {
                              whileInView="onscreen"
                              viewport={{ once: false, amount: 0.1 }}
                               className=" flex justify-center  ">
-                                <Image src="/assets/team/dragon1.png" alt="img" className=" overflow-visible -mt-44  w-[260px] h-[220px]" width={500} height={500} />
+                                <Image src="/assets/team/dragon1.png" alt="img" className=" overflow-visible -mt-36  w-[260px] h-[220px]" width={260} height={220} />
 
                             </motion.div>
                            
@@ -66,7 +66,7 @@ export default function MeetourTeam() {
                              whileInView="onscreen"
                              viewport={{ once: false, amount: 0.1 }}
                               className=" flex justify-center">
-                                <Image src="/assets/team/dragon2.png" alt="img" className=" -mt-44  w-[260px] h-[220px]" width={500} height={500} />
+                                <Image src="/assets/team/dragon2.png" alt="img" className=" -mt-36  w-[260px] h-[220px]" width={260} height={220} />
 
                             </motion.div>
                             
@@ -86,7 +86,7 @@ export default function MeetourTeam() {
                               whileInView="onscreen"
                               viewport={{ once: false, amount: 0.1 }}
                                className=" flex justify-center ">
-                                <Image src="/assets/team/dragon3.png" alt="img" className=" -mt-44   w-[260px] h-[220px]" width={500} height={500} />
+                                <Image src="/assets/team/dragon3.png" alt="img" className=" -mt-36   w-[260px] h-[220px]" width={260} height={220} />
 
                             </motion.div>
                             
@@ -105,7 +105,7 @@ export default function MeetourTeam() {
                              initial="offscreen"
                              whileInView="onscreen"
                              viewport={{ once: false, amount: 0.1 }}className=" flex justify-center">
-                                <Image src="/assets/team/dragon4.png" alt="img" className=" -mt-44   w-[260px] h-[220px]" width={500} height={500} />
+                                <Image src="/assets/team/dragon4.png" alt="img" className=" -mt-36   w-[260px] h-[220px]" width={260} height={220} />
 
                             </motion.div>
                            
@@ -121,7 +121,7 @@ export default function MeetourTeam() {
                     </div>
 
                     {/* buttons */}
-                    <div className=" flex justify-center md:flex-row flex-col gap-10 mt-16 xl:!mt-44">
+                    <div className=" flex justify-center md:flex-row flex-col gap-10 mt-16 xl:!mt-40">
                         <Link href="/#buynow"><Button className=" w-full px-10 !py-5 uppercase  bg-tree-poppy rounded font-dragonslapper text-base">buy now</Button></Link>
                         <Button className=" w-auto !px-5 !py-5 uppercase hover:text-tree-poppy hover:!opacity-100 hover:border-tree-poppy duration-300  bg-transparent border border-white text-white rounded font-dragonslapper text-base">verify smart contract</Button>
                     </div>
