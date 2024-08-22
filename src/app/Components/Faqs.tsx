@@ -47,7 +47,7 @@ const FaqItem = ({ question, answer }: any) => {
         onClick={() => setIsOpen(!isOpen)}
       >
         {question}
-        {isOpen ? <FaChevronUp className=' size-4' /> : <FaChevronDown className=' size-4' />} {/* Conditional rendering of arrow icon */}
+        { isOpen ? <FaChevronUp className=' size-4' /> : <FaChevronDown className=' size-4' />} {/* Conditional rendering of arrow icon */}
       </button>
       <div
         className={`transition-max-height duration-500 ease-in-out overflow-hidden ${
@@ -69,7 +69,7 @@ const FaqItem2 = ({ question2, answer2 }: any) => {
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.1 }}
       variants={Faqs1}
-      className="px-7 py-3 border-2 border-tree-poppy rounded-[18px] brightness-100"
+      className="px-7 py-3 border-2 border-tree-poppy rounded-2xl "
     >
       <button
         className="flex brightness-100  justify-between w-full items-center   text-left text-base md:text-2xl  font-bold text-tree-poppy"

@@ -1,7 +1,6 @@
 "use client"
 import { Button, Link } from "@nextui-org/react";
 import Image from "next/image";
-import { Input } from "@nextui-org/react";
 import { motion, Variants } from "framer-motion";
 import { useState } from "react";
 import { MdOutlineFileCopy } from "react-icons/md";
@@ -52,7 +51,7 @@ export default function Presale() {
                 setTimeout(() => setCopySuccess(''), 1000);
             }
         };
-      return (
+      return ( 
             <>
                   <section>
                         <div className=" bg-presale-bg bg-center bg-cover relative pb-16 pt-10 md:pt-20" >
@@ -60,17 +59,15 @@ export default function Presale() {
                               {/* main 2nd */}
                               <div className=" max-w-[1400px] mx-5 2xl:mx-auto  ">
                                     <div className="flex justify-center py-5">
-                                          <div className=" relative ">
-                                                <Image src="/assets/buy/Ellipse1.png" className=" size-32" alt="img" height={300} width={300}></Image>
-                                                <Image src="/assets/buy/Logo.png" className=" absolute top-0 w-[170px] h-[135px] left-0" alt="img" height={300} width={300}></Image>
-                                          </div>
+                                         
+                                                <Image src="/assets/buy/Ellipse1.png" className=" w-40 h-32 " alt="img" height={128} width={160} ></Image>                                          
                                     </div>
                                     {/* address button */}
                                     <div className=" relative ">
                                           <h2 className=" text-3xl md:text-5xl text-start xl:text-[70px] text-tree-poppy font-dragonslapper md:text-center py-5">Pre Sale Live Now</h2>
                                           <div className=" flex gap-5 items-center justify-center">
                                                 <h3 className=" text-base md:text-2xl xl:text-3xl text-white font-bold text-start md:text-center w-full">Contract Address - 0xC955faa 911D7507aEE0c0d7a2d5a 79c79a041AB8</h3>
-                                                <MdOutlineFileCopy className=" size-7 md:size-7 hover:text-tree-poppy duration-500 cursor-pointer text-white" onClick={() => copyToClipboard(' 0xC955faa 911D7507aEE0c0d7a2d5a 79c79a041AB8')} />
+                                                <MdOutlineFileCopy className="size-7 hover:text-tree-poppy duration-500 cursor-pointer text-white" onClick={() => copyToClipboard(' 0xC955faa 911D7507aEE0c0d7a2d5a 79c79a041AB8')} />
 
                                           </div>
                                           {copySuccess && (
@@ -95,7 +92,7 @@ export default function Presale() {
                                                                   // whileInView="onscreen"
                                                                   // viewport={{ once: false, amount: 0.1 }}
                                                                   className=" h-5 md:h-12   bg-[#FF9D00] rounded-full w-[80%] ">
-                                                                  <Image src="/assets/buy/progress.png" className=" h-full rounded-full w-full" alt="img" height={2000} width={2000}></Image>
+                                                                  <Image src="/assets/buy/progress.png" className=" h-full rounded-full w-full" alt="img" height={50} width={500}></Image>
                                                             </div>
 
                                                       </div>
