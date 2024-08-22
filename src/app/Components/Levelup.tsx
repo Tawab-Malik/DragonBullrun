@@ -46,15 +46,15 @@ export default function Herosection() {
                                 <h2 className="  text-3xl font-inter text-tree-poppy font-bold text-center">Stage 1 of 8</h2>
                             </div>
 
-                            <div className="space-y-1 border rounded-[14px] border-tree-poppy p-3 ">
+                            <div className="space-y-1 border rounded-xl  border-tree-poppy p-3 ">
                                 <h3 className=" font-inter text-xs font-semibold text-white">Raised (USD)</h3>
                                 <h2 className=" font-semibold text-3xl text-tree-poppy font-inter">$1,234,567.89</h2>
                             </div>
-                            <div className="space-y-1 border rounded-[14px] border-tree-poppy p-3 ">
+                            <div className="space-y-1 border rounded-xl border-tree-poppy p-3 ">
                                 <h3 className=" font-inter text-xs font-semibold text-white">Token Sold</h3>
                                 <h2 className=" font-semibold text-3xl text-tree-poppy font-inter">$1,234,567</h2>
                             </div>
-                            <div className="space-y-1 border rounded-[14px] border-tree-poppy p-3 ">
+                            <div className="space-y-1 border rounded-xl border-tree-poppy p-3 ">
                                 <h3 className=" font-inter  text-xs font-semibold text-white">Remaining</h3>
                                 <h2 className=" font-semibold text-3xl text-tree-poppy font-inter">$1,234,567.89</h2>
                                 <h3 className=" font-inter  text-xs font-semibold text-white">Next Stage 0.000124 USD</h3>
@@ -71,12 +71,12 @@ export default function Herosection() {
                                 </div>
                             </div>
                             <div className=" flex justify-center gap-5 p-3">
-                                <Image src="/assets/coins/btc.png" alt="img" className=" h-6 w-6" height={50} width={50}></Image>
-                                <Image src="/assets/coins/eth.png" alt="img" className=" h-6 w-6" height={50} width={50}></Image>
-                                <Image src="/assets/coins/bnb.png" alt="img" className=" h-6 w-6" height={50} width={50}></Image>
-                                <Image src="/assets/coins/usdt.png" alt="img" className=" h-6 w-6" height={50} width={50}></Image>
-                                <Image src="/assets/coins/usdc.png" alt="img" className=" h-6 w-6" height={50} width={50}></Image>
-                                <Image src="/assets/coins/13.webp" alt="img" className=" h-6 w-6" height={50} width={50}></Image>
+                                <Image src="/assets/coins/btc.png" alt="img" className=" h-6 w-6" height={24} width={24}></Image>
+                                <Image src="/assets/coins/eth.png" alt="img" className=" h-6 w-6" height={24} width={24}></Image>
+                                <Image src="/assets/coins/bnb.png" alt="img" className=" h-6 w-6" height={24} width={24}></Image>
+                                <Image src="/assets/coins/usdt.png" alt="img" className=" h-6 w-6" height={24} width={24}></Image>
+                                <Image src="/assets/coins/usdc.png" alt="img" className=" h-6 w-6" height={24} width={24}></Image>
+                                <Image src="/assets/coins/13.webp" alt="img" className=" h-6 w-6" height={24} width={24}></Image>
                             </div>
                             <Button className=" py-5 bg-tree-poppy rounded font-dragonslapper text-2xl font-normal w-full  ">Buy $DBRZ</Button>
                         </div>

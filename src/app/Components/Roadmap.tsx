@@ -60,7 +60,7 @@ export default function Roadmap() {
                     <h2 className=" text-3xl md:text-5xl xl:text-[70px] text-tree-poppy font-dragonslapper text-start md:text-center">
                         Road Map
                     </h2>
-                    <p className="text-start md:text-center text-xl md:text-2xl xl:text-2xl text-white font-medium">
+                    <p className="text-start md:text-center text-xl md:text-2xl xl:text-2xl text-white font-medium 2xl:px-8">
                         Please be aware that the 7 stages of the roadmap operate
                         independently from the phases of the presale and are susceptible
                         to modifications.
@@ -282,7 +282,7 @@ export default function Roadmap() {
                             {/* <div className=" w-full md:w-[60%] 2xl:w-[90%] shadow-md">
                                 
                             </div> */}
-                            <div className=" flex flex-col max-w-[250px] justify-start  p-9 md:p-7 2xl:p-5 gap-y-5 w-full space-y-2  ">
+                            <div className=" flex flex-col max-w-[250px] justify-start  p-9 md:p-7 2xl:py-5 2xl:px-1 gap-y-5 w-full space-y-2  ">
                                 <h2 className="text-3xl xl:text-5xl font-dragonslapper text-tree-poppy text-center">
                                     Phase 6
                                 </h2>

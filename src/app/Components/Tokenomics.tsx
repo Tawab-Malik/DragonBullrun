@@ -43,13 +43,13 @@ export default function Tokenomics() {
                           viewport={{ once: false, amount: 0.1 }}
                            className=" flex justify-between gap-x-5 xl:gap-0 items-center">
                             {/* left  */}
-                            <div className=" backdrop-blur-3xl xl:backdrop-blur-0 p-2 xl:p-0 rounded-xl">
+                            <div className=" bg-black bg-opacity-90 md:bg-transparent p-2 xl:p-0 rounded-xl">
                                 <h2 className=" text-3xl xl:text-[70px] leading-tight text-tree-poppy font-dragonslapper text-center">65 % </h2>
                                 <p className=" text-lg xl:text-2xl text-white font-bold text-center">777,777,777 tokens</p>
                                 <h3 className=" text-xl xl:text-3xl text-white font-bold text-center">Public Sale</h3>
                             </div>
                             {/* right  */}
-                            <div className=" backdrop-blur-3xl xl:backdrop-blur-0 p-2 xl:p-0 rounded-xl">
+                            <div className=" bg-black bg-opacity-90 md:bg-transparent p-2 xl:p-0 rounded-xl">
                                 <h2 className="  text-3xl xl:text-[70px] leading-tight text-tree-poppy font-dragonslapper text-center">5 % </h2>
                                 <p className=" text-lg xl:text-2xl text-white font-bold text-center">444,444,444 tokens</p>
                                 <h3 className=" text-xl xl:text-3xl text-white font-bold text-center">Game Rewards</h3>
@@ -62,13 +62,13 @@ export default function Tokenomics() {
                           viewport={{ once: false, amount: 0.1 }}
                            className=" flex justify-between items-center  gap-x-5">
                             {/* left  */}
-                            <div className="backdrop-blur-3xl xl:backdrop-blur-0 p-2 xl:p-0 rounded-xl ">
+                            <div className="bg-black bg-opacity-90 md:bg-transparent p-2 xl:p-0 rounded-xl ">
                                 <h2 className="  text-3xl xl:text-[70px] leading-tight  text-tree-poppy font-dragonslapper text-center">10 % </h2>
                                 <p className=" text-lg xl:text-2xl text-white font-bold text-center">888,888,888 tokens</p>
                                 <h3 className=" text-xl xl:text-3xl text-white font-bold text-center">Liquidity</h3>
                             </div>
                             {/* right  */}
-                            <div className=" backdrop-blur-3xl xl:backdrop-blur-0 p-2 xl:p-0 rounded-xl">
+                            <div className="bg-black bg-opacity-90 md:bg-transparent p-2 xl:p-0 rounded-xl">
                                 <h2 className="  text-3xl xl:text-[70px] leading-tight text-tree-poppy font-dragonslapper text-center">5 % </h2>
                                 <p className=" text-lg xl:text-2xl text-white font-bold text-center">444,444,444 tokens</p>
                                 <h3 className=" text-xl xl:text-3xl text-white font-bold text-center">Marketing</h3>
@@ -82,13 +82,13 @@ export default function Tokenomics() {
                              viewport={{ once: false, amount: 0.1 }}
                               className=" max-w-4xl mx-auto flex justify-between items-center gap-x-5">
                             {/* left  */}
-                            <div className=" backdrop-blur-3xl xl:backdrop-blur-0 p-2 xl:p-0 rounded-xl">
+                            <div className="bg-black bg-opacity-90 md:bg-transparent p-2 xl:p-0 rounded-xl">
                                 <h2 className="  text-3xl xl:text-[70px] leading-tight text-tree-poppy font-dragonslapper text-center">10 % </h2>
                                 <p className=" text-lg xl:text-2xl text-white font-bold text-center">888,888,888 tokens</p>
                                 <h3 className=" text-xl xl:text-3xl text-white font-bold text-center">Team</h3>
                             </div>
                             {/* right  */}
-                            <div className=" backdrop-blur-3xl xl:backdrop-blur-0 p-2 xl:p-0 rounded-xl">
+                            <div className=" bg-black bg-opacity-90 md:bg-transparent p-2 xl:p-0 rounded-xl">
                                 <h2 className="  text-3xl xl:text-[70px] leading-tight text-tree-poppy font-dragonslapper text-center">5 % </h2>
                                 <p className=" text-lg xl:text-2xl text-white font-bold text-center">444,444,444 tokens</p>
                                 <h3 className=" text-xl xl:text-3xl text-white font-bold text-center">Bonuses</h3>

@@ -76,7 +76,7 @@ export default function HowtoBuy() {
                                                             initial="offscreen"
                                                             whileInView="onscreen"
                                                             viewport={{ once: true, amount: 0.1 }}
-                                                            className=" bg-card-bg bg-center bg-cover w-full  h-full  relative 2xl:w-[50%] ">
+                                                            className=" bg-card-bg  bg-center bg-cover w-full  h-full  relative 2xl:w-[50%] ">
                                                             <Image src="/assets/buy/egg.png" className=" w-[70px] bottom-0 right-10 md:right-14 h-[90px] absolute" alt=" img" height={100} width={100}></Image>
                                                             <div className=" px-5 md:px-7 py-3 md:py-5 ">
                                                                   <h2 className="  py-2 text-center text-xl md:text-3xl font-dragonslapper text-white">Account Creation</h2>
@@ -91,9 +91,9 @@ export default function HowtoBuy() {
                                                             initial="offscreen"
                                                             whileInView="onscreen"
                                                             viewport={{ once: true, amount: 0.1 }}
-                                                            className=" bg-card2-bg  bg-cover w-full  h-auto  relative 2xl:w-[50%] ">
+                                                            className=" bg-card2-bg bg-center  bg-cover w-full  h-auto  relative 2xl:w-[50%] ">
                                                             <Image src="/assets/buy/egg.png" className=" w-[70px] bottom-0 right-14 md:right-[6.5rem] h-[90px] absolute" alt=" img" height={100} width={100}></Image>
-                                                            <div className="px-5 md:px-7 py-3 md:py-5 xl:px-8">
+                                                            <div className="px-5 md:px-7 py-3 md:py-5 xl:px-6">
                                                                   <h2 className=" py-2 text-center text-xl md:text-3xl font-dragonslapper text-white">Specify Amount</h2>
                                                                   <p className=" relative md:text-center leading-normal text-base md:text-xl xl:text-base text-white">After creating your account, proceed to the next screen and indicate the payment amount in USD.</p>
                                                             </div>
@@ -107,7 +107,7 @@ export default function HowtoBuy() {
                                                             initial="offscreen"
                                                             whileInView="onscreen"
                                                             viewport={{ once: true, amount: 0.1 }}
-                                                            className=" bg-card3-bg bg-cover w-full xl:w-[600px] 2xl:w-full h-full  relative  ">
+                                                            className=" bg-card3-bg bg-center bg-cover w-full xl:w-[600px] 2xl:w-full h-full  relative  ">
                                                             <Image src="/assets/buy/brokenegg.png" className=" w-[140px] bottom-0 right-[0.5rem] md:right-[5.5rem] h-[100px] absolute" alt=" img" height={100} width={100}></Image>
                                                             <div className="px-5 md:px-7 py-3 md:py-5">
                                                                   <h2 className=" py-2 text-center text-xl md:text-3xl font-dragonslapper text-white">Payment with Cryptocurrency</h2>

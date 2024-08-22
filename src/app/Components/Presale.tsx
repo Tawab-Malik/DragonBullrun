@@ -80,7 +80,7 @@ export default function Presale() {
 
                                           <div className=" space-y-2 pt-5">
                                                 <h3 className=" text-2xl md:text-3xl xl:text-5xl font-bold text-end text-tree-poppy">3,750000000 </h3>
-                                                <h4 className=" text-lg md:text-2xl xl:text-3xl font-medium text-end text-white">/ 1,542,000,000</h4>
+                                                <h4 className=" text-lg md:text-2xl xl:text-3xl font-medium text-end text-white 2xl:mx-24">/ 1,542,000,000</h4>
                                           </div>
 
                                           {/* progress Bar */}
