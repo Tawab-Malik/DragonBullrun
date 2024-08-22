@@ -24,8 +24,7 @@ const cardVariants3: Variants = {
 export default function Tokenomics() {
     return (
         <>
-            <section className=" bg-token-bg bg-center bg-cover pb-24 pt-12 relative    " id="tokenomics">
-                
+            <section className=" bg-token-bg bg-center bg-cover pb-24 pt-12 relative    " id="tokenomics"> 
                 <div className=" max-w-7xl mx-5 xl:mx-auto  space-y-24 relative z-10">
 
                     <div className=" space-y-5">

@@ -23,7 +23,6 @@ export default function Benefits() {
     return (
         <>
             <section className=" bg-sec3-img bg-center bg-cover py-16 relative overflow-hidden ">
-
                 <div className=" max-w-8xl mx-5 xl:mx-auto">
                     <div className=" space-y-5  ">
                         <h2 className=" text-3xl md:text-5xl xl:text-[70px] font-dragonslapper text-center text-tree-poppy">BEnefits</h2>

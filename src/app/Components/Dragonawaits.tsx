@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Dragonawaits() {
   return (
     <section className="relative bg-sec2-image bg-cover bg-center h-full">
-
       <div className="relative max-w-6xl mx-5 xl:mx-auto flex xl:flex-row flex-col  justify-between py-8 pt-16 md:pt-20 xl:pt-64 md:pb-40 z-10">
         {/* left */}
         <div className="w-full flex justify-center">

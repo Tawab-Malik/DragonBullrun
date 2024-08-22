@@ -47,12 +47,11 @@ const FaqItem = ({ question, answer }: any) => {
         onClick={() => setIsOpen(!isOpen)}
       >
         {question}
-        { isOpen ? <FaChevronUp className=' size-4' /> : <FaChevronDown className=' size-4' />} {/* Conditional rendering of arrow icon */}
+        {isOpen ? <FaChevronUp className=' size-4' /> : <FaChevronDown className=' size-4' />} {/* Conditional rendering of arrow icon */}
       </button>
       <div
-        className={`transition-max-height duration-500 ease-in-out overflow-hidden ${
-          isOpen ? 'max-h-screen' : 'max-h-0'
-        }`}
+        className={`transition-max-height duration-500 ease-in-out overflow-hidden ${isOpen ? 'max-h-screen' : 'max-h-0'
+          }`}
       >
         <p className="mt-2 text-base text-white ">{answer}</p>
       </div>
@@ -79,9 +78,8 @@ const FaqItem2 = ({ question2, answer2 }: any) => {
         {isOpen ? <FaChevronUp className=' size-4' /> : <FaChevronDown className=' size-4' />}
       </button>
       <div
-        className={`transition-max-height duration-700 ease-in-out overflow-hidden ${
-          isOpen ? 'max-h-screen' : 'max-h-0'
-        }`}
+        className={`transition-max-height duration-700 ease-in-out overflow-hidden ${isOpen ? 'max-h-screen' : 'max-h-0'
+          }`}
       >
         <p className="mt-2 text-base text-white ">{answer2}</p>
       </div>
@@ -93,7 +91,7 @@ const Faqs = () => {
   return (
     <>
       <section className="relative bg-faqs-bg bg-center bg-cover  overflow-hidden">
-        
+
         <div className="max-w-7xl mx-5 xl:mx-auto  space-y-20 py-16 md:py-24 xl:py-32">
           {/* Mini heading */}
           <div className="space-y-7">
@@ -126,7 +124,7 @@ const Faqs = () => {
               question="How do I play Dragon Bull Run and is it free?"
               answer="Indeed, Dragon Bull Run is free to play. Nonetheless, players have the choice to acquire in-game items or access premium features by utilizing $DBRZ tokens."
             />
-             <FaqItem2
+            <FaqItem2
               question2="How can players earn rewards while playing Dragon Bull Run?"
               answer2="Players have the opportunity to earn rewards through various means such as collecting dragon eggs, overcoming challenges, and engaging in community events. "
             />
@@ -134,7 +132,7 @@ const Faqs = () => {
               question="Is there a limit to the number of $DBRZ tokens players can earn?"
               answer="Players have the freedom to accumulate $DBRZ tokens without any set limitations. Nevertheless, rewards are contingent upon in-game accomplishments and involvement, guaranteeing equity and equilibrium."
             />
-             <FaqItem2
+            <FaqItem2
               question2="When can I claim my $DBRZ Tokens?"
               answer2="Once all the stages of our presale have concluded, your tokens will be available for claiming. A specific claim date will be announced in due course."
             />
@@ -142,7 +140,7 @@ const Faqs = () => {
               question="Who do I contact for support?"
               answer="Please feel free to reach out to us through our Telegram or Discord groups. Alternatively, you can contact us via our live chat, where one of our team members will promptly assist you."
             />
-             <FaqItem2
+            <FaqItem2
               question2="Has the smart contract been audited?"
               answer2="The Dragon Bull Run smart contract underwent a comprehensive audit conducted by the auditing firm, Cyberscope. This meticulous examination ensures the platform’s robust security, reliability, and integrity."
             />
